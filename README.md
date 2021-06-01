@@ -8,14 +8,14 @@
 ### Install
 1. Create rdkit-env via conda:<br>
 `conda create -c conda-forge -n my-rdkit-env rdkit=2020.09.01`
-2. Install packages:<br>
+2. Activate 'my-rdkit-env' and install packages:<br>
 `conda activate my-rdkit-env`<br>
 `conda install tensorflow-gpu==2.4.1`<br>
 `conda install tqdm==4.59.0`<br>
 `conda install scikit-learn==0.23.2`<br>
 `conda install jupyter`<br>
-`conda install matplotlib`<br>
-Try `conda install -c conda-forge [package]` instead of `conda install [package]` if the latter don't work.
+`conda install matplotlib`<br> [Optional]
+Try `conda install -c conda-forge [package]` instead of `conda install [package]` if the latter doesn't work.
 
 ### Create data sets
 Navigate into `src/` and run the following from the terminal to create tf-records from all the .csv files in `input/datasets/`:<br>
