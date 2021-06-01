@@ -14,7 +14,7 @@
 `conda install tqdm==4.59.0`<br>
 `conda install scikit-learn==0.23.2`<br>
 `conda install jupyter`<br>
-`conda install matplotlib`<br> [Optional]
+`conda install matplotlib` [Optional]<br>
 Try `conda install -c conda-forge [package]` instead of `conda install [package]` if the latter doesn't work.
 
 ### Create data sets
