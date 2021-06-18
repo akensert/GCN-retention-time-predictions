@@ -2,7 +2,6 @@ import tensorflow as tf
 
 from . import layers
 from base_classes import models
-from common_classes import layers as common_layers
 
 
 class GCNModel(models.BaseModel):
@@ -32,6 +31,8 @@ class GCNModel(models.BaseModel):
             power=None, # NOT USED
             **kwargs)
 
+        self.masking = tf.keras.layers.Masking(mask_value=0)
+
         self.gconv_layers = [
             layers.GraphConvLayer(
                 units=units,
@@ -44,7 +45,7 @@ class GCNModel(models.BaseModel):
             for units in gconv_units
         ]
 
-        self.pooling = common_layers.GlobalNonZeroAveragePooling1D()
+        self.pooling = tf.keras.layers.GlobalAveragePooling1D()
         self.dense_layers = [
             tf.keras.layers.Dense(
                 units=units,
@@ -63,7 +64,7 @@ class GCNModel(models.BaseModel):
     def call(self, inputs, training):
 
         A, H = inputs
-
+        H = self.masking(H)
         for i in range(len(self.gconv_layers)):
             H = self.gconv_layers[i]([A, H], training=training)
 

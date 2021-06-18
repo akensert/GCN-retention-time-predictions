@@ -30,6 +30,13 @@ class GraphConvLayer(tf.keras.layers.Layer):
         self.regularizer = tf.keras.regularizers.get(regularizer)
         self.initializer = tf.keras.initializers.get(initializer)
 
+        self.supports_masking = True
+
+    def compute_mask(self, inputs, mask=None):
+        if mask is None:
+            return None
+        return mask[1]
+
     def build(self, input_shape):
 
         self.W1 = self.add_weight(
@@ -49,7 +56,7 @@ class GraphConvLayer(tf.keras.layers.Layer):
             dtype=tf.float32
         )
 
-    def call(self, inputs, training=False):
+    def call(self, inputs, training=False, mask=None):
         A, H = inputs
         H1 = tf.matmul(A, H)
         H1 = tf.matmul(H1, self.W1)
@@ -58,4 +65,7 @@ class GraphConvLayer(tf.keras.layers.Layer):
         H = self.batch_norm(H, training=training)
         H = self.activation(H)
         H = self.dropout(H, training=training)
+        if mask:
+            H_mask = mask[1][:, :, None]
+            H *= tf.cast(H_mask, H.dtype)
         return H

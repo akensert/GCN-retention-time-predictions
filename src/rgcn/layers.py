@@ -31,6 +31,13 @@ class RelationalGraphConvLayer(tf.keras.layers.Layer):
         self.regularizer = tf.keras.regularizers.get(regularizer)
         self.initializer = tf.keras.initializers.get(initializer)
 
+        self.supports_masking = True
+
+    def compute_mask(self, inputs, mask=None):
+        if mask is None:
+            return None
+        return mask[1]
+
     def build(self, input_shape):
 
         self.num_rels = input_shape[0][1]
@@ -64,7 +71,7 @@ class RelationalGraphConvLayer(tf.keras.layers.Layer):
             dtype=tf.float32
         )
 
-    def call(self, inputs, training=False):
+    def call(self, inputs, training=False, mask=None):
         A, H = inputs
 
         H0 = tf.matmul(H, self.W0)
@@ -83,4 +90,7 @@ class RelationalGraphConvLayer(tf.keras.layers.Layer):
         H = self.batch_norm(H, training=training)
         H = self.activation(H)
         H = self.dropout(H, training=training)
+        if mask:
+            H_mask = mask[1][:, :, None]
+            H *= tf.cast(H_mask, H.dtype)
         return H

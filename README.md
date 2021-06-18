@@ -1,5 +1,5 @@
-## Graph nets for predicting physicochemical properties
-
+## Graph Convolutional Networks for predicting physicochemical properties
+<br>
 ### Requirements
 1. Python (version ~= 3.6)
 2. Pip (package manager) (version ~= 20.0.2)
