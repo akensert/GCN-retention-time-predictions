@@ -12,9 +12,6 @@ def mean_absolute_error(y_true, y_pred):
     y_pred = np.reshape(y_pred, (y_true.shape))
     return np.mean(np.abs(y_true - y_pred))
 
-def mean_absolute_percentage_error(y_true, y_pred):
-    return mean_absolute_error(y_true, y_pred) * 100
-
 def mean_relative_error(y_true, y_pred):
     y_pred = np.reshape(y_pred, (y_true.shape))
     return np.mean(np.abs(y_true - y_pred) / (np.abs(y_true) + 1))
@@ -29,8 +26,6 @@ dispatcher = {
     'root_mean_squared_error': root_mean_squared_error,
     'mae': mean_absolute_error,
     'mean_absolute_error': mean_absolute_error,
-    'mape': mean_absolute_percentage_error,
-    'mean_absolute_percentage_error': mean_absolute_percentage_error,
     'mre': mean_relative_error,
     'mean_relative_error': mean_relative_error,
     'mrpe': mean_relative_percentage_error,
