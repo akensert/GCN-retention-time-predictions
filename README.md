@@ -1,4 +1,4 @@
-## Graph Convolutional Networks for predicting physicochemical properties
+## Graph Convolutional Networks (GCNs) for predicting retention times
 <br>
 
 ### Requirements
@@ -18,13 +18,13 @@
 `conda install matplotlib` [Optional]<br>
 Try `conda install -c conda-forge [package]` instead of `conda install [package]` if the latter doesn't work.
 
-### Create data sets
+### 1. Create data sets
 Navigate into `src/` and run the following from the terminal to create tf-records from all the .csv files in `input/datasets/`:<br>
-`python create_tf_records.py –dataset_path=../input/datasets/* --num_threads=4`<br>
+`python create_tf_records.py --num_threads=8`<br>
 This may take up to 30 minutes depending on the number of threads used.
 
-### Training and testing
-Navigate into `notebooks/` and run from terminal: `jupyter notebook`. Open and run `01_evaluate-GCNs.ipynb`. In brief, this notebook runs a 20x random search for both the GCN and RGCN.
+### 2. Training, validating and testing
+Navigate into `notebooks/` and run from terminal: `jupyter notebook`. Open and run `evaluation.ipynb`. This may take weeks to run. To reduce run time, either reduce the number of searches (`NUM_SEARCHES`), remove `SMRT` from `dataset_names` list, reduce the number of epochs (`num_epochs`) of training for GCN and RGCN.
 
-### Saliency
-Navigate into `notebooks/` and run from terminal: `jupyter notebook`. Open and run `05_saliency.ipynb`. In brief, this notebook will, for Fiehn HILIC and RIKEN: (1) train a GCN on the data set, (2) compute saliencies (for each data point) based on the trained GCN, (3) draw saliencies on corresponding 2-D representations of the molecules, and (4) save the drawings to `../output/saliency/*`.
+### 3. Compute saliencies
+Navigate into `notebooks/` and run from terminal: `jupyter notebook`. Open and run `saliency.ipynb`. This make take up to an hour to run.

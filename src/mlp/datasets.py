@@ -3,11 +3,9 @@ import pandas as pd
 import multiprocessing
 from functools import partial
 from tqdm import tqdm
+import os
 
-from utils import splits
 from ops import transform_ops
-import configuration
-
 
 def _get_dataset(dataframe, bits, radius, use_counts, num_threads):
     data_keys = ['index', 'y', 'X']
@@ -23,7 +21,6 @@ def _get_dataset(dataframe, bits, radius, use_counts, num_threads):
                 dataframe.iloc[:, 2],
             )
     ]
-
     keep_idx = np.where(np.array(ecfp).sum(axis=1) > 0)[0]
 
     return {
@@ -35,7 +32,7 @@ def _get_dataset(dataframe, bits, radius, use_counts, num_threads):
 def get_ecfp_datasets(dataset_path,
                       bits,
                       radius,
-                      use_counts=False,
+                      use_counts,
                       valid_frac=0.1,
                       test_frac=0.1,
                       mode="random",
@@ -43,21 +40,13 @@ def get_ecfp_datasets(dataset_path,
                       num_threads=12):
 
     dataframe = pd.read_csv(dataset_path)
-    dataset_name = dataset_path.split('/')[-1].split('.')[0]
 
-    X = dataframe.iloc[:, 2].values.copy()
-    if configuration.datasets[dataset_name]["mode"] == "index":
-        y = dataframe.split_index.values.copy()
-    else:
-        y = dataframe.iloc[:, 1].values.copy()
+    split_idx = dataframe.split_index.values.copy()
 
-    train_idx, valid_idx, test_idx = splits.train_valid_test_split(
-        x=X, # smiles/inchi
-        y=y, # labels (e.g. retention time)
-        valid_frac=configuration.datasets[dataset_name]["valid_frac"],
-        test_frac=configuration.datasets[dataset_name]["test_frac"],
-        mode=configuration.datasets[dataset_name]["mode"],
-        seed=configuration.seeds["splits"])
+    train_idx, valid_idx, test_1_idx, test_2_idx = (
+        np.where(split_idx == 1)[0], np.where(split_idx == 2)[0],
+        np.where(split_idx == 3)[0], np.where(split_idx == 4)[0]
+    )
 
     train_data = _get_dataset(
         dataframe.iloc[train_idx], bits, radius, use_counts, num_threads
@@ -65,7 +54,14 @@ def get_ecfp_datasets(dataset_path,
     valid_data = _get_dataset(
         dataframe.iloc[valid_idx], bits, radius, use_counts, num_threads
     )
-    test_data = _get_dataset(
-        dataframe.iloc[test_idx], bits, radius, use_counts, num_threads
+    test_1_data = _get_dataset(
+        dataframe.iloc[test_1_idx], bits, radius, use_counts, num_threads
     )
-    return train_data, valid_data, test_data
+
+    if len(test_2_idx) > 0:
+        test_2_data = _get_dataset(
+            dataframe.iloc[test_2_idx], bits, radius, use_counts, num_threads
+        )
+    else:
+        test_2_data = None
+    return train_data, valid_data, test_1_data, test_2_data

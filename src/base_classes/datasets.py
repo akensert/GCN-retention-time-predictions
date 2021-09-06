@@ -85,6 +85,13 @@ class BaseDataset(metaclass=ABCMeta):
         dataset = dataset.map(lambda x: x['index'], self.num_parallel_calls)
         return np.array([index.numpy() for index in dataset])
 
+    def get_nonzero_features(self) -> np.ndarray:
+        dataset = self._get_parsed_tfrecord_dataset()
+        for x in dataset.take(1):
+            keep_idx = tf.squeeze(
+                tf.where(x['feature_min']-x['feature_max'] != 0))
+        return keep_idx
+
     def get_iterator(self, filter_indices=None) -> tf.data.Dataset:
         dataset = self._get_parsed_tfrecord_dataset()
         if filter_indices is not None:

@@ -2,17 +2,14 @@ import tensorflow as tf
 import numpy as np
 import pandas as pd
 from rdkit import Chem, RDLogger
-from rdkit.Chem import AllChem
 from tqdm import tqdm
 import multiprocessing
 import argparse
+import glob
 import os
-from sklearn.preprocessing import StandardScaler, MinMaxScaler
 
 from ops import transform_ops
 from ops import graph_ops
-from utils import splits
-import configuration
 
 tf.config.set_visible_devices([], 'GPU')
 
@@ -23,10 +20,7 @@ def get_graph(data):
 
     index, label, string = data
 
-    mol = transform_ops.mol_from_string(string, catch_errors=False)
-
-    if mol is None:
-        return None
+    mol = transform_ops.mol_from_string(string)
 
     node_features = graph_ops.get_node_features(mol)
     node_min = np.min(node_features, axis=(0))
@@ -135,46 +129,39 @@ def create_tfrecords(dataframes, save_paths, num_threads):
 if __name__ == '__main__':
 
     parser = argparse.ArgumentParser()
-    parser.add_argument('--dataset_path', type=str,
-                        default='../input/datasets/SMRT.csv')
+    parser.add_argument('--dataset_path', type=str, default='../input/datasets/*')
     parser.add_argument('--num_threads', type=int, default=4)
     args = parser.parse_args()
 
     if args.dataset_path.endswith('*'):
-        import glob
         dataset_paths = glob.glob(args.dataset_path)
     else:
         dataset_paths = [args.dataset_path]
 
     for dataset_path in dataset_paths:
 
-        dataset_name = dataset_path.split('/')[-1].split('.')[0]
+        dataset_name = os.path.basename(dataset_path)
 
         dataframe = pd.read_csv(dataset_path)
 
-        X = dataframe.iloc[:, 2].values.copy()
-        if configuration.datasets[dataset_name]["mode"] == "index":
-            y = dataframe.split_index.values.copy()
-        else:
-            y = dataframe.iloc[:, 1].values.copy()
+        split_idx = dataframe.split_index.values
 
-        train_idx, valid_idx, test_idx = splits.train_valid_test_split(
-            x=X, # smiles/inchi
-            y=y, # labels (e.g. retention time)
-            valid_frac=configuration.datasets[dataset_name]["valid_frac"],
-            test_frac=configuration.datasets[dataset_name]["test_frac"],
-            mode=configuration.datasets[dataset_name]["mode"],
-            seed=configuration.seeds["splits"])
+        train_idx, valid_idx, test_1_idx, test_2_idx = (
+            np.where(split_idx == 1)[0], np.where(split_idx == 2)[0],
+            np.where(split_idx == 3)[0], np.where(split_idx == 4)[0]
+        )
+
+        dataframes = [
+            dataframe.iloc[train_idx], dataframe.iloc[valid_idx], dataframe.iloc[test_1_idx]
+        ]
+        save_paths = [
+            '../input/tfrecords/' + dataset_name.split('.')[0] + '/train.tfrec',
+            '../input/tfrecords/' + dataset_name.split('.')[0] + '/valid.tfrec',
+            '../input/tfrecords/' + dataset_name.split('.')[0] + '/test_1.tfrec',
+        ]
+        if len(test_2_idx) > 0:
+            dataframes += [dataframe.iloc[test_2_idx]]
+            save_paths += ['../input/tfrecords/' + dataset_name.split('.')[0] + '/test_2.tfrec']
 
         create_tfrecords(
-            dataframes=[
-                dataframe.iloc[train_idx],
-                dataframe.iloc[valid_idx],
-                dataframe.iloc[test_idx]
-            ],
-            save_paths = [
-                '../input/tfrecords/' + dataset_name + '/train.tfrec',
-                '../input/tfrecords/' + dataset_name + '/valid.tfrec',
-                '../input/tfrecords/' + dataset_name + '/test.tfrec'
-            ],
-             num_threads=args.num_threads)
+            dataframes=dataframes, save_paths=save_paths, num_threads=args.num_threads)

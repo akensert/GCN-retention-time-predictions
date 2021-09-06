@@ -65,6 +65,7 @@ class GCNModel(models.BaseModel):
 
         A, H = inputs
         H = self.masking(H)
+
         for i in range(len(self.gconv_layers)):
             H = self.gconv_layers[i]([A, H], training=training)
 
@@ -75,3 +76,10 @@ class GCNModel(models.BaseModel):
             Z = self.dense_dropout(Z, training=training)
 
         return self.dense_output(Z)
+
+    def latent(self, inputs):
+        A, H = inputs
+        H = self.masking(H)
+        for i in range(len(self.gconv_layers)):
+            H = self.gconv_layers[i]([A, H], training=False)
+        return self.pooling(H)

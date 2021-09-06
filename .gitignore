@@ -15,6 +15,10 @@
 *.data*
 *.index
 *.pb
+output_backup/
+notebooks/0*
+input/tfrecords/[A-Z0-9]*
+output/predictions
 
 # jupyter
 MANIFEST

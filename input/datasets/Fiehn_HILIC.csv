@@ -12,11 +12,11 @@ compound_name,retention_time,smiles,split_index
 1-Benzylimidazole,1.63,C1=CC=C(C=C1)CN2C=CN=C2,1
 1-Methylpseudouridine,4.99,CN1C=C(C(=O)NC1=O)C2C(C(C(O2)CO)O)O,1
 1-Methyltryptophan,6.38,CN1C=C(C2=CC=CC=C21)CC(C(=O)O)N,1
-16-Glucuronide-estriol,6.49,CC12CCC3C(C1CC(C2O)OC4C(C(C(C(O4)C(=O)O)O)O)O)CCC5=C3C=CC(=C5)O,1
+16-Glucuronide-estriol,6.49,CC12CCC3C(C1CC(C2O)OC4C(C(C(C(O4)C(=O)O)O)O)O)CCC5=C3C=CC(=C5)O,2
 "2',3'-Dideoxyinosine",3.44,C1CC(OC1CO)N2C=NC3=C2NC=NC3=O,1
 2'-Deoxyadenosine-5'-monophosphate,8.63,C1C(C(OC1N2C=NC3=C2N=CN=C3N)COP(=O)(O)O)O,1
 2'-Deoxycytidine,5.87,C1C(C(OC1N2C=CC(=NC2=O)N)CO)O,1
-2'-Deoxyguanosine 3'-monophosphate,9.43,C1C(C(OC1N2C=NC3=C2NC(=NC3=O)N)CO)OP(=O)(O)O,1
+2'-Deoxyguanosine 3'-monophosphate,9.43,C1C(C(OC1N2C=NC3=C2NC(=NC3=O)N)CO)OP(=O)(O)O,2
 2'-Deoxyguanosine 5'-monophosphate,9.25,C1C(C(OC1N2C=NC3=C2NC(=NC3=O)N)COP(=O)(O)O)O,1
 2'-O-Methyl-5-methylcytidine,4.93,CC1=CN(C(=O)N=C1N)C2C(C(C(O2)CO)O)OC,1
 2'-O-Methyl-5-methyluridine,1.75,CC1=CN(C(=O)NC1=O)C2C(C(C(O2)CO)O)OC,1
@@ -36,12 +36,12 @@ compound_name,retention_time,smiles,split_index
 2-Aminoacetophenone,1.08,C1=CC=C(C=C1)C(=O)CN,1
 2-Aminoethanethiol,2.05,C(C[S-])[NH3+],1
 2-Aminoethylphosphonic acid,9.39,C(CP(=O)(O)O)N,1
-2-Aminophenol,1.22,C1=CC=C(C(=C1)N)O,1
+2-Aminophenol,1.22,C1=CC=C(C(=C1)N)O,2
 2-Chloro-N6-cyclopentyladenosine,1.47,C1CCC(C1)NC2=NC(=NC3=C2N=CN3C4C(C(C(O4)CO)O)O)Cl,1
 2-Chloroadenosine,2.69,C1=NC2=C(N1C3C(C(C(O3)CO)O)O)N=C(N=C2N)Cl,1
 2-Deoxycytidine-5-monophosphoric acid,9.16,C1C(C(OC1N2C=CC(=NC2=O)N)COP(=O)(O)O)O,1
-2-Deoxyuridine,2.96,C1C(C(OC1N2C=CC(=O)NC2=O)CO)O,1
-2-Hexenal,1.39,CCCC=CC=O,1
+2-Deoxyuridine,2.96,C1C(C(OC1N2C=CC(=O)NC2=O)CO)O,2
+2-Hexenal,1.39,CCCC=CC=O,2
 2-Hydroxyacetophenone,4.36,C1=CC=C(C=C1)C(=O)CO,1
 2-Hydroxychalcone,1.01,C1=CC=C(C=C1)C(=O)C=CC2=CC=CC=C2O,1
 2-Hydroxyquinoline,1.51,C1=CC=C2C(=C1)C=CC(=O)N2,1
@@ -49,14 +49,14 @@ compound_name,retention_time,smiles,split_index
 2-Phenylacetamide,1.26,C1=CC=C(C=C1)CC(=O)N,1
 2-Propanamidoacetic acid,5.37,CCC(=O)NCC(=O)O,1
 2-Pyridone,2.05,C1=CC(=O)NC=C1,1
-2-Thiocytidine,5.33,C1=CN(C(=S)N=C1N)C2C(C(C(O2)CO)O)O,1
+2-Thiocytidine,5.33,C1=CN(C(=S)N=C1N)C2C(C(C(O2)CO)O)O,2
 2-Thiouridine,2.48,C1=CN(C(=S)NC1=O)C2C(C(C(O2)CO)O)O,1
 "3',5'-Cyclic dAMP",7.29,C1C2C(COP(=O)(O2)O)OC1N3C=NC4=C3N=CN=C4N,1
 3'-O-Methylcytidine,5.09,COC1C(OC(C1O)N2C=CC(=NC2=O)N)CO,1
 3'-O-Methylguanosine,5.8,COC1C(OC(C1O)N2C=NC3=C2NC(=NC3=O)N)CO,1
 3'-O-Methyluridine,2.42,COC1C(OC(C1O)N2C=CC(=O)NC2=O)CO,1
 "3,4-Dihydroxymandelic acid",2.3,C1=CC(=C(C=C1C(C(=O)O)O)O)O,1
-"3,4-Dihydroxyphenylalanine",8.31,C1=CC(=C(C=C1CC(C(=O)O)N)O)O,1
+"3,4-Dihydroxyphenylalanine",8.31,C1=CC(=C(C=C1CC(C(=O)O)N)O)O,2
 "3,4-Dimethoxybenzaldehyde",1.08,COC1=C(C=C(C=C1)C=O)OC,1
 "3,5-Dihydroxyphenylglycine",8.18,C1=C(C=C(C=C1O)O)NCC(=O)O,1
 3-(1-Pyrazolyl)-alanine,7.54,C1=CN(N=C1)CC(C(=O)[O-])[NH3+],1
@@ -67,10 +67,10 @@ compound_name,retention_time,smiles,split_index
 3-Deoxyuridine,2.87,C1C(OC(C1O)N2C=CC(=O)NC2=O)CO,1
 3-Hydroxyanthranilic acid,1.48,C1=CC(=C(C(=C1)O)N)C(=O)O,1
 3-Hydroxybenzaldehyde,1.18,C1=CC(=CC(=C1)O)C=O,1
-3-Hydroxykynurenine,7.35,C1=CC(=C(C(=C1)O)N)C(=O)CC(C(=O)[O-])[NH3+],1
+3-Hydroxykynurenine,7.35,C1=CC(=C(C(=C1)O)N)C(=O)CC(C(=O)[O-])[NH3+],2
 3-Hydroxyphenylalanine,7.44,C1=CC(=CC(=C1)O)CC(C(=O)[O-])[NH3+],1
 3-Hydroxysebacic acid,2.55,C(CCCC(=O)O)CCC(CC(=O)O)O,1
-3-Indoleacetic acid,1.33,C1=CC=C2C(=C1)C(=CN2)CC(=O)O,1
+3-Indoleacetic acid,1.33,C1=CC=C2C(=C1)C(=CN2)CC(=O)O,2
 3-Indoleacetonitrile,8.02,C1=CC=C2C(=C1)C(=CN2)CC#N,1
 3-Indolepropionic acid,1.28,C1=CC=C2C(=C1)C(=CN2)CCC(=O)O,1
 3-Methylcrotonylglycine,2.95,CC(=CC(=O)NCC(=O)O)C,1
@@ -82,15 +82,15 @@ compound_name,retention_time,smiles,split_index
 3-Phosphonopropionic acid,8.59,C(CP(=O)(O)O)C(=O)O,1
 3-Pyridinemthanol,1.41,C1=CC(=CN=C1)CO,1
 "4,5,7-Trihydroxyisoflavone",1.27,C1=CC(=CC=C1C2=COC3=CC(=CC(=C3C2=O)O)O)O,1
-4-Acetylbutyric acid,1.24,CC(=O)CCCC(=O)O,1
+4-Acetylbutyric acid,1.24,CC(=O)CCCC(=O)O,2
 4-Hydroxy-4-methyl-2-pentanone,4.88,CC(=O)CC(C)(C)O,1
 4-Hydroxy-6-methyl-2-pyrone,1.47,CC1=CC(=CC(=O)O1)O,1
 4-Hydroxybenzaldehyde,1.18,C1=CC(=CC=C1C=O)O,1
 4-Hydroxyhippuric acid,5.86,C1=CC(=CC=C1C(=O)NCC(=O)O)O,1
-4-Hydroxymandelonitrile,2.63,C1=CC(=CC=C1C(C#N)O)O,1
+4-Hydroxymandelonitrile,2.63,C1=CC(=CC=C1C(C#N)O)O,2
 4-Hydroxyphenylethanol,8.03,CC(C1=CC=C(C=C1)O)O,1
 4-Hydroxyphenylpyruvic acid,1.22,C1=CC(=CC=C1CC(=O)C(=O)O)O,1
-4-Hydroxyquinoline,1.69,C1=CC=C2C(=C1)C(=O)C=CN2,1
+4-Hydroxyquinoline,1.69,C1=CC=C2C(=C1)C(=O)C=CN2,2
 4-Methyl-5-thiazoleethanol,1.21,CC1=C(SC=N1)CCO,1
 4-Methylumbelliferone,1.22,CC1=CC(=O)OC2=C1C=CC(=C2)O,1
 4-Methylumbelliferyl acetate,1.06,CC1=CC(=O)OC2=C1C=CC(=C2)OC(=O)C,1
@@ -100,11 +100,11 @@ compound_name,retention_time,smiles,split_index
 4-Trimethylammoniobutanoic acid,7.66,C[N+](C)(C)CCCC(=O)O,1
 5'-O-Methylthymidine,1.46,CC1=CN(C(=O)NC1=O)C2CC(C(O2)COC)O,1
 "5,6-Dihydrouracil",1.77,C1CNC(=O)NC1=O,1
-"5,6-Dimethylbenzimidazole",1.82,CC1=CC2=C(C=C1C)N=CN2,1
+"5,6-Dimethylbenzimidazole",1.82,CC1=CC2=C(C=C1C)N=CN2,2
 5-Aminoimidazole-4-carboxamide,4.18,C1=NC(=C(N1)C(=O)N)N,1
 5-AminosalicylicÂ acid,3.89,C1=CC(=C(C=C1N)C(=O)O)O,1
 5-Fluro-2-pyrimidone,1.77,C1=C(C=NC(=O)N1)F,1
-5-Flurocytosine,4.62,C1=NC(=O)NC(=C1F)N,1
+5-Flurocytosine,4.62,C1=NC(=O)NC(=C1F)N,2
 5-Hydroxy-3-indoleacetic acid,1.78,C1=CC2=C(C=C1O)C(=CN2)CC(=O)O,1
 5-Hydroxymethylcytidine,7.54,C1=C(C(=NC(=O)N1C2C(C(C(O2)CO)O)O)N)CO,1
 5-Hydroxymethylcytosine,6.9,C1=NC(=O)NC(=C1CO)N,1
@@ -123,13 +123,13 @@ compound_name,retention_time,smiles,split_index
 6-Hydroxyflavone,1.26,C1=CC=C(C=C1)C2=CC(=O)C3=C(O2)C=CC(=C3)O,1
 6-Methyl-5-hepten-2-ol,7.3,CC(CCC=C(C)C)O,1
 6-Methylmercaptopurine,1.49,CSC1=NC=NC2=C1NC=N2,1
-"7,8-Dihydrobiopterin",7.18,CC(C(C1=NC2=C(NC1)NC(=NC2=O)N)O)O,1
+"7,8-Dihydrobiopterin",7.18,CC(C(C1=NC2=C(NC1)NC(=NC2=O)N)O)O,2
 7-Methylguanosine,7.34,CN1C=[N+](C2=C1C(=O)N=C(N2)N)C3C(C(C(O3)CO)O)O,1
 8-Oxo-2-deoxyadenosine,5.11,C1C(C(OC1N2C3=C(C(=NC=N3)N)NC2=O)CO)O,1
 Abietic acid,1.11,CC(C)C1=CC2=CCC3C(C2CC1)(CCCC3(C)C(=O)O)C,1
 Abscisic acid,1.33,CC1=CC(=O)CC(C1(C=CC(=CC(=O)O)C)O)(C)C,1
 Acarbose,9.88,CC1C(C(C(C(O1)OC2C(OC(C(C2O)O)OC3C(OC(C(C3O)O)O)CO)CO)O)O)NC4C=C(C(C(C4O)O)O)CO,1
-Acetaminophen glucuronide,7.73,CC(=O)NC1=CC=C(C=C1)OC2C(C(C(C(O2)C(=O)O)O)O)O,1
+Acetaminophen glucuronide,7.73,CC(=O)NC1=CC=C(C=C1)OC2C(C(C(C(O2)C(=O)O)O)O)O,2
 Acetaminophen,1.37,CC(=O)NC1=CC=C(C=C1)O,1
 Acetanilide,1.11,CC(=O)NC1=CC=CC=C1,1
 Acetohydroxamic acid,2.94,CC(=O)NO,1
@@ -137,12 +137,12 @@ Actinomycin D,1.03,CC1C(C(=O)NC(C(=O)N2CCCC2C(=O)N(CC(=O)N(C(C(=O)O1)C(C)C)C)C)C
 Actrarit,1.58,CC(=O)NC1=CC=C(C=C1)CC(=O)O,1
 "Adenosine 3',5'-cyclic monophosphate",7.62,C1C2C(C(C(O2)N3C=NC4=C3N=CN=C4N)O)OP(=O)(O1)O,1
 Adenosine 5'-monophosphate,8.88,C1=NC2=C(C(=N1)N)N=CN2C3C(C(C(O3)COP(=O)(O)O)O)O,1
-Adenosine-3-monophosphate,8.88,C1=NC2=C(C(=N1)N)N=CN2C3C(C(C(O3)CO)OP(=O)(O)O)O,1
+Adenosine-3-monophosphate,8.88,C1=NC2=C(C(=N1)N)N=CN2C3C(C(C(O3)CO)OP(=O)(O)O)O,2
 Adenosine,4.77,C1=NC2=C(C(=N1)N)N=CN2C3C(C(C(O3)CO)O)O,1
 Adrenosterone,1.1,CC12CCC(=O)C=C1CCC3C2C(=O)CC4(C3CCC4=O)C,1
-Ala-Leu,7.6,CC(C)CC(C(=O)O)NC(=O)C(C)N,1
+Ala-Leu,7.6,CC(C)CC(C(=O)O)NC(=O)C(C)N,2
 Ala-Val,7.66,CC(C(=O)NC(C(C)C)C(=O)O)N,1
-Alanine,8.05,CC(C(=O)O)N,1
+Alanine,8.05,CC(C(=O)O)N,2
 Albendazole,1.22,CCCSC1=CC2=C(C=C1)N=C(N2)NC(=O)OC,1
 Albuterol,5.55,CC(C)(C)NCC(C1=CC(=C(C=C1)O)CO)O,1
 Alfuzosin,4.29,CN(CCCNC(=O)C1CCCO1)C2=NC3=CC(=C(C=C3C(=N2)N)OC)OC,1
@@ -163,15 +163,15 @@ Amlexanox,1.81,CC(C)C1=CC2=C(C=C1)OC3=NC(=C(C=C3C2=O)C(=O)O)N,1
 Amlodipine,4.24,CCOC(=O)C1=C(NC(=C(C1C2=CC=CC=C2Cl)C(=O)OC)C)COCCN,1
 Amphetamine,4.6,CC(CC1=CC=CC=C1)N,1
 Ampiroxicam,0.95,CCOC(=O)OC(C)OC1=C(N(S(=O)(=O)C2=CC=CC=C21)C)C(=O)NC3=CC=CC=N3,1
-Anagrelide,1.82,C1C2=C(C=CC(=C2Cl)Cl)NC3=NC(=O)CN31,1
+Anagrelide,1.82,C1C2=C(C=CC(=C2Cl)Cl)NC3=NC(=O)CN31,2
 Anastrozole,0.98,CC(C)(C#N)C1=CC(=CC(=C1)CN2C=NC=N2)C(C)(C)C#N,1
 Androstenedione,1.09,CC12CCC(=O)C=C1CCC3C2CCC4(C3CCC4=O)C,1
 Anserine,9.49,CN1C=NC=C1CC(C(=O)O)NC(=O)CCN,1
-Arachidonyl dopamine,1.14,CCCCCC=CCC=CCC=CCC=CCCCC(=O)NCCC1=CC(=C(C=C1)O)O,1
+Arachidonyl dopamine,1.14,CCCCCC=CCC=CCC=CCC=CCCCC(=O)NCCC1=CC(=C(C=C1)O)O,2
 Argatroban,5.45,CC1CCN(C(C1)C(=O)O)C(=O)C(CCCN=C(N)N)NS(=O)(=O)C2=CC=CC3=C2NCC(C3)C,1
 Aripiprazole,3.14,C1CC(=O)NC2=C1C=CC(=C2)OCCCCN3CCN(CC3)C4=C(C(=CC=C4)Cl)Cl,1
 Asp-Glu,9.47,C(CC(=O)O)C(C(=O)O)NC(=O)C(CC(=O)O)N,1
-Asp-Phe,8.14,C1=CC=C(C=C1)CC(C(=O)O)NC(=O)C(CC(=O)O)N,1
+Asp-Phe,8.14,C1=CC=C(C=C1)CC(C(=O)O)NC(=O)C(CC(=O)O)N,2
 Atomexetine,2.42,CC1=CC=CC=C1OC(CCNC)C2=CC=CC=C2,1
 Atropine,4.32,CN1C2CCC1CC(C2)OC(=O)C(CO)C3=CC=CC=C3,1
 Azasetron,4.66,CN1C(=O)COC2=C1C=C(C=C2C(=O)NC3CN4CCC3CC4)Cl,1
@@ -186,7 +186,7 @@ Benzothiazole,1.11,C1=CC=C2C(=C1)N=CS2,1
 Benzphetamine,2.04,CC(CC1=CC=CC=C1)N(C)CC2=CC=CC=C2,1
 Benzylacetate,8.71,CC(=O)OCC1=CC=CC=C1,1
 Bestatin,5.98,CC(C)CC(C(=O)O)NC(=O)C(C(CC1=CC=CC=C1)N)O,1
-beta-Alanine,8.02,C(CN)C(=O)O,1
+beta-Alanine,8.02,C(CN)C(=O)O,2
 beta-N-Methylaminoalanine,9.32,CNCC(C(=O)O)N,1
 Betaxolol,3.05,CC(C)NCC(COC1=CC=C(C=C1)CCOCC2CC2)O,1
 Bifemelane,2.46,CNCCCCOC1=CC=CC=C1CC2=CC=CC=C2,1
@@ -194,7 +194,7 @@ Bifonazole,1.19,C1=CC=C(C=C1)C2=CC=C(C=C2)C(C3=CC=CC=C3)N4C=CN=C4,1
 Binospirone,1.8,C1CCC2(C1)CC(=O)N(C(=O)C2)CCNCC3COC4=CC=CC=C4O3,1
 Bisoprolol,3.47,CC(C)NCC(COC1=CC=C(C=C1)COCCOC(C)C)O,1
 Biuret,2.73,C(=O)(N)NC(=O)N,1
-Bromazepam,1.3,C1C(=O)NC2=C(C=C(C=C2)Br)C(=N1)C3=CC=CC=N3,1
+Bromazepam,1.3,C1C(=O)NC2=C(C=C(C=C2)Br)C(=N1)C3=CC=CC=N3,2
 Brucine,4.57,COC1=C(C=C2C(=C1)C34CCN5C3CC6C7C4N2C(=O)CC7OCC=C6C5)OC,1
 Buflomedil,2.34,COC1=CC(=C(C(=C1)OC)C(=O)CCCN2CCCC2)OC,1
 Bupropion,2.22,CC(C(=O)C1=CC(=CC=C1)Cl)NC(C)(C)C,1
@@ -202,7 +202,7 @@ Butanoic acid,10.19,CCCC(=O)O,1
 Cadaverine,8.99,C(CCN)CCN,1
 Caffeic acid,1.81,C1=CC(=C(C=C1C=CC(=O)O)O)O,1
 Canavanine,9.42,C(CON=C(N)N)C(C(=O)[O-])[NH3+],1
-Capsaicin,1,CC(C)C=CCCCCC(=O)NCC1=CC(=C(C=C1)O)OC,1
+Capsaicin,1.0,CC(C)C=CCCCCC(=O)NCC1=CC(=C(C=C1)O)OC,1
 Carbamazepine,1.21,C1=CC=C2C(=C1)C=CC3=CC=CC=C3N2C(=O)N,1
 Carbocysteine,9.04,C(C(C(=O)O)N)SCC(=O)O,1
 Carnosine,9.54,C1=C(NC=N1)CC(C(=O)[O-])NC(=O)CC[NH3+],1
@@ -226,13 +226,13 @@ Cisapride,2.28,COC1CN(CCC1NC(=O)C2=CC(=C(C=C2OC)N)Cl)CCCOC3=CC=C(C=C3)F,1
 Citalopram,2.21,CN(C)CCCC1(C2=C(CO1)C=C(C=C2)C#N)C3=CC=C(C=C3)F,1
 Citrulline,8.74,C(CC(C(=O)O)N)CNC(=O)N,1
 Cladribine,1.95,C1C(C(OC1N2C=NC3=C2N=C(N=C3N)Cl)CO)O,1
-Clarithromycin,3,CCC1C(C(C(C(=O)C(CC(C(C(C(C(C(=O)O1)C)OC2CC(C(C(O2)C)O)(C)OC)C)OC3C(C(CC(O3)C)N(C)C)O)(C)OC)C)C)O)(C)O,1
+Clarithromycin,3.0,CCC1C(C(C(C(=O)C(CC(C(C(C(C(C(=O)O1)C)OC2CC(C(C(O2)C)O)(C)OC)C)OC3C(C(CC(O3)C)N(C)C)O)(C)OC)C)C)O)(C)O,1
 Clobazam,1.1,CN1C(=O)CC(=O)N(C2=C1C=CC(=C2)Cl)C3=CC=CC=C3,1
 Clobenpropit,6.13,C1=CC(=CC=C1CN=C(N)SCCCC2=CN=CN2)Cl,1
 Clofazimine,1.78,CC(C)N=C1C=C2C(=NC3=CC=CC=C3N2C4=CC=C(C=C4)Cl)C=C1NC5=CC=C(C=C5)Cl,1
 Clomipramine,2.31,CN(C)CCCN1C2=CC=CC=C2CCC3=C1C=C(C=C3)Cl,1
 Clonidine,2.85,C1CN=C(N1)NC2=C(C=CC=C2Cl)Cl,1
-Cocaethylene,2.12,CCOC(=O)C1C2CCC(N2C)CC1OC(=O)C3=CC=CC=C3,1
+Cocaethylene,2.12,CCOC(=O)C1C2CCC(N2C)CC1OC(=O)C3=CC=CC=C3,2
 Coniferylaldehyde,1.14,COC1=C(C=CC(=C1)C=CC=O)O,1
 Cordycepin,3.54,C1C(OC(C1O)N2C=NC3=C2N=CN=C3N)CO,1
 Corticosterone,1.25,CC12CCC(=O)C=C1CCC3C2C(CC4(C3CCC4C(=O)CO)C)O,1
@@ -242,13 +242,13 @@ Coumarin,1.08,C1=CC=C2C(=C1)C=CC(=O)O2,1
 Crotamiton,0.97,CCN(C1=CC=CC=C1C)C(=O)C=CC,1
 Cyclo(Leu-Pro),1.29,CC(C)CC1C(=O)N2CCCC2C(=O)N1,1
 Cyclohexanamine,5.1,C1CCC(CC1)N,1
-Cyproheptadine,2.31,CN1CCC(=C2C3=CC=CC=C3C=CC4=CC=CC=C42)CC1,1
+Cyproheptadine,2.31,CN1CCC(=C2C3=CC=CC=C3C=CC4=CC=CC=C42)CC1,2
 Cysteic acid,8.92,C(C(C(=O)O)N)S(=O)(=O)O,1
 Cysteine,5.31,C(C(C(=O)O)N)S,1
 Cystine,9.97,C(C(C(=O)[O-])[NH3+])SSCC(C(=O)[O-])[NH3+],1
 Cytarabine,6.72,C1=CN(C(=O)N=C1N)C2C(C(C(O2)CO)O)O,1
 Cytidine-5'-monophosphate,9.48,C1=CN(C(=O)N=C1N)C2C(C(C(O2)COP(=O)(O)O)O)O,1
-Cytidine,6.85,C1=CN(C(=O)N=C1N)C2C(C(C(O2)CO)O)O,1
+Cytidine,6.85,C1=CN(C(=O)N=C1N)C2C(C(C(O2)CO)O)O,2
 Daidzein,1.39,C1=CC(=CC=C1C2=COC3=C(C2=O)C=CC(=C3)O)O,1
 Dehydrocholic acid,1.16,CC(CCC(=O)O)C1CCC2C1(C(=O)CC3C2C(=O)CC4C3(CCC(=O)C4)C)C,1
 delta-Hydroxylysine,9.77,C(CC(C(=O)O)N)C(CN)O,1
@@ -259,14 +259,14 @@ Dexchlorpheniramine,2.54,CN(C)CCC(C1=CC=C(C=C1)Cl)C2=CC=CC=N2,1
 Dextrorphan,3.87,CN1CCC23CCCCC2C1CC4=C3C=C(C=C4)O,1
 Diazepam,1.1,CN1C(=O)CN=C(C2=C1C=CC(=C2)Cl)C3=CC=CC=C3,1
 Diazoxide,1.09,CC1=NS(=O)(=O)C2=C(N1)C=CC(=C2)Cl,1
-Diclofenac,1.08,C1=CC=C(C(=C1)CC(=O)O)NC2=C(C=CC=C2Cl)Cl,1
+Diclofenac,1.08,C1=CC=C(C(=C1)CC(=O)O)NC2=C(C=CC=C2Cl)Cl,2
 Dihydrocapsaicin,1.07,CC(C)CCCCCCC(=O)NCC1=CC(=C(C=C1)O)OC,1
 Dihydrozeatin,2.99,CC(CCNC1=NC=NC2=C1NC=N2)CO,1
 Dimethyl phthalate,1.04,COC(=O)C1=CC=CC=C1C(=O)OC,1
 Dioctyl Phthalate,0.96,CCCCCCCCOC(=O)C1=CC=CC=C1C(=O)OCCCCCCCC,1
 Diphenoxylate,1.41,CCOC(=O)C1(CCN(CC1)CCC(C#N)(C2=CC=CC=C2)C3=CC=CC=C3)C4=CC=CC=C4,1
 Diphenylcyclopropenone,1.01,C1=CC=C(C=C1)C2=C(C2=O)C3=CC=CC=C3,1
-Disulfiram,0.93,CCN(CC)C(=S)SSC(=S)N(CC)CC,1
+Disulfiram,0.93,CCN(CC)C(=S)SSC(=S)N(CC)CC,2
 Docetaxel,1.34,CC1=C2C(C(=O)C3(C(CC4C(C3C(C(C2(C)C)(CC1OC(=O)C(C(C5=CC=CC=C5)NC(=O)OC(C)(C)C)O)O)OC(=O)C6=CC=CC=C6)(CO4)OC(=O)C)O)C)O,1
 Dofetilide,3.38,CN(CCC1=CC=C(C=C1)NS(=O)(=O)C)CCOC2=CC=C(C=C2)NS(=O)(=O)C,1
 Dolasetron,1.9,C1C2CC(CC3N2CC(=O)C1C3)OC(=O)C4=CNC5=CC=CC=C54,1
@@ -280,10 +280,10 @@ Droperidol,3.48,C1CN(CC=C1N2C3=CC=CC=C3NC2=O)CCCC(=O)C4=CC=C(C=C4)F,1
 Duloxetine,2.6,CNCCC(C1=CC=CS1)OC2=CC=CC3=CC=CC=C32,1
 E-4031,2.92,CC1=NC(=CC=C1)CCN2CCC(CC2)C(=O)C3=CC=C(C=C3)NS(=O)(=O)C,1
 EDDP,1.9,CC=C1C(CC(N1C)C)(C2=CC=CC=C2)C3=CC=CC=C3,1
-Enalaprilat,7.07,CC(C(=O)N1CCCC1C(=O)O)NC(CCC2=CC=CC=C2)C(=O)O,1
+Enalaprilat,7.07,CC(C(=O)N1CCCC1C(=O)O)NC(CCC2=CC=CC=C2)C(=O)O,2
 Enrofloxacin,3.31,CCN1CCN(CC1)C2=C(C=C3C(=C2)N(C=C(C3=O)C(=O)O)C4CC4)F,1
 Epigallocatechin,10.17,C1C(C(OC2=CC(=CC(=C21)O)O)C3=CC(=C(C(=C3)O)O)O)O,1
-Epirubicin,5.92,CC1C(C(CC(O1)OC2CC(CC3=C(C4=C(C(=C23)O)C(=O)C5=C(C4=O)C=CC=C5OC)O)(C(=O)CO)O)N)O,1
+Epirubicin,5.92,CC1C(C(CC(O1)OC2CC(CC3=C(C4=C(C(=C23)O)C(=O)C5=C(C4=O)C=CC=C5OC)O)(C(=O)CO)O)N)O,2
 Equol,1.19,C1C(COC2=C1C=CC(=C2)O)C3=CC=C(C=C3)O,1
 Ergothioneine,7.74,C[N+](C)(C)C(CC1=CN=C(N1)[S-])C(=O)O,1
 Erucamide,1.06,CCCCCCCCC=CCCCCCCCCCCCC(=O)N,1
@@ -313,11 +313,11 @@ Fluperlapine,2.3,CN1CCN(CC1)C2=NC3=C(CC4=CC=CC=C42)C=CC(=C3)F,1
 Fluphenazine,2.74,C1CN(CCN1CCCN2C3=CC=CC=C3SC4=C2C=C(C=C4)C(F)(F)F)CCO,1
 Flurazepam,2.41,CCN(CC)CCN1C(=O)CN=C(C2=C1C=CC(=C2)Cl)C3=CC=CC=C3F,1
 Fluvoxamine,2.93,COCCCCC(=NOCCN)C1=CC=C(C=C1)C(F)(F)F,1
-Folinic acid,7.92,C1C(N(C2=C(N1)NC(=NC2=O)N)C=O)CNC3=CC=C(C=C3)C(=O)NC(CCC(=O)O)C(=O)O,1
+Folinic acid,7.92,C1C(N(C2=C(N1)NC(=NC2=O)N)C=O)CNC3=CC=C(C=C3)C(=O)NC(CCC(=O)O)C(=O)O,2
 Formononetine,1.18,COC1=CC=C(C=C1)C2=COC3=C(C2=O)C=CC(=C3)O,1
 Formoterol,5.18,CC(CC1=CC=C(C=C1)OC)NCC(C2=CC(=C(C=C2)O)NC=O)O,1
 Fucoxanthin,1.07,CC(=CC=CC=C(C)C=CC=C(C)C(=O)CC12C(O1)(CC(CC2(C)C)O)C)C=CC=C(C)C=C=C3C(CC(CC3(C)C)OC(=O)C)(C)O,1
-Gabexate,3.45,CCOC(=O)C1=CC=C(C=C1)OC(=O)CCCCCN=C(N)N,1
+Gabexate,3.45,CCOC(=O)C1=CC=C(C=C1)OC(=O)CCCCCN=C(N)N,2
 Galanthamine,4.62,CN1CCC23C=CC(CC2OC4=C(C=CC(=C34)C1)OC)O,1
 gamma-Glutamyl-cysteine,8.98,C(CC(=O)NC(CS)C(=O)O)C(C(=O)O)N,1
 gamma-Glutamylglutamine,9.55,C(CC(=O)NC(CCC(=O)N)C(=O)O)C(C(=O)O)N,1
@@ -329,17 +329,17 @@ Glucosamine-6-phosphate,10.06,C(C1C(C(C(C(O1)O)N)O)O)OP(=O)(O)O,1
 Glucose-1-phosphate,9.61,C(C1C(C(C(C(O1)OP(=O)(O)O)O)O)O)O,1
 Glucose-6-phosphate,9.86,C(C1C(C(C(C(O1)O)O)O)O)OP(=O)(O)O,1
 Glutathione (oxidized),10.17,C(CC(=O)NC(CSSCC(C(=O)NCC(=O)O)NC(=O)CCC(C(=O)O)N)C(=O)NCC(=O)O)C(C(=O)O)N,1
-Glutathione (reduced),8.98,C(CC(=O)NC(CS)C(=O)NCC(=O)O)C(C(=O)O)N,1
+Glutathione (reduced),8.98,C(CC(=O)NC(CS)C(=O)NCC(=O)O)C(C(=O)O)N,2
 Gly-Gly-Gly,9.18,C(C(=O)NCC(=O)NCC(=O)O)N,1
 Gly-Ile,7.67,CCC(C)C(C(=O)O)NC(=O)CN,1
-Gly-Tyr-Ala,7.89,CC(C(=O)[O-])NC(=O)C(CC1=CC=C(C=C1)O)NC(=O)C[NH3+],1
+Gly-Tyr-Ala,7.89,CC(C(=O)[O-])NC(=O)C(CC1=CC=C(C=C1)O)NC(=O)C[NH3+],2
 Gly-Tyr,8.07,C1=CC(=CC=C1CC(C(=O)O)NC(=O)CN)O,1
 Glycine,8.33,C(C(=O)[O-])[NH3+],1
 Glycitein,1.32,COC1=C(C=C2C(=C1)C(=O)C(=CO2)C3=CC=C(C=C3)O)O,1
-Goserelin,7.83,CC(C)CC(C(=O)NC(CCCN=C(N)N)C(=O)N1CCCC1C(=O)NNC(=O)N)NC(=O)C(COC(C)(C)C)NC(=O)C(CC2=CC=C(C=C2)O)NC(=O)C(CO)NC(=O)C(CC3=CNC4=CC=CC=C43)NC(=O)C(CC5=CN=CN5)NC(=O)C6CCC(=O)N6,1
+Goserelin,7.83,CC(C)CC(C(=O)NC(CCCN=C(N)N)C(=O)N1CCCC1C(=O)NNC(=O)N)NC(=O)C(COC(C)(C)C)NC(=O)C(CC2=CC=C(C=C2)O)NC(=O)C(CO)NC(=O)C(CC3=CNC4=CC=CC=C43)NC(=O)C(CC5=CN=CN5)NC(=O)C6CCC(=O)N6,2
 GR 89696,2.56,COC(=O)N1CCN(C(C1)CN2CCCC2)C(=O)CC3=CC(=C(C=C3)Cl)Cl,1
 Granisetron,4.12,CN1C2CCCC1CC(C2)NC(=O)C3=NN(C4=CC=CC=C43)C,1
-Guanidinoacetic acid,8.16,C(C(=O)[O-])[NH+]=C(N)N,1
+Guanidinoacetic acid,8.16,C(C(=O)[O-])[NH+]=C(N)N,2
 Guanine,6.4,C1=NC2=C(N1)C(=O)N=C(N2)N,1
 "Guanosine-3',5'-cyclic monophosphate",8.39,C1C2C(C(C(O2)N3C=NC4=C3NC(=NC4=O)N)O)OP(=O)(O1)O,1
 Halometasone,1.12,CC1CC2C3CC(C4=CC(=O)C(=CC4(C3(C(CC2(C1(C(=O)CO)O)C)O)F)C)Cl)F,1
@@ -348,18 +348,18 @@ HexamethyleneÂ bisacetamide,1.5,CC(=O)NCCCCCCNC(=O)C,1
 Hexanoic acid,4.89,CCCCCC(=O)O,1
 Histamine-trifluoromethyltoluide,5.3,CC(CCCCC(=O)NC1=CC=C(C=C1)C(F)(F)F)NCCC2=CN=CN2,1
 Homoarginine,9.34,C(CCN=C(N)N)CC(C(=O)O)N,1
-Homocysteine,9.58,C(CS)C(C(=O)O)N,1
+Homocysteine,9.58,C(CS)C(C(=O)O)N,2
 Homocystine,9.58,C(CSSCCC(C(=O)O)N)C(C(=O)O)N,1
 Homoharringtonine,3.24,CC(C)(CCCC(CC(=O)OC)(C(=O)OC1C2C3=CC4=C(C=C3CCN5C2(CCC5)C=C1OC)OCO4)O)O,1
 Homoserine,8.29,C(CO)C(C(=O)O)N,1
 Homoveratrylamine,4.78,COC1=C(C=C(C=C1)CCN)OC,1
 Huperzine,5.74,CC=C1C2CC3=C(C1(CC(=C2)C)N)C=CC(=O)N3,1
-Hydrocinnamic acid,8.71,C1=CC=C(C=C1)CCC(=O)O,1
+Hydrocinnamic acid,8.71,C1=CC=C(C=C1)CCC(=O)O,2
 Hydromorphone,5.22,CN1CCC23C4C1CC5=C2C(=C(C=C5)O)OC3C(=O)CC4,1
 Hydroxyproline,8.14,C1C(CNC1C(=O)O)O,1
 Hyperoside,5.58,C1=CC(=C(C=C1C2=C(C(=O)C3=C(C=C(C=C3O2)O)O)OC4C(C(C(C(O4)CO)O)O)O)O)O,1
 Icarin,4.74,CC1C(C(C(C(O1)OC2=C(OC3=C(C2=O)C(=CC(=C3CC=C(C)C)OC4C(C(C(C(O4)CO)O)O)O)O)C5=CC=C(C=C5)OC)O)O)O,1
-Idarubicin,5.42,CC1C(C(CC(O1)OC2CC(CC3=C(C4=C(C(=C23)O)C(=O)C5=CC=CC=C5C4=O)O)(C(=O)C)O)N)O,1
+Idarubicin,5.42,CC1C(C(CC(O1)OC2CC(CC3=C(C4=C(C(=C23)O)C(=O)C5=CC=CC=C5C4=O)O)(C(=O)C)O)N)O,2
 Idebenone,0.96,CC1=C(C(=O)C(=C(C1=O)OC)OC)CCCCCCCCCCO,1
 Ifenprodil,3.17,CC(C(C1=CC=C(C=C1)O)O)N2CCC(CC2)CC3=CC=CC=C3,1
 Imatinib,5.36,CC1=C(C=C(C=C1)NC(=O)C2=CC=C(C=C2)CN3CCN(CC3)C)NC4=NC=CC(=N4)C5=CN=CC=C5,1
@@ -380,7 +380,7 @@ Ipidacrine,3.33,C1CCC2=C(C1)C(=C3CCCC3=N2)N,1
 Ipriflavone,0.94,CC(C)OC1=CC2=C(C=C1)C(=O)C(=CO2)C3=CC=CC=C3,1
 Irbesartan,1.16,CCCCC1=NC2(CCCC2)C(=O)N1CC3=CC=C(C=C3)C4=CC=CC=C4C5=NNN=N5,1
 Irinotecan,5.03,CCC1=C2C=C(C=CC2=NC3=C1CN4C3=CC5=C(C4=O)COC(=O)C5(CC)O)OC(=O)N6CCC(CC6)N7CCCCC7,1
-Irsogladine,1.25,C1=CC(=C(C=C1Cl)C2=NC(=NC(=N2)N)N)Cl,1
+Irsogladine,1.25,C1=CC(=C(C=C1Cl)C2=NC(=NC(=N2)N)N)Cl,2
 Isobutylamine,5.04,CC(C)CN,1
 Isobutyric acid,1.77,CC(C)C(=O)O,1
 Isoleucine,7.18,CCC(C)C(C(=O)[O-])[NH3+],1
@@ -397,7 +397,7 @@ Ketoconazole,1.73,CC(=O)N1CCN(CC1)C2=CC=C(C=C2)OCC3COC(O3)(CN4C=CN=C4)C5=C(C=C(C
 Ketotifen,2.71,CN1CCC(=C2C3=C(C(=O)CC4=CC=CC=C42)SC=C3)CC1,1
 Kitasamycin,2.04,CC1CC=CC=CC(C(CC(C(C(C(CC(=O)O1)O)OC)OC2C(C(C(C(O2)C)OC3CC(C(C(O3)C)OC(=O)CC(C)C)(C)O)N(C)C)O)CC=O)C)O,1
 Kynurenic acid,6.15,C1=CC=C2C(=C1)C(=O)C=C(N2)C(=O)O,1
-"L-694,247",5.25,CS(=O)(=O)NC1=CC=C(C=C1)CC2=NOC(=N2)C3=CC4=C(C=C3)NC=C4CCN,1
+"L-694,247",5.25,CS(=O)(=O)NC1=CC=C(C=C1)CC2=NOC(=N2)C3=CC4=C(C=C3)NC=C4CCN,2
 Lacidipine,0.94,CCOC(=O)C1=C(NC(=C(C1C2=CC=CC=C2C=CC(=O)OC(C)(C)C)C(=O)OCC)C)C,1
 Lactamide,1.74,CC(C(=O)N)O,1
 Lactitol,8.99,C(C1C(C(C(C(O1)OC(C(CO)O)C(C(CO)O)O)O)O)O)O,1
@@ -407,19 +407,19 @@ Latanoprost,1.06,CC(C)OC(=O)CCCC=CCC1C(CC(C1CCC(CCC2=CC=CC=C2)O)O)O,1
 Letrozol,0.98,C1=CC(=CC=C1C#N)C(C2=CC=C(C=C2)C#N)N3C=NC=N3,1
 Levamisole,2.95,C1CSC2=NC(CN21)C3=CC=CC=C3,1
 Levetiracetam,1.45,CCC(C(=O)N)N1CCCC1=O,1
-Levocetirizine,2.9,C1CN(CCN1CCOCC(=O)O)C(C2=CC=CC=C2)C3=CC=C(C=C3)Cl,1
+Levocetirizine,2.9,C1CN(CCN1CCOCC(=O)O)C(C2=CC=CC=C2)C3=CC=C(C=C3)Cl,2
 Levonorgestrel,0.99,CCC12CCC3C(C1CCC2(C#C)O)CCC4=CC(=O)CCC34,1
 Levosulpiride,4.37,CCN1CCCC1CNC(=O)C2=C(C=CC(=C2)S(=O)(=O)N)OC,1
-Lidocaine,1.97,CCN(CC)CC(=O)NC1=C(C=CC=C1C)C,1
+Lidocaine,1.97,CCN(CC)CC(=O)NC1=C(C=CC=C1C)C,2
 Linalool,0.97,CC(=CCCC(C)(C=C)O)C,1
 Linezolide,1.15,CC(=O)NCC1CN(C(=O)O1)C2=CC(=C(C=C2)N3CCOCC3)F,1
 Linopirdine,1.17,C1=CC=C(C=C1)N2C3=CC=CC=C3C(C2=O)(CC4=CC=NC=C4)CC5=CC=NC=C5,1
 Lipoamide,1.25,C1CSSC1CCCCC(=O)N,1
-Liquiritigenin,1.3,C1C(OC2=C(C1=O)C=CC(=C2)O)C3=CC=C(C=C3)O,1
-Lobeline A,2.02,CN1C(CCCC1CC(=O)C2=CC=CC=C2)CC(C3=CC=CC=C3)O,1
+Liquiritigenin,1.3,C1C(OC2=C(C1=O)C=CC(=C2)O)C3=CC=C(C=C3)O,2
+Lobeline A,2.02,CN1C(CCCC1CC(=O)C2=CC=CC=C2)CC(C3=CC=CC=C3)O,2
 Lofepramine,1.91,CN(CCCN1C2=CC=CC=C2CCC3=CC=CC=C31)CC(=O)C4=CC=C(C=C4)Cl,1
 Lofexidine,2.65,CC(C1=NCCN1)OC2=C(C=CC=C2Cl)Cl,1
-Lomerizine,1.7,COC1=C(C(=C(C=C1)CN2CCN(CC2)C(C3=CC=C(C=C3)F)C4=CC=C(C=C4)F)OC)OC,1
+Lomerizine,1.7,COC1=C(C(=C(C=C1)CN2CCN(CC2)C(C3=CC=C(C=C3)F)C4=CC=C(C=C4)F)OC)OC,2
 Lomifylline,1.09,CC(=O)CCCCN1C=NC2=C1C(=O)N(C(=O)N2C)C,1
 Loratadine,1.11,CCOC(=O)N1CCC(=C2C3=C(CCC4=C2N=CC=C4)C=C(C=C3)Cl)CC1,1
 Lorazepam,1.33,C1=CC=C(C(=C1)C2=NC(C(=O)NC3=C2C=C(C=C3)Cl)O)Cl,1
@@ -429,7 +429,7 @@ Loxapine,2.18,CN1CCN(CC1)C2=NC3=CC=CC=C3OC4=C2C=C(C=C4)Cl,1
 Loxoprofen,1.09,CC(C1=CC=C(C=C1)CC2CCCC2=O)C(=O)O,1
 Lumazine,2.49,C1=CN=C2C(=N1)C(=O)NC(=O)N2,1
 Lysine,9.54,C(CCN)CC(C(=O)O)N,1
-Maltol,1.32,CC1=C(C(=O)C=CO1)O,1
+Maltol,1.32,CC1=C(C(=O)C=CO1)O,2
 Maltose,8.75,C(C1C(C(C(C(O1)OC2C(OC(C(C2O)O)O)CO)O)O)O)O,1
 Maprotiline,2.66,CNCCCC12CCC(C3=CC=CC=C31)C4=CC=CC=C24,1
 Mecillinam,4.28,CC1(C(N2C(S1)C(C2=O)N=CN3CCCCCC3)C(=O)O)C,1
@@ -442,7 +442,7 @@ Mepivacaine,2.96,CC1=C(C(=CC=C1)C)NC(=O)C2CCCCN2C,1
 Meprobamate,1.25,CCCC(C)(COC(=O)N)COC(=O)N,1
 Mesoridazine,4.24,CN1CCCCC1CCN2C3=CC=CC=C3SC4=C2C=C(C=C4)S(=O)C,1
 Metformin,5.44,CN(C)C(=N)N=C(N)N,1
-Methadone,2,CCC(=O)C(CC(C)N(C)C)(C1=CC=CC=C1)C2=CC=CC=C2,1
+Methadone,2.0,CCC(=O)C(CC(C)N(C)C)(C1=CC=CC=C1)C2=CC=CC=C2,1
 Methaqualone,1.1,CC1=CC=CC=C1N2C(=NC3=CC=CC=C3C2=O)C,1
 Methionine,7.37,CSCCC(C(=O)[O-])[NH3+],1
 Methohexital,6.9,CCC#CC(C)C1(C(=O)NC(=O)N(C1=O)C)CC=C,1
@@ -455,7 +455,7 @@ Methyprylon,1.18,CCC1(C(=O)C(CNC1=O)C)CC,1
 Metronidazole,1.17,CC1=NC=C(N1CCO)[N+](=O)[O-],1
 Mevastatin,0.99,CCC(C)C(=O)OC1CCC=C2C1C(C(C=C2)C)CCC3CC(CC(=O)O3)O,1
 Midazolam,1.29,CC1=NC=C2N1C3=C(C=C(C=C3)Cl)C(=NC2)C4=CC=CC=C4F,1
-Mifepristone,1,CC#CC1(CCC2C1(CC(C3=C4CCC(=O)C=C4CCC23)C5=CC=C(C=C5)N(C)C)C)O,1
+Mifepristone,1.0,CC#CC1(CCC2C1(CC(C3=C4CCC(=O)C=C4CCC23)C5=CC=C(C=C5)N(C)C)C)O,1
 Miglitol,8.12,C1C(C(C(C(N1CCO)CO)O)O)O,1
 Milnacipran,3.23,CCN(CC)C(=O)C1(CC1CN)C2=CC=CC=C2,1
 Milrinone,1.6,CC1=C(C=C(C(=O)N1)C#N)C2=CC=NC=C2,1
@@ -465,7 +465,7 @@ Moclobemide,2.03,C1COCCN1CCNC(=O)C2=CC=C(C=C2)Cl,1
 Modafinil,1.27,C1=CC=C(C=C1)C(C2=CC=CC=C2)S(=O)CC(=O)N,1
 Mosapride,1.24,CCOC1=CC(=C(C=C1C(=O)NCC2CN(CCO2)CC3=CC=C(C=C3)F)Cl)N,1
 Moxifloxacin,4.69,COC1=C2C(=CC(=C1N3CC4CCC[NH2+]C4C3)F)C(=O)C(=CN2C5CC5)C(=O)[O-],1
-Moxonidine,3.28,CC1=NC(=C(C(=N1)Cl)NC2=NCCN2)OC,1
+Moxonidine,3.28,CC1=NC(=C(C(=N1)Cl)NC2=NCCN2)OC,2
 Muramic acid,8.28,CC(C(=O)O)OC1C(C(OC(C1N)O)CO)O,1
 Myricetin,2.69,C1=C(C=C(C(=C1O)O)O)C2=C(C(=O)C3=C(C=C(C=C3O2)O)O)O,1
 "N,N-Dimethylformamide",1.29,CN(C)C=O,1
@@ -474,7 +474,7 @@ N-2-Fluorenylacetamide,4.74,CC(=O)NC1=CC2=C(C=C1)C3=CC=CC=C3C2,1
 N-2-Hydroxycyclopentyladenosine,3.48,C1CC(C(C1)O)NC2=NC=NC3=C2N=CN3C4C(C(C(O4)CO)O)O,1
 N-Acetyl-Asp-Glu,8.11,CC(=O)NC(CC(=O)O)C(=O)NC(CCC(=O)O)C(=O)O,1
 N-Acetylcaprolactam,2.3,CC(=O)N1CCCCCC1=O,1
-N-Acetylcysteine,5.28,CC(=O)NC(CS)C(=O)O,1
+N-Acetylcysteine,5.28,CC(=O)NC(CS)C(=O)O,2
 N-Acetylglucosamine,7.06,CC(=O)NC1C(C(C(OC1O)CO)O)O,1
 N-Acetylglutamic acid,7.67,CC(=O)NC(CCC(=O)O)C(=O)O,1
 N-Acetylhistidine,8.07,CC(=O)NC(CC1=CN=CN1)C(=O)O,1
@@ -484,17 +484,17 @@ N-Acetylneuraminic acid,9.26,CC(=O)NC1C(CC(OC1C(C(CO)O)O)(C(=O)O)O)O,1
 N-Acetylserine,7.67,CC(=O)NC(CO)C(=O)O,1
 N-alpha-methylhistamine,7.48,CNCCC1=CN=CN1,1
 N-Benzyloxycarbonylglycine,7.67,C1=CC=C(C=C1)COC(=O)NCC(=O)O,1
-N-Carbobenzyloxyleucine,1.28,CC(C)CC(C(=O)O)NC(=O)OCC1=CC=CC=C1,1
+N-Carbobenzyloxyleucine,1.28,CC(C)CC(C(=O)O)NC(=O)OCC1=CC=CC=C1,2
 N-Cinnamoylglycine,2.95,C1=CC=C(C=C1)C=CC(=O)NCC(=O)O,1
-"N-cyano-N'-(1,1-dimethylpropyl)-N'-3-pyridinyl-guanidine",1.16,CCC(C)(C)N=C(NC#N)NC1=CN=CC=C1,1
+"N-cyano-N'-(1,1-dimethylpropyl)-N'-3-pyridinyl-guanidine",1.16,CCC(C)(C)N=C(NC#N)NC1=CN=CC=C1,2
 N-Cyclohexylformamide,1.2,C1CCC(CC1)NC=O,1
-N-epsilon-Acetyllysine,8.03,CC(=O)NCCCCC(C(=O)O)N,1
+N-epsilon-Acetyllysine,8.03,CC(=O)NCCCCC(C(=O)O)N,2
 N-gamma-Acetyl-N-2-formyl-5-methoxykynurenamine,1.32,CC(=O)NCCC(=O)C1=C(C=CC(=C1)OC)NC=O,1
 N-Isobutyrylglycine,3.6,CC(C)C(=O)NCC(=O)O,1
 N-Isovalerylglycine,2.94,CC(C)CC(=O)NCC(=O)O,1
 N-Methylalanine,7.67,CC(C(=O)O)NC,1
 N-Methylaniline,1.06,CNC1=CC=CC=C1,1
-N-Methylanthranilic acid,1.22,CNC1=CC=CC=C1C(=O)O,1
+N-Methylanthranilic acid,1.22,CNC1=CC=CC=C1C(=O)O,2
 N-Methylaspartic acid,2.53,CNC(CC(=O)O)C(=O)O,1
 N-Methylglutamic acid,8.32,CNC(CCC(=O)O)C(=O)O,1
 N-Methylisoleucine,6.44,CCC(C)C(C(=O)O)NC,1
@@ -503,15 +503,15 @@ N-Methylphenylalanine,6.22,C[NH2+]C(CC1=CC=CC=C1)C(=O)[O-],1
 N-Methylserine,8.03,C[NH2+]C(CO)C(=O)[O-],1
 N-Methylthreonine,7.68,CC(C(C(=O)[O-])[NH2+]C)O,1
 N-Methylvaline,6.99,CC(C)C(C(=O)[O-])[NH2+]C,1
-N-omega-Acetylhistamine,6,CC(=O)NCCC1=CN=CN1,1
+N-omega-Acetylhistamine,6.0,CC(=O)NCCC1=CN=CN1,1
 N2-Methylguanosine,6.4,CNC1=NC(=O)C2=C(N1)N(C=N2)C3C(C(C(O3)CO)O)O,1
-N6-Isopentenyladenosine,1.48,CC(=CCNC1=NC=NC2=C1N=CN2C3C(C(C(O3)CO)O)O)C,1
+N6-Isopentenyladenosine,1.48,CC(=CCNC1=NC=NC2=C1N=CN2C3C(C(C(O3)CO)O)O)C,2
 Nafadotride,2.05,CCCCN1CCCC1CNC(=O)C2=C(C3=CC=CC=C3C(=C2)C#N)OC,1
 Naftopidil,1.99,COC1=CC=CC=C1N2CCN(CC2)CC(COC3=CC=CC4=CC=CC=C43)O,1
 Nalbuphine,5.25,C1CC(C1)CN2CCC34C5C(CCC3(C2CC6=C4C(=C(C=C6)O)O5)O)O,1
 Naltrindole,4.45,C1CC1CN2CCC34C5C6=C(CC3(C2CC7=C4C(=C(C=C7)O)O5)O)C8=CC=CC=C8N6,1
 Nandrolone,1.06,CC12CCC3C(C1CCC2O)CCC4=CC(=O)CCC34,1
-Naringin,5.61,CC1C(C(C(C(O1)OC2C(C(C(OC2OC3=CC(=C4C(=O)CC(OC4=C3)C5=CC=C(C=C5)O)O)CO)O)O)O)O)O,1
+Naringin,5.61,CC1C(C(C(C(O1)OC2C(C(C(OC2OC3=CC(=C4C(=O)CC(OC4=C3)C5=CC=C(C=C5)O)O)CO)O)O)O)O)O,2
 Nateglinide,1.3,CC(C)C1CCC(CC1)C(=O)NC(CC2=CC=CC=C2)C(=O)O,1
 Nefazodone,1.88,CCC1=NN(C(=O)N1CCOC2=CC=CC=C2)CCCN3CCN(CC3)C4=CC(=CC=C4)Cl,1
 Nelfinavir,1.55,CC1=C(C=CC=C1O)C(=O)NC(CSC2=CC=CC=C2)C(CN3CC4CCCCC4CC3C(=O)NC(C)(C)C)O,1
@@ -525,10 +525,10 @@ Nifedipine,1.02,CC1=C(C(C(=C(N1)C)C(=O)OC)C2=CC=CC=C2[N+](=O)[O-])C(=O)OC,1
 Nifekalant,3.21,CN1C(=CC(=O)N(C1=O)C)NCCN(CCCC2=CC=C(C=C2)[N+](=O)[O-])CCO,1
 Nimetazepam,0.98,CN1C(=O)CN=C(C2=C1C=CC(=C2)[N+](=O)[O-])C3=CC=CC=C3,1
 Nimodipine,0.94,CC1=C(C(C(=C(N1)C)C(=O)OC(C)C)C2=CC(=CC=C2)[N+](=O)[O-])C(=O)OCCOC,1
-Nitazoxanide,1,CC(=O)OC1=CC=CC=C1C(=O)NC2=NC=C(S2)[N+](=O)[O-],1
-Nitrazepam,1.2,C1C(=O)NC2=C(C=C(C=C2)[N+](=O)[O-])C(=N1)C3=CC=CC=C3,1
+Nitazoxanide,1.0,CC(=O)OC1=CC=CC=C1C(=O)NC2=NC=C(S2)[N+](=O)[O-],2
+Nitrazepam,1.2,C1C(=O)NC2=C(C=C(C=C2)[N+](=O)[O-])C(=N1)C3=CC=CC=C3,2
 Nizatidine,4.65,CNC(=C[N+](=O)[O-])NCCSCC1=CSC(=N1)CN(C)C,1
-Nobiletin,1,COC1=C(C=C(C=C1)C2=CC(=O)C3=C(O2)C(=C(C(=C3OC)OC)OC)OC)OC,1
+Nobiletin,1.0,COC1=C(C=C(C=C1)C2=CC(=O)C3=C(O2)C(=C(C(=C3OC)OC)OC)OC)OC,1
 Norleucine,6.99,CCCCC(C(=O)O)N,1
 Nornicotine,5.98,C1CC(NC1)C2=CN=CC=C2,1
 Norvaline,4.89,CCCC(C(=O)O)N,1
@@ -551,7 +551,7 @@ Ornidazole,1.08,CC1=NC=C(N1CC(CCl)O)[N+](=O)[O-],1
 Ornithine,9.6,C(CC(C(=O)O)N)CN,1
 Orthanilic acid,2.52,C1=CC=C(C(=C1)[NH3+])S(=O)(=O)[O-],1
 Otenzepad,2.94,CCN(CC)CC1CCCCN1CC(=O)N2C3=CC=CC=C3C(=O)NC4=C2N=CC=C4,1
-Oxaprozin,1.11,C1=CC=C(C=C1)C2=C(OC(=N2)CCC(=O)O)C3=CC=CC=C3,1
+Oxaprozin,1.11,C1=CC=C(C=C1)C2=C(OC(=N2)CCC(=O)O)C3=CC=CC=C3,2
 Oxazepam,1.37,C1=CC=C(C=C1)C2=NC(C(=O)NC3=C2C=C(C=C3)Cl)O,1
 Oxiconazole,1.08,C1=CC(=C(C=C1Cl)Cl)CON=C(CN2C=CN=C2)C3=C(C=C(C=C3)Cl)Cl,1
 Oxycodone,4.58,CN1CCC23C4C(=O)CCC2(C1CC5=C3C(=C(C=C5)OC)O4)O,1
@@ -562,7 +562,7 @@ Ozagrel,2.99,C1=CC(=CC=C1CN2C=CN=C2)C=CC(=O)O,1
 P-Anisic acid,1.3,COC1=CC=C(C=C1)C(=O)O,1
 Palonosetron,4.05,C1CC2CN(C(=O)C3=C2C(=CC=C3)C1)C4CN5CCC4CC5,1
 Pantoprazole,1.21,COC1=C(C(=NC=C1)CS(=O)C2=NC3=C(N2)C=C(C=C3)OC(F)F)OC,1
-Papaverine,1.54,COC1=C(C=C(C=C1)CC2=NC=CC3=CC(=C(C=C32)OC)OC)OC,1
+Papaverine,1.54,COC1=C(C=C(C=C1)CC2=NC=CC3=CC(=C(C=C32)OC)OC)OC,2
 Paraoxon,1.02,CCOP(=O)(OCC)OC1=CC=C(C=C1)[N+](=O)[O-],1
 Parecoxib,0.98,CCC(=O)NS(=O)(=O)C1=CC=C(C=C1)C2=C(ON=C2C3=CC=CC=C3)C,1
 Paroxetine,3.08,C1CNCC(C1C2=CC=C(C=C2)F)COC3=CC4=C(C=C3)OCO4,1
@@ -571,13 +571,13 @@ PD 81723,0.94,CC1=C(SC(=C1C(=O)C2=CC(=CC=C2)C(F)(F)F)N)C,1
 Pefloxacin,3.65,CCN1C=C(C(=O)C2=CC(=C(C=C21)N3CC[NH+](CC3)C)F)C(=O)[O-],1
 Pemoline,1.39,C1=CC=C(C=C1)C2C(=O)N=C(O2)N,1
 Penciclovir,6.71,C1=NC2=C(N1CCC(CO)CO)NC(=NC2=O)N,1
-Pentoxifylline,1.09,CC(=O)CCCCN1C(=O)C2=C(N=CN2C)N(C1=O)C,1
+Pentoxifylline,1.09,CC(=O)CCCCN1C(=O)C2=C(N=CN2C)N(C1=O)C,2
 Pergolide,2.41,CCCN1CC(CC2C1CC3=CNC4=CC=CC2=C34)CSC,1
 Perospirone,2.14,C1CCC2C(C1)C(=O)N(C2=O)CCCCN3CCN(CC3)C4=NSC5=CC=CC=C54,1
 Phendimetrazine,2.52,CC1C(OCCN1C)C2=CC=CC=C2,1
 Phenelzine,4.45,C1=CC=C(C=C1)CCNN,1
 Phenethylacetate,1.02,CC(=O)OCCC1=CC=CC=C1,1
-Phenethylamine,4.87,C1=CC=C(C=C1)CCN,1
+Phenethylamine,4.87,C1=CC=C(C=C1)CCN,2
 Phenylacetaldehyde,5.4,C1=CC=C(C=C1)CC=O,1
 Phenylacetylglycine,2.88,C1=CC=C(C=C1)CC(=O)NCC(=O)O,1
 Phenylethanolamine,5.51,C1=CC=C(C=C1)C(CN)O,1
@@ -613,7 +613,7 @@ Propoxyphene,2.01,CCC(=O)OC(CC1=CC=CC=C1)(C2=CC=CC=C2)C(C)CN(C)C,1
 Pterostilbene,0.98,COC1=CC(=CC(=C1)C=CC2=CC=C(C=C2)O)OC,1
 Purine,2.44,C1=C2C(=NC=N1)N=CN2,1
 Pyrafluefen-ethyl,1.02,CCOC(=O)COC1=C(C=C(C(=C1)C2=NN(C(=C2Cl)OC(F)F)C)F)Cl,1
-Pyridine,6.63,C1=CC=NC=C1,1
+Pyridine,6.63,C1=CC=NC=C1,2
 Pyridoxal-5-phosphate,7.7,CC1=NC=C(C(=C1O)C=O)COP(=O)(O)O,1
 Pyridoxine,3.78,CC1=NC=C(C(=C1O)CO)CO,1
 Pyroglutamic acid,8.71,C1CC(=O)NC1C(=O)O,1
@@ -629,7 +629,7 @@ Ranolazine,2.79,CC1=C(C(=CC=C1)C)NC(=O)CN2CCN(CC2)CC(COC3=CC=CC=C3OC)O,1
 Remacemide,4.41,CC(CC1=CC=CC=C1)(C2=CC=CC=C2)NC(=O)CN,1
 Repaglinide,1.01,CCOC1=C(C=CC(=C1)CC(=O)NC(CC(C)C)C2=CC=CC=C2N3CCCCC3)C(=O)O,1
 Resveratrol,1.41,C1=CC(=CC=C1C=CC2=CC(=CC(=C2)O)O)O,1
-Riboflavin,6,CC1=CC2=C(C=C1C)N(C3=NC(=O)NC(=O)C3=N2)CC(C(C(CO)O)O)O,1
+Riboflavin,6.0,CC1=CC2=C(C=C1C)N(C3=NC(=O)NC(=O)C3=N2)CC(C(C(CO)O)O)O,1
 Rifabutin,2.76,CC1C=CC=C(C(=O)NC2=C3C(=NC4(N3)CCN(CC4)CC(C)C)C5=C6C(=C(C(=C5C2=O)O)C)OC(C6=O)(OC=CC(C(C(C(C(C(C1O)C)O)C)OC(=O)C)C)OC)C)C,1
 Rifapentine,1.81,CC1C=CC=C(C(=O)NC2=C(C3=C(C(=C4C(=C3C(=O)C2=CNN5CCN(CC5)C6CCCC6)C(=O)C(O4)(OC=CC(C(C(C(C(C(C1O)C)O)C)OC(=O)C)C)OC)C)C)O)O)C,1
 Rifaximin,1.18,CC1C=CC=C(C(=O)NC2=C(C3=C(C4=C(C(=C3O)C)OC(C4=O)(OC=CC(C(C(C(C(C(C1O)C)O)C)OC(=O)C)C)OC)C)C5=C2N6C=CC(=CC6=N5)C)O)C,1
@@ -642,7 +642,7 @@ Rolipram,1.12,COC1=C(C=C(C=C1)C2CC(=O)NC2)OC3CCCC3,1
 Ropivacaine,2.42,CCCN1CCCCC1C(=O)NC2=C(C=CC=C2C)C,1
 Rosigltazone,1.24,CN(CCOC1=CC=C(C=C1)CC2C(=O)NC(=O)S2)C3=CC=CC=N3,1
 Roxane,3.01,CC(=O)OCC(=O)NCCCOC1=CC=CC(=C1)CN2CCCCC2,1
-RU 24969,4.61,COC1=CC2=C(C=C1)NC=C2C3=CCNCC3,1
+RU 24969,4.61,COC1=CC2=C(C=C1)NC=C2C3=CCNCC3,2
 Rufloxacin,4.65,CN1CCN(CC1)C2=C(C=C3C4=C2SCCN4C=C(C3=O)C(=O)O)F,1
 Rutin,6.6,CC1C(C(C(C(O1)OCC2C(C(C(C(O2)OC3=C(OC4=CC(=CC(=C4C3=O)O)O)C5=CC(=C(C=C5)O)O)O)O)O)O)O)O,1
 S-Adenosyl-methionine,9.7,C[S+](CCC(C(=O)[O-])N)CC1C(C(C(O1)N2C=NC3=C2N=CN=C3N)O)O,1
@@ -650,9 +650,9 @@ Salmeterol,4.75,C1=CC=C(C=C1)CCCCOCCCCCCNCC(C2=CC(=C(C=C2)O)CO)O,1
 Saquinavir,2.85,CC(C)(C)NC(=O)C1CC2CCCCC2CN1CC(C(CC3=CC=CC=C3)NC(=O)C(CC(=O)N)NC(=O)C4=NC5=CC=CC=C5C=C4)O,1
 Sarcosine,7.82,CNCC(=O)O,1
 SB 205607,5.11,CN1CCC2(CC3=NC4=CC=CC=C4C=C3CC2C1)C5=CC(=CC=C5)O,1
-Scopolamine,3.75,CN1C2CC(CC1C3C2O3)OC(=O)C(CO)C4=CC=CC=C4,1
+Scopolamine,3.75,CN1C2CC(CC1C3C2O3)OC(=O)C(CO)C4=CC=CC=C4,2
 Scopoletin,1.16,COC1=C(C=C2C(=C1)C=CC(=O)O2)O,1
-Secnidazole,1.12,CC1=NC=C(N1CC(C)O)[N+](=O)[O-],1
+Secnidazole,1.12,CC1=NC=C(N1CC(C)O)[N+](=O)[O-],2
 Selegiline,1.48,CC(CC1=CC=CC=C1)N(C)CC#C,1
 Sertraline,2.67,CNC1CCC(C2=CC=CC=C12)C3=CC(=C(C=C3)Cl)Cl,1
 Sibutramine,1.86,CC(C)CC(C1(CCC1)C2=CC=C(C=C2)Cl)N(C)C,1
@@ -660,12 +660,12 @@ Sinapic acid,1.41,COC1=CC(=CC(=C1O)OC)C=CC(=O)O,1
 SkF 83566,2.91,CN1CCC2=CC(=C(C=C2C(C1)C3=CC=CC=C3)O)Br,1
 Sorbitol-6-phosphate,9.75,C(C(C(C(C(COP(=O)(O)O)O)O)O)O)O,1
 Sotalol,4.87,CC(C)NCC(C1=CC=C(C=C1)NS(=O)(=O)C)O,1
-Spermine,7.24,C(CCNCCCN)CNCCCN,1
+Spermine,7.24,C(CCNCCCN)CNCCCN,2
 SR 57227A,4.85,C1CN(CCC1N)C2=NC(=CC=C2)Cl,1
 Stanozolol,1.19,CC12CCC3C(C1CCC2(C)O)CCC4C3(CC5=C(C4)NN=C5)C,1
 Stavudine,1.62,CC1=CN(C(=O)NC1=O)C2C=CC(O2)CO,1
 Styrene,8.74,C=CC1=CC=CC=C1,1
-Sumatriptan,4.31,CNS(=O)(=O)CC1=CC2=C(C=C1)NC=C2CCN(C)C,1
+Sumatriptan,4.31,CNS(=O)(=O)CC1=CC2=C(C=C1)NC=C2CCN(C)C,2
 Synephrine,5.67,CNCC(C1=CC=C(C=C1)O)O,1
 Tacrine,3.86,C1CCC2=NC3=CC=CC=C3C(=C2C1)N,1
 Tacrolimus,1.07,CC1CC(C2C(CC(C(O2)(C(=O)C(=O)N3CCCCC3C(=O)OC(C(C(CC(=O)C(C=C(C1)C)CC=C)O)C)C(=CC4CCC(C(C4)OC)O)C)O)C)OC)OC,1
@@ -677,9 +677,9 @@ Temazepam,1.15,CN1C2=C(C=C(C=C2)Cl)C(=NC(C1=O)O)C3=CC=CC=C3,1
 Temozolomide,1.33,CN1C(=O)N2C=NC(=C2N=N1)C(=O)N,1
 Terazosin,4.66,COC1=C(C=C2C(=C1)C(=NC(=N2)N3CCN(CC3)C(=O)C4CCCO4)N)OC,1
 Terbinafine,1.33,CC(C)(C)C#CC=CCN(C)CC1=CC=CC2=CC=CC=C21,1
-TES,7.7,C(CS(=O)(=O)[O-])[NH2+]C(CO)(CO)CO,1
-Testosterone,1.05,CC12CCC3C(C1CCC2O)CCC4=CC(=O)CCC34C,1
-Theanine,7.66,CCNC(=O)CCC(C(=O)O)N,1
+TES,7.7,C(CS(=O)(=O)[O-])[NH2+]C(CO)(CO)CO,2
+Testosterone,1.05,CC12CCC3C(C1CCC2O)CCC4=CC(=O)CCC34C,2
+Theanine,7.66,CCNC(=O)CCC(C(=O)O)N,2
 Thiazolidine-4-carboxylic acid,6.92,C1C([NH2+]CS1)C(=O)[O-],1
 Thionin,5.23,C1=CC2=C(C=C1N)SC3=CC(=[NH2+])C=CC3=N2,1
 Threitol,1.56,C(C(C(CO)O)O)O,1
@@ -701,9 +701,9 @@ Toremifene,1.89,CN(C)CCOC1=CC=C(C=C1)C(=C(CCCl)C2=CC=CC=C2)C3=CC=CC=C3,1
 Tosufloxacin,4.87,C1CN(CC1N)C2=C(C=C3C(=O)C(=CN(C3=N2)C4=C(C=C(C=C4)F)F)C(=O)O)F,1
 Tramadol,2.52,CN(C)CC1CCCCC1(C2=CC(=CC=C2)OC)O,1
 Tranilast,1.26,COC1=C(C=C(C=C1)C=CC(=O)NC2=CC=CC=C2C(=O)O)OC,1
-Trazodone,2.38,C1CN(CCN1CCCN2C(=O)N3C=CC=CC3=N2)C4=CC(=CC=C4)Cl,1
+Trazodone,2.38,C1CN(CCN1CCCN2C(=O)N3C=CC=CC3=N2)C4=CC(=CC=C4)Cl,2
 Triazolam,1.3,CC1=NN=C2N1C3=C(C=C(C=C3)Cl)C(=NC2)C4=CC=CC=C4Cl,1
-Triclabendazole,1.01,CSC1=NC2=CC(=C(C=C2N1)Cl)OC3=C(C(=CC=C3)Cl)Cl,1
+Triclabendazole,1.01,CSC1=NC2=CC(=C(C=C2N1)Cl)OC3=C(C(=CC=C3)Cl)Cl,2
 Trifluoperazine,2.15,CN1CCN(CC1)CCCN2C3=CC=CC=C3SC4=C2C=C(C=C4)C(F)(F)F,1
 Trileptal,1.13,C1C2=CC=CC=C2N(C3=CC=CC=C3C1=O)C(=O)N,1
 Trimebutine,1.47,CCC(COC(=O)C1=CC(=C(C(=C1)OC)OC)OC)(C2=CC=CC=C2)N(C)C,1
@@ -711,7 +711,7 @@ Trimipramine,2.25,CC(CN1C2=CC=CC=C2CCC3=CC=CC=C31)CN(C)C,1
 Tripelennamine,1.98,CN(C)CCN(CC1=CC=CC=C1)C2=CC=CC=N2,1
 Tropisetron,3.81,CN1C2CCC1CC(C2)OC(=O)C3=CNC4=CC=CC=C43,1
 Troxipide,5.04,COC1=CC(=CC(=C1OC)OC)C(=O)NC2CCCNC2,1
-Tryptoline,4.9,C1CNCC2=C1C3=CC=CC=C3N2,1
+Tryptoline,4.9,C1CNCC2=C1C3=CC=CC=C3N2,2
 Tryptophanamide,5.91,C1=CC=C2C(=C1)C(=CN2)CC(C(=O)N)N,1
 Tyr-Tyr-Tyr,7.09,C1=CC(=CC=C1CC(C(=O)NC(CC2=CC=C(C=C2)O)C(=O)NC(CC3=CC=C(C=C3)O)C(=O)O)N)O,1
 Tyr-Tyr,7.38,C1=CC(=CC=C1CC(C(=O)NC(CC2=CC=C(C=C2)O)C(=O)[O-])[NH3+])O,1
@@ -719,13 +719,13 @@ Tyramine,5.58,C1=CC(=CC=C1CCN)O,1
 Tyrosine,7.61,C1=CC(=CC=C1CC(C(=O)O)N)O,1
 UNII-UGT5535REQ,2.89,CN1CCC2=CC(=C(C=C2C(C1)C3=CC=CC=C3)O)Cl,1
 Uracil,2.4,C1=CNC(=O)NC1=O,1
-Urapidil,4.58,CN1C(=CC(=O)N(C1=O)C)NCCCN2CCN(CC2)C3=CC=CC=C3OC,1
+Urapidil,4.58,CN1C(=CC(=O)N(C1=O)C)NCCCN2CCN(CC2)C3=CC=CC=C3OC,2
 Ureidoglutaric acid,7.8,C(CC(=O)O)C(C(=O)O)NC(=O)N,1
 Uridine 5'-monophosphate,8.97,C1=CN(C(=O)NC1=O)C2C(C(C(O2)COP(=O)(O)O)O)O,1
 Uridine-5-diphosphoacetylgalactosamine,9.83,CC(=O)NC1C(C(C(OC1OP(=O)(O)OP(=O)(O)OCC2C(C(C(O2)N3C=CC(=O)NC3=O)O)O)CO)O)O,1
 Uridine-5-diphosphoacetylglucosamine,9.87,CC(=O)NC1C(C(C(OC1OP(=O)(O)OP(=O)(O)OCC2C(C(C(O2)N3C=CC(=O)NC3=O)O)O)CO)O)O,1
 Uridine,4.72,C1=CN(C(=O)NC1=O)C2C(C(C(O2)CO)O)O,1
-Urocanic acid,3.69,C1=C(NC=N1)C=CC(=O)O,1
+Urocanic acid,3.69,C1=C(NC=N1)C=CC(=O)O,2
 Valaciclovir,6.83,CC(C)C(C(=O)OCCOCN1C=NC2=C1NC(=NC2=O)N)N,1
 Valdecoxib,1.01,CC1=C(C(=NO1)C2=CC=CC=C2)C3=CC=C(C=C3)S(=O)(=O)N,1
 Valsartan,1.69,CCCCC(=O)N(CC1=CC=C(C=C1)C2=CC=CC=C2C3=NNN=N3)C(C(C)C)C(=O)O,1
@@ -736,7 +736,7 @@ Verapamil,1.88,CC(C)C(CCCN(C)CCC1=CC(=C(C=C1)OC)OC)(C#N)C2=CC(=C(C=C2)OC)OC,1
 Vercuronium,5.53,CC(=O)OC1CC2CCC3C(C2(CC1N4CCCCC4)C)CCC5(C3CC(C5OC(=O)C)[N+]6(CCCCC6)C)C,1
 Vesamicol,2.65,C1CCC(C(C1)N2CCC(CC2)C3=CC=CC=C3)O,1
 Vincristine,3.7,CCC1(CC2CC(C3=C(CCN(C2)C1)C4=CC=CC=C4N3)(C5=C(C=C6C(=C5)C78CCN9C7C(C=CC9)(C(C(C8N6C=O)(C(=O)OC)O)OC(=O)C)CC)OC)C(=O)OC)O,1
-Vindesine,5.76,CCC1(CC2CC(C3=C(CCN(C2)C1)C4=CC=CC=C4N3)(C5=C(C=C6C(=C5)C78CCN9C7C(C=CC9)(C(C(C8N6C)(C(=O)N)O)O)CC)OC)C(=O)OC)O,1
+Vindesine,5.76,CCC1(CC2CC(C3=C(CCN(C2)C1)C4=CC=CC=C4N3)(C5=C(C=C6C(=C5)C78CCN9C7C(C=CC9)(C(C(C8N6C)(C(=O)N)O)O)CC)OC)C(=O)OC)O,2
 Vinorelbine,4.76,CCC1=CC2CC(C3=C(CN(C2)C1)C4=CC=CC=C4N3)(C5=C(C=C6C(=C5)C78CCN9C7C(C=CC9)(C(C(C8N6C)(C(=O)OC)O)OC(=O)C)CC)OC)C(=O)OC,1
 Vinyl Carbamate,1.34,C=COC(=O)N,1
 Viramune,1.16,CC1=C2C(=NC=C1)N(C3=C(C=CC=N3)C(=O)N2)C4CC4,1
@@ -748,11 +748,11 @@ Xanthinol,6.01,CN1C2=C(C(=O)N(C1=O)C)N(C=N2)CC(CN(C)CCO)O,1
 Xanthosine,7.3,C1=NC2=C(N1C3C(C(C(O3)CO)O)O)NC(=O)NC2=O,1
 Xanthotoxin,1.04,COC1=C2C(=CC3=C1OC=C3)C=CC(=O)O2,1
 Zacopride,4.66,COC1=CC(=C(C=C1C(=O)NC2CN3CCC2CC3)Cl)N,1
-Zafirlukast,1,CC1=CC=CC=C1S(=O)(=O)NC(=O)C2=CC(=C(C=C2)CC3=CN(C4=C3C=C(C=C4)NC(=O)OC5CCCC5)C)OC,1
-Zaleplon,1.02,CCN(C1=CC=CC(=C1)C2=CC=NC3=C(C=NN23)C#N)C(=O)C,1
+Zafirlukast,1.0,CC1=CC=CC=C1S(=O)(=O)NC(=O)C2=CC(=C(C=C2)CC3=CN(C4=C3C=C(C=C4)NC(=O)OC5CCCC5)C)OC,1
+Zaleplon,1.02,CCN(C1=CC=CC(=C1)C2=CC=NC3=C(C=NN23)C#N)C(=O)C,2
 Zardaverine,1.19,COC1=C(C=CC(=C1)C2=NNC(=O)C=C2)OC(F)F,1
 Zeranol,1.11,CC1CCCC(CCCCCC2=CC(=CC(=C2C(=O)O1)O)O)O,1
-Zileuton,1.23,CC(C1=CC2=CC=CC=C2S1)N(C(=O)N)O,1
+Zileuton,1.23,CC(C1=CC2=CC=CC=C2S1)N(C(=O)N)O,2
 Zolmitriptan,4.8,CN(C)CCC1=CNC2=C1C=C(C=C2)CC3COC(=O)N3,1
 Zolpidem,1.62,CC1=CC=C(C=C1)C2=C(N3C=C(C=CC3=N2)C)CC(=O)N(C)C,1
 "1,3,5(10)-Estratrien-3-ol-17-one",1.01,CC12CCC3C(C1CCC2=O)CCC4=C3C=CC(=C4)O,1
@@ -790,7 +790,7 @@ alpha-Methylhistidine,8.68,CC(CC1=CN=CN1)(C(=O)O)N,1
 Ascorbic acid,1.44,C(C(C1C(=C(C(=O)O1)O)O)O)O,1
 Azelastine,2.95,CN1CCCC(CC1)N2C(=O)C3=CC=CC=C3C(=N2)CC4=CC=C(C=C4)Cl,1
 Benzoylecgonine,3.63,CN1C2CCC1C(C(C2)OC(=O)C3=CC=CC=C3)C(=O)O,1
-Benzphetamine,2.01,CC(CC1=CC=CC=C1)N(C)CC2=CC=CC=C2,1
+Benzphetamine,2.01,CC(CC1=CC=CC=C1)N(C)CC2=CC=CC=C2,2
 beta-Hydroxyisovaleric acid,4.55,CC(C)(CC(=O)O)O,1
 Bicalutamide,0.99,CC(CS(=O)(=O)C1=CC=C(C=C1)F)(C(=O)NC2=CC(=C(C=C2)C#N)C(F)(F)F)O,1
 Biliverdin,2.35,CC1=C(C(=CC2=C(C(=C(N2)C=C3C(=C(C(=O)N3)C)C=C)C)CCC(=O)O)NC1=CC4=NC(=O)C(=C4C)C=C)CCC(=O)O,1
@@ -803,16 +803,16 @@ Cocaine,2.2,CN1C2CCC1C(C(C2)OC(=O)C3=CC=CC=C3)C(=O)OC,1
 Cortodoxone,1.15,CC12CCC(=O)C=C1CCC3C2CCC4(C3CCC4(C(=O)CO)O)C,1
 Decanal,2.17,CCCCCCCCCC=O,1
 Dehydroepiandrosterone,1.03,CC12CCC3C(C1CCC2=O)CC=C4C3(CCC(C4)O)C,1
-Deoxyuridine monophosphate,8.25,C1C(C(OC1N2C=CC(=O)NC2=O)COP(=O)(O)O)O,1
+Deoxyuridine monophosphate,8.25,C1C(C(OC1N2C=CC(=O)NC2=O)COP(=O)(O)O)O,2
 Desulfo Glucoraphanin,6.61,CS(=O)CCCCC(=NO)SC1C(C(C(C(O1)CO)O)O)O,1
-Dextromethorphan,2.64,CN1CCC23CCCCC2C1CC4=C3C=C(C=C4)OC,1
+Dextromethorphan,2.64,CN1CCC23CCCCC2C1CC4=C3C=C(C=C4)OC,2
 Dihydrosphingosine,4.47,CCCCCCCCCCCCCCCC(C(CO)N)O,1
 Diphenhydramine,2.15,CN(C)CCOC(C1=CC=CC=C1)C2=CC=CC=C2,1
-Ecgonine methylester,4.18,CN1C2CCC1C(C(C2)O)C(=O)OC,1
+Ecgonine methylester,4.18,CN1C2CCC1C(C(C2)O)C(=O)OC,2
 Efavirenz,0.98,C1CC1C#CC2(C3=C(C=CC(=C3)Cl)NC(=O)O2)C(F)(F)F,1
-Epicatechin,3.01,C1C(C(OC2=CC(=CC(=C21)O)O)C3=CC(=C(C=C3)O)O)O,1
+Epicatechin,3.01,C1C(C(OC2=CC(=CC(=C21)O)O)C3=CC(=C(C=C3)O)O)O,2
 Ergosterol,1.43,CC(C=CC(C)C(C)C)C1CCC2C1(CCC3C2=CC=C4C3(CCC(C4)O)C)C,1
-Ethynylestradiol,0.99,CC12CCC3C(C1CCC2(C#C)O)CCC4=C3C=CC(=C4)O,1
+Ethynylestradiol,0.99,CC12CCC3C(C1CCC2(C#C)O)CCC4=C3C=CC(=C4)O,2
 Ferulic acid,1.31,COC1=C(C=CC(=C1)C=CC(=O)O)O,1
 Geniposide,4.53,COC(=O)C1=COC(C2C1CC=C2CO)OC3C(C(C(C(O3)CO)O)O)O,1
 Gentisinic acid,3.18,C1=CC(=C(C=C1O)C(=O)O)O,1
@@ -829,12 +829,12 @@ Maleamic acid,1.12,C(=CC(=O)O)C(=O)N,1
 Memantine,4.24,CC12CC3CC(C1)(CC(C3)(C2)N)C,1
 Methamphetamine,3.33,CC(CC1=CC=CC=C1)NC,1
 Methoxamine,4.75,CC(C(C1=C(C=CC(=C1)OC)OC)O)N,1
-Methylgallate,1.43,COC(=O)C1=CC(=C(C(=C1)O)O)O,1
+Methylgallate,1.43,COC(=O)C1=CC(=C(C(=C1)O)O)O,2
 Methyltyrosinate,4.23,COC(=O)C(CC1=CC=C(C=C1)O)N,1
 Monoolein,1.19,CCCCCCCCC=CCCCCCCCC(=O)OCC(CO)O,1
 "N,N-Dimethylglycine",7.4,CN(C)CC(=O)O,1
 N-Methylhistidine,9.02,CN1C=C(N=C1)CC(C(=O)[O-])[NH3+],1
-N-Methylserine,7.7,CNC(CO)C(=O)O,1
+N-Methylserine,7.7,CNC(CO)C(=O)O,2
 Naproxen,1.08,CC(C1=CC2=C(C=C1)C=C(C=C2)OC)C(=O)O,1
 Nitrendipine,0.95,CCOC(=O)C1=C(NC(=C(C1C2=CC(=CC=C2)[N+](=O)[O-])C(=O)OC)C)C,1
 Octanal,6.98,CCCCCCCC=O,1
@@ -860,7 +860,7 @@ Quercetin-3-ramnoside,4.7,CC1C(C(C(C(O1)OC2=C(OC3=CC(=CC(=C3C2=O)O)O)C4=CC(=C(C=
 Raffinose,9.17,C(C1C(C(C(C(O1)OCC2C(C(C(C(O2)OC3(C(C(C(O3)CO)O)O)CO)O)O)O)O)O)O)O,1
 Rofecoxib,0.97,CS(=O)(=O)C1=CC=C(C=C1)C2=C(C(=O)OC2)C3=CC=CC=C3,1
 Ropivacaine,2.57,CCCN1CCCCC1C(=O)NC2=C(C=CC=C2C)C,1
-Salicin,4.48,C1=CC=C(C(=C1)CO)OC2C(C(C(C(O2)CO)O)O)O,1
+Salicin,4.48,C1=CC=C(C(=C1)CO)OC2C(C(C(C(O2)CO)O)O)O,2
 SDMA,8.49,CNC(=NC)NCCCC(C(=O)O)N,1
 Selegiline,1.53,CC(CC1=CC=CC=C1)N(C)CC#C,1
 Serotonin,1.44,C1=CC2=C(C=C1O)C(=CN2)CCN,1
@@ -874,528 +874,528 @@ Syringic acid,1.35,COC1=CC(=CC(=C1O)OC)C(=O)O,1
 Taxifolin,1.78,C1=CC(=C(C=C1C2C(C(=O)C3=C(C=C(C=C3O2)O)O)O)O)O,1
 Tegafur,1.22,C1CC(OC1)N2C=C(C(=O)NC2=O)F,1
 Theophylline,1.54,CN1C2=C(C(=O)N(C1=O)C)NC=N2,1
-Tibolone,1,CC1CC2=C(CCC(=O)C2)C3C1C4CCC(C4(CC3)C)(C#C)O,1
+Tibolone,1.0,CC1CC2=C(CCC(=O)C2)C3C1C4CCC(C4(CC3)C)(C#C)O,1
 trans-Piceid,4.64,C1=CC(=CC=C1C=CC2=CC(=CC(=C2)OC3C(C(C(C(O3)CO)O)O)O)O)O,1
 Trehalose-6-phosphate,9.72,C(C1C(C(C(C(O1)OC2C(C(C(C(O2)COP(=O)(O)O)O)O)O)O)O)O)O,1
 Tremulacin,1.51,C1CC(=O)C(C=C1)(C(=O)OCC2=CC=CC=C2OC3C(C(C(C(O3)CO)O)O)OC(=O)C4=CC=CC=C4)O,1
 Triptolide,1.02,CC(C)C12C(O1)C3C4(O3)C5(CCC6=C(C5CC7C4(C2O)O7)COC6=O)C,1
-(2R)-3-Hydroxyisovaleroylcarnitine,7.23,CC(C)(CC(=O)OC(CC(=O)[O-])C[N+](C)(C)C)O,2
-(R)-Butyrylcarnitine,5.77,CCCC(=O)OC(CC(=O)[O-])C[N+](C)(C)C,2
-(S)-Cotinine N-oxide,3.87,CN1C(CCC1=O)C2=C[N+](=CC=C2)[O-],2
-1-Methyladenosine,7.46,CN1C=NC2=C(C1=N)N=CN2C3C(C(C(O3)CO)O)O,2
-1-Methylguanosine,5.84,CN1C(=O)C2=C(N=C1N)N(C=N2)C3C(C(C(O3)CO)O)O,2
-1-Methyl-L-histidine,9.1,CN1C=C(N=C1)CC(C(=O)O)N,2
-1-Methylnicotinamide,6.26,C[N+]1=CC=CC(=C1)C(=O)N,2
-2'-Deoxyguanosine,6.4,C1C(C(OC1N2C=NC3=C2NC(=NC3=O)N)CO)O,2
-2-Indolinone,1.36,C1=CC=C2C(=C1)C=C(N2)O,2
-3-Guanidinopropionic acid,8.15,C(CN=C(N)N)C(=O)O,2
-3-Hydroxybutyrylcarnitine,7.62,CC(CC(=O)OC(CC(=O)[O-])C[N+](C)(C)C)O,2
-3-Hydroxyphenylacetic acid,1.45,C1=CC(=CC(=C1)O)CC(=O)O,2
-3-Hydroxyproline,8.17,C1CNC(C1O)C(=O)O,2
-3-Ureidopropionic acid,5.6,C(CNC(=O)N)C(=O)O,2
-4-Acetamidobutyric acid,2.26,CC(=O)NCCCC(=O)O,2
-4-Aminobenzoic acid,7.49,C1=CC(=CC=C1C(=O)O)N,2
-4-Guanidinobutyric acid,7.72,C(CC(=O)O)CN=C(N)N,2
-4-Hydroxynonenal,1.07,CCCCCC(C=CC=O)O,2
-4-Pyridoxic acid,2.66,CC1=NC=C(C(=C1O)C(=O)O)CO,2
-5-Aminovaleric acid,7.24,C(CCN)CC(=O)O,2
-5-Hydroxytryptophol,5.93,C1=CC2=C(C=C1O)C(=CN2)CCO,2
-5-Methoxy-3-indoleacetic acid,1.32,COC1=CC2=C(C=C1)NC=C2CC(=O)O,2
-5-Methylcytosine,6.62,CC1=C(NC(=O)N=C1)N,2
-5'-Methylthioadenosine,2.49,CSCC1C(C(C(O1)N2C=NC3=C2N=CN=C3N)O)O,2
-6-Methyladenosine,3.56,CNC1=NC=NC2=C1N=CN2C3C(C(C(O3)CO)O)O,2
-Acetylcarnitine,7.19,CC(=O)OC(CC(=O)[O-])C[N+](C)(C)C,2
-Adenine,4.71,C1=NC2=C(N1)C(=NC=N2)N,2
-Agmatine,8.92,C(CCN=C(N)N)CN,2
-Ala-Ala,8.41,CC(C(=O)NC(C)C(=O)O)N,2
-Ala-Gln,9.11,CC(C(=O)NC(CCC(=O)N)C(=O)O)N,2
-Ala-Ile,7.83,CCC(C)C(C(=O)[O-])NC(=O)C(C)[NH3+],2
-"Androstane-3,17-diol",0.96,CC12CCC(CC1CCC3C2CCC4(C3CCC4O)C)O,2
-Androsterone,4.62,CC12CCC(CC1CCC3C2CCC4(C3CCC4=O)C)O,2
-Arg-Ala,9.66,CC(C(=O)O)NC(=O)C(CCCN=C(N)N)N,2
-Arg-Gly,9.85,C(CC(C(=O)NCC(=O)O)N)CN=C(N)N,2
-Arginine,9.53,C(CC(C(=O)O)N)CN=C(N)N,2
-Arg-Pro,9.51,C1CC(N(C1)C(=O)C(CCCN=C(N)N)N)C(=O)O,2
-Arg-Ser,9.9,C(CC(C(=O)NC(CO)C(=O)O)N)CN=C(N)N,2
-Arg-Val,9.3,CC(C)C(C(=O)O)NC(=O)C(CCCN=C(N)N)N,2
-Asparagine,8.81,C(C(C(=O)O)N)C(=O)N,2
-Aspartic acid,9.33,C(C(C(=O)O)N)C(=O)O,2
-Betaine,7.24,C[N+](C)(C)CC(=O)[O-],2
-Biliverdin,1.5,CC1=C(C(=CC2=C(C(=C(N2)C=C3C(=C(C(=O)N3)C)C=C)C)CCC(=O)O)NC1=CC4=NC(=O)C(=C4C)C=C)CCC(=O)O,2
-Biotin,2.85,C1C2C(C(S1)CCCCC(=O)O)NC(=O)N2,2
-Caffeine,1.21,CN1C=NC2=C1C(=O)N(C(=O)N2C)C,2
-Carnitine,7.83,C[N+](C)(C)CC(CC(=O)[O-])O,2
-Choline [M]+,5.18,C[N+](C)(C)CCO,2
-Cortisone,1.29,CC12CCC(=O)C=C1CCC3C2C(=O)CC4(C3CCC4(C(=O)CO)O)C,2
-Cotinine,1.49,CN1C(CCC1=O)C2=CN=CC=C2,2
-Creatine,8.15,CN(CC(=O)O)C(=N)N,2
-Creatinine,4.93,CN1CC(=O)N=C1N,2
-Cystathionine,9.91,C(CSCC(C(=O)O)N)C(C(=O)O)N,2
-Cytosine,5.9,C1=C(NC(=O)N=C1)N,2
-Ecgonine,7.61,CN1C2CCC1C(C(C2)O)C(=O)O,2
-Galactosamine,8.44,C(C1C(C(C(C(O1)O)N)O)O)O,2
-gamma-Aminobutyric Acid,7.86,C(CC(=O)O)CN,2
-gamma-Glutamylleucine,8.1,CC(C)CC(C(=O)O)NC(=O)CCC(C(=O)O)N,2
-gamma-Glutamylmethionine,8.55,CSCCC(C(=O)O)NC(=O)C(CCC(=O)O)N,2
-Glu-Arg,9.9,C(CC(C(=O)O)NC(=O)C(CCC(=O)O)N)CN=C(N)N,2
-Gluconolactone,8.15,C(C1C(C(C(C(=O)O1)O)O)O)O,2
-Glu-Gln,9.6,C(CC(=O)O)C(C(=O)NC(CCC(=O)N)C(=O)O)N,2
-Glu-Lys,9.9,C(CC[NH3+])CC(C(=O)[O-])NC(=O)C(CCC(=O)[O-])[NH3+],2
-Glu-Phe,8.2,C1=CC=C(C=C1)CC(C(=O)O)NC(=O)C(CCC(=O)O)N,2
-Glutamic acid,8.85,C(CC(=O)O)C(C(=O)O)N,2
-Glutamine,8.66,C(CC(=O)N)C(C(=O)O)N,2
-Glutathione (reduced),9.15,C(CC(=O)NC(CS)C(=O)NCC(=O)O)C(C(=O)O)N,2
-Glu-Thr,9.44,CC(C(C(=O)O)NC(=O)C(CCC(=O)O)N)O,2
-Glycerophosphocholine,8.67,C[N+](C)(C)CCOP(=O)(O)OCC(CO)O,2
-Glycyl-leucine,8.14,CC(C)CC(C(=O)O)NC(=O)CN,2
-Gly-Pro,8.62,C1CC(N(C1)C(=O)CN)C(=O)O,2
-Gly-val,8.05,CC(C)C(C(=O)O)NC(=O)CN,2
-Guanosine,7.33,C1=NC2=C(N1C3C(C(C(O3)CO)O)O)NC(=NC2=O)N,2
-Hexanoyl-L-carnitine,5.09,CCCCCC(=O)OC(CC(=O)[O-])C[N+](C)(C)C,2
-Histamine,8.29,C1=C(NC=N1)CCN,2
-Histidine,9.48,C1=C(NC=N1)CC(C(=O)O)N,2
-Hydrocortisone,2.56,CC12CCC(=O)C=C1CCC3C2C(CC4(C3CCC4(C(=O)CO)O)C)O,2
-Hypoxanthine,4.99,C1=NC2=C(N1)C(=O)N=CN2,2
-Isovaleryl-L-carnitine,5.36,CC(C)CC(=O)OC(CC(=O)[O-])C[N+](C)(C)C,2
-Kynurenine,6.98,C1=CC=C(C(=C1)C(=O)CC(C(=O)O)N)N,2
-Lauroyl-L-carnitine,3.63,CCCCCCCCCCCC(=O)OC(CC(=O)[O-])C[N+](C)(C)C,2
-L-Cysteine-glutathione disulfide,10.15,C(CC(=O)NC(CSSCC(C(=O)O)N)C(=O)NCC(=O)O)C(C(=O)O)N,2
-Leu-Ala,5,CC(C(=O)O)NC(=O)C(CC(C)C)N,2
-Leu-Arg,8.86,CC(C)CC(C(=O)NC(CCCN=C(N)N)C(=O)O)N,2
-Leucine,7.08,CC(C)CC(C(=O)O)N,2
-Leu-Pro,7.32,CC(C)CC(C(=O)N1CCCC1C(=O)O)N,2
-L-Homocitrulline,8.73,C(CCNC(=O)N)CC(C(=O)O)N,2
-Linoleoylcarnitine,3.1,CCCCCC=CCC=CCCCCCCCC(=O)OC(CC(=O)[O-])C[N+](C)(C)C,2
-Lys-Gly,9.84,C(CCN)CC(C(=O)NCC(=O)O)N,2
-Lys-Val,9.38,CC(C)C(C(=O)O)NC(=O)C(CCCCN)N,2
-Methioninesulfoxide,8.62,CS(=O)CCC(C(=O)O)N,2
-"N,N-Dimethylarginine",9.1,CN(C)C(=NCCCC(C(=O)O)N)N,2
-N-.alpha.-Acetyl-L-arginine,8.16,CC(=O)NC(CCCN=C(N)N)C(=O)O,2
-N.alpha.-Acetyl-L-lysine,8.15,CC(=O)NC(CCCCN)C(=O)O,2
-N.alpha.-Methyl-L-lysine,7.35,CNC(CCCCN)C(=O)O,2
-"N2,N2-Dimethylguanosine",5.62,CN(C)C1=NC(=O)C2=C(N1)N(C=N2)C3C(C(C(O3)CO)O)O,2
-N8-Acetylspermidine,8.87,CC(=O)NCCCCNCCCN,2
-N-Acetyl-5-hydroxytryptamine,1.43,CC(=O)NCCC1=CNC2=C1C=C(C=C2)O,2
-N-Acetylalanine,4.83,CC(C(=O)O)NC(=O)C,2
-N-Acetylcytidine,5.08,CC(=O)NC1=NC(=O)N(C=C1)C2C(C(C(O2)CO)O)O,2
-N-Acetylglucosamine,7.35,CC(=O)NC1C(C(C(OC1O)CO)O)O,2
-N-Acetyl-L-carnosine,8.35,CC(=O)NCCC(=O)NC(CC1=CN=CN1)C(=O)O,2
-N-Acetyl-L-glutamine,8.18,CC(=O)NC(CCC(=O)N)C(=O)O,2
-N-Acetylmethionine,3.23,CC(=O)NC(CCSC)C(=O)O,2
-N-Acetylphenylalanine,2.61,CC(=O)NC(CC1=CC=CC=C1)C(=O)O,2
-N-Acetyltryptophan,2.81,CC(=O)NC(CC1=CNC2=CC=CC=C21)C(=O)O,2
-N-alpha-Acetyl-L-ornithine,8.31,CC(=O)NC(CCCN)C(=O)O,2
-"NEPSILON,NEPSILON,NEPSILON-TRIMETHYLLYSINE",9.29,C[N+](C)(C)CCCCC(C(=O)[O-])N,2
-N-Formylmethionine,3.93,CSCCC(C(=O)O)NC=O,2
-Nicotinamide,1.7,C1=CC(=CN=C1)C(=O)N,2
-Nicotinamide riboside cation,7.51,C1=CC(=C[N+](=C1)C2C(C(C(O2)CO)O)O)C(=O)N,2
-N-Methylglutamic acid,8.45,CC(CCC(=O)O)(C(=O)O)N,2
-N-Methylhistidine,9.47,CNC(CC1=CN=CN1)C(=O)O,2
-N-Methylleucine,6.45,CC(C)CC(C(=O)O)NC,2
-N-Methyllysine,9.36,CNCCCCC(C(=O)O)N,2
-N-Methylproline,7.11,CN1CCCC1C(=O)O,2
-N-Methyltyrosine,6.79,CNC(CC1=CC=C(C=C1)O)C(=O)O,2
-O-Acetyl-L-homoserine,7.6,CC(=O)OCCC(C(=O)O)N,2
-Pantothenic acid,3.5,CC(C)(CO)C(C(=O)NCCC(=O)O)O,2
-Phenylacetylglutamine,6.03,C1=CC=C(C=C1)CC(=O)NC(CCC(=O)N)C(=O)O,2
-Phenylalanine,6.94,C1=CC=C(C=C1)CC(C(=O)O)N,2
-Pipecolic acid,7.83,C1CCNC(C1)C(=O)O,2
-Pro-Gln,8.75,C1CC([NH2+]C1)C(=O)NC(CCC(=O)N)C(=O)[O-],2
-Proline,7.83,C1CC(NC1)C(=O)O,2
-Proline-hydroxyproline,8.6,C1CC([NH2+]C1)C(=O)N2CC(CC2C(=O)[O-])O,2
-Propionylcarnitine,6.41,CCC(=O)OC(CC(=O)[O-])C[N+](C)(C)C,2
-Putrescine,9.3,C(CCN)CN,2
-Pyridoxal,2.18,CC1=NC=C(C(=C1O)C=O)CO,2
-Pyridoxamine,8.1,CC1=NC=C(C(=C1O)CN)CO,2
-Retinoic acid,1.11,CC1=C(C(CCC1)(C)C)C=CC(=CC=CC(=CC(=O)O)C)C,2
-S-Adenosyl-homocysteine,8.85,C1=NC2=C(C(=N1)N)N=CN2C3C(C(C(O3)CSCCC(C(=O)O)N)O)O,2
-Ser-Glu,9.65,C(CC(=O)O)C(C(=O)O)NC(=O)C(CO)N,2
-Serine,8.73,C(C(C(=O)O)N)O,2
-Ser-Tyr,8.44,C1=CC(=CC=C1CC(C(=O)O)NC(=O)C(CO)N)O,2
-Spermidine,6.98,C(CCNCCCN)CN,2
-Stachydrine,7.1,C[N+]1(CCCC1C(=O)[O-])C,2
-Stearoyl-L-carnitine,2.96,CCCCCCCCCCCCCCCCCC(=O)OC(CC(=O)[O-])C[N+](C)(C)C,2
-Targinine,9.22,CN=C(N)NCCCC(C(=O)O)N,2
-Taurine,7.85,C(CS(=O)(=O)O)N,2
-Thr-Ala,8.56,CC(C(C(=O)NC(C)C(=O)[O-])[NH3+])O,2
-trans-3'-Hydroxycotinine,2.02,CN1C(CC(C1=O)O)C2=CN=CC=C2,2
-Tryptamine,6.92,C1=CC=C2C(=C1)C(=CN2)CCN,2
-Tryptophan,6.92,C1=CC=C2C(=C1)C(=CN2)CC(C(=O)O)N,2
-Valine,7.24,CC(C)C(C(=O)O)N,2
-MMV000011,6.48,C[C@@H]1[C@H]2[C@@H]([C@H]3[C@@H](C(=O)C(=C([C@]3(C(=O)C2=C(C4=C1C=CC=C4O)O)O)O)C(=O)N)N(C)C)O,3
-MMV000016,3.48,C1CCN[C@H](C1)[C@H](C2=CC(=NC3=C2C=CC=C3C(F)(F)F)C(F)(F)F)O,3
-MMV000023,4.54,C[C@@H](CCCN)NC1=C2C(=CC(=C1)OC)C=CC=N2,3
-MMV000062,6.51,C1=CC(=CC=C1C(=N)N)OCCCCCOC2=CC=C(C=C2)C(=N)N,3
-MMV000063,2.3,CCN(CC)CCCCCCNC1=CC(=CC2=C(C=CN=C12)C)OC,3
-MMV000858,0.96,C1CN(CCN1C(=S)NCC2=CC=CO2)S(=O)(=O)C3=CC=C(C=C3)Cl,3
-MMV000907,5.16,CC1=NC(=NC2=C1C=CC=C2OC)N=C(N)N,3
-MMV001059,0.97,CCCS(=O)(=O)N1CCC(CC1)(CC2=CC=CC=C2C(F)(F)F)CO,3
-MMV001493,0.96,CC1=C([C@@H](C(=C(N1)C)C(=O)OC(C)C)C2=CC=CC3=NON=C32)C(=O)OC,3
-MMV001561,2.56,CNCC[C@@H](C1=CC=CC=C1)OC2=CC=C(C=C2)C(F)(F)F,3
-MMV002529,1.08,C1CCC(CC1)C(=O)N2C[C@H]3C4=CC=CC=C4CCN3C(=O)C2,3
-MMV002816,4.5,CCN(CC)C(=O)N1CCN(CC1)C,3
-MMV003152,1.2,COC(=O)NC1=NC2=C(N1)C=C(C=C2)C(=O)C3=CC=CC=C3,3
-MMV003270,1.12,C1=CC2=C(C=C1Cl)N=C(O2)N,3
-MMV004168,2.42,CN1CCCN(CC1)[C@@H](C2=CC=CC=C2)C3=CC=C(C=C3)Cl,3
-MMV006239,1.28,C1CN[C@@]2(C3=C(C=CC(=C3)Br)NC2=O)C4=C1C5=CC=CC=C5N4,3
-MMV006372,5.5,CC1=CC2=C(C=C1)NC3=C2N=CN=C3NCCN(C)C,3
-MMV006741,5.66,COC1=C(C=C2C(=C1)C(=NC=N2)NC3CCN(CC3)CC4=CC=CC=C4)OC,3
-MMV006833,0.96,CC1=CC(=C(C=C1OCC(=O)NC2CCCCC2)S(=O)(=O)N3CCCC3)Cl,3
-MMV006901,3.37,CN(C)C1=NC2=CC=CC=C2C(=C1)NC(=O)NC3=CC=CC=C3,3
-MMV007133,0.97,CC1=CC(=NO1)NC(=O)C2=CC=C(C=C2)S(=O)(=O)N(CC3=CC=CC=C3)C(C)C,3
-MMV007471,1.09,COC1=CC(=CC(=C1)C(=O)NC[C@H]2CC3=C(O2)C(=CC(=C3)Cl)C4=CC=NC=C4)OC,3
-MMV007625,4.01,CC1=CC(=NN1C2=CC=C(C=C2)NC(=O)C3CCN(CC3)CC4=CN=C(S4)C)C,3
-MMV007638,1.03,CCOC1=CC=C(C=C1)C2=C(SC(=N2)NC(=O)CS(=O)(=O)C3=CC=CC=C3)C,3
-MMV007803,1,C1CC1NC(=O)C2=CC=C(O2)CSCC3=CC=CC=C3Cl,3
-MMV007920,1.08,C1=CC=C2C(=C1)N=C(O2)C3=CC=C(C=C3)NC(=O)C4=CC=C(C=C4)N,3
-MMV008439,5.35,CC1=C(C=CC(=C1)CN2CCOC3=C(C2)C=C(C=C3)[C@](C)(CN(C)C)O)OC,3
-MMV009054,0.99,CC1=CC(=NO1)C(=O)NC2=CN(N=C2)CC3=C(C=C(C=C3)Cl)Cl,3
-MMV009135,1.01,C1CN(CCC1C(=O)N2CCC3=CC=CC=C3C2)C4=NN=NN4C5=CC=CC=C5,3
-MMV010545,1.69,COC1=NC=C(C=C1)C2=CN=C3N2N=C(C=C3)NCC4=CC=C(C=C4)S(=O)(=O)N,3
-MMV010576,1.26,COC1=C(C=CC(=C1)C2=C(N=CC(=C2)C3=CC=C(C=C3)S(=O)(=O)C)N)O,3
-MMV010764,1.15,C1COCCC1CNC2=NN3C(=CN=C3S2)C4=CC=CS4,3
-MMV011229,1.89,CC1=NC2=NC=CN2C(=C1)NC3=CC=C(C=C3)C(F)(F)F,3
-MMV011511,5.48,CN(C)C1=CC=CC(=C1)CNC2CCN(CC2)CCC3=CC=C(C=C3)OC,3
-MMV011691,5.74,C1CN2C(=NC(=C2NC3=CC4=C(C=C3)OCO4)C5=CC=CC=C5)CN1C(=O)CN,3
-MMV011765,0.98,C1=CN=CC=C1C2=NN=C(O2)SC3=C(C=C(C=N3)C(F)(F)F)Cl,3
-MMV011903,1.22,CC1=CC(=C(C=C1)NC(=O)C2=C(NC=N2)C(=O)NC3=NC4=CC=CC=C4N3)C,3
-MMV012074,1.19,CC1=C(N2C=CC=CC2=N1)C(=O)NCC3=CC=C(C=C3)Cl,3
-MMV016136,3.33,CC1=NC2=C(C(=NN2C(=C1)NC3=CC=NC=C3)C)C4=CC=CC=C4Cl,3
-MMV016838,1.06,CC1=CC=C(C=C1)C2=NC3=C(C=C(C=C3)Br)C(=C2)C(=O)NC4=CN=CC=C4,3
-MMV019087,0.98,CC1=CC(=NC2=NC(=NN12)C(=O)NC3=C(C=CC(=C3)C(F)(F)F)N4CCOCC4)C,3
-MMV019189,1.06,CC1=C(C2=C(C=C1)[C@]3(C(=O)N2)NN=C(S3)C4=CC=CC=C4)C,3
-MMV019234,0.99,COC1=C(C=C(C=C1)[C@@H]2CC(=NN2C(=O)C3=CC=CO3)C4=CC=CS4)OC,3
-MMV019551,0.96,CC[C@@H](C(=O)OC)NC(=O)C1=CC=CC=C1NC(=O)C2=CC=C(C=C2)C,3
-MMV019721,1,CCN(CC)S(=O)(=O)C1=CC(=C(C=C1)Cl)C(=O)NC2=CC3=C(C=C2)N=C(S3)C,3
-MMV019742,1.08,CC1=CC=C(C=C1)S(=O)(=O)N2CCN(CC2)C(=O)C3=CC(=NN3)C4=CC=CC=C4,3
-MMV019790,1.16,CCOC1=CC=CC=C1C(=O)NC2=CC=CC(=C2)C3=C(N4C=CC=NC4=N3)C,3
-MMV019807,1.13,CC1=CC2=NC(=C(C=C2C=C1)[C@H]3NC4=CC=CC=C4C(=O)N3)Cl,3
-MMV019838,0.99,C1=CC(=CN=C1)C2=NC=CC(=N2)NC(=O)C3=CC(=CC(=C3)C(F)(F)F)C(F)(F)F,3
-MMV019993,1.06,CC1=NN(C=C1[C@H](C)NC2=NC(=CN=N2)C3=CC=C(C=C3)C(F)(F)F)C,3
-MMV020081,1.24,CC1=NC2=C(N1C3CCN(CC3)C(=O)CC4=CC(=CC=C4)OC)C=C(C=C2)F,3
-MMV020120,2.43,CC1CC1C(=O)NC2CCN(CC2)CC3(CCCCC3)C4=CC=CC=C4,3
-MMV020136,1.09,CNC(=O)C1=CC(=CS1)S(=O)(=O)N2CCN(CC2)C3=CC=CC=N3,3
-MMV020152,0.95,CC1=CC(=NO1)C(=O)NC2=CC=C(C=C2)C3=CC=CC=C3,3
-MMV020165,3.81,CC(C)NCC(=O)NC1=CC=CC(=C1)C(=O)NC2=CC=CC(=C2)C(F)(F)F,3
-MMV020289,1,CC1=CN=C(C=C1)NC(=O)C2=C(C=CC(=C2)S(=O)(=O)NC(C)(C)C)C,3
-MMV020291,1.05,C[C@@H](C(=O)N1CCCC1)N2CCN(CC2)S(=O)(=O)C3=CC=C(C=C3)C(C)(C)C,3
-MMV020320,1.08,CC1=CC=CC=C1C2=NN(C=C2C(=O)NC3=NN=C(O3)C)C4=CC=CC=C4,3
-MMV020321,1.12,C[C@@H](C1=CC=CC=C1OC)NCC(=O)NC2=C(C=CC(=C2)C(F)(F)F)Cl,3
-MMV020388,0.96,CC1CCCN(C1)C(=O)C(C)NC2=C(C=CC(=C2)Cl)N3CCOCC3,3
-MMV020391,0.94,CC(C)[C@H](C1=CC=C(C=C1)Cl)C(=O)NC2=CC=C(C=C2)S(=O)(=O)N(C)C,3
-MMV020512,0.99,CC1=CC=C(C=C1)OC2=CC=C(C=C2)NC(=O)CNC3=CC=CC=C3N4CCCC4=O,3
-MMV020517,0.96,CC(C)N1C2=C(C=N1)C(=CC(=N2)C3CC3)C(=O)NCC4=CC=CC=C4OC,3
-MMV020520,0.96,CC1=CC2=CC=CC=C2N1CC(=O)N3C[C@H](OC4=CC=CC=C43)C(=O)N5CCCCC5,3
-MMV020537,1,C1CC1NC(=O)C2=CC=C(S2)N3CCOC4=C3C=C(C=C4)Cl,3
-MMV020591,1,CC(C)[C@@H](C(=O)NC1=CC=CC(=C1)C#N)NC(=O)CC2=CC=CC3=CC=CC=C32,3
-MMV020623,1.24,CC1=CC=CC2=C1NC(=C2C3=CC=NC=C3)[C@H]4CCCN(C4)C(=O)C5=C(ON=C5C)C,3
-MMV020670,3.16,COC1=CC=C(C=C1)C2=C3C(=CN=C2)C=CC(=N3)C(=O)NCCCN4C=CN=C4,3
-MMV020710,0.98,CN(CC(=O)NC1=C(C=CC(=C1)Cl)OC)C(=O)C2=NN(N=C2)C3=CC=CC=C3,3
-MMV020982,1.46,CC(C)(C)C1=CC(=CC(=C1)C(=O)NC2=CN=CC=C2)C(=O)NC3=CN=CC=C3,3
-MMV021057,0.95,CO/C=C(/C1=CC=CC=C1OC2=NC=NC(=C2)OC3=CC=CC=C3C#N)\C(=O)OC,3
-MMV021375,2.69,CC1=NC2=C(C(=C1)NCC(C)C)NN=C2C3=CC=CC=C3,3
-MMV021660,2.78,CC1=CC(=NC(=N1)/N=C(\N)/NC2=CC=C(C=C2)Cl)NCCC3=CC=CC=C3,3
-MMV022029,5.89,CN1CCC(CC1)NCC2=CC=CC(=C2)C3=CC=C(C=C3)S(=O)(=O)NCC4=CC=CC=C4,3
-MMV022236,3.22,CCN(CC)CCCN1CCN(CC1)C(=O)C2=CC=CC(=C2)C3=NOC(=N3)C(F)(F)F,3
-MMV022478,4.81,C1CN(CCN1)C2=CC=C(C=C2)NC(=O)C3=NC4=C(C=NN4C=C3)C5=CC(=CC=C5)Cl,3
-MMV023183,6.58,C1CC1CN2CC3=CC=CC=C3OC4(C2)CCN(CC4)CC5=CNC6=C5C=CN=C6,3
-MMV023227,2.74,CC1=C(N=C(N1)C2=CC(=CC=C2)NCC3=CC=CC=C3)C,3
-MMV023233,6.22,C1=CC(=CC2=C1C=CN=C2N)C3=CN4C=CN=C4C=C3,3
-MMV023370,2.53,C1=C(C=NC(=C1C2=NC3=NC=C(C=C3N2)Cl)N)C4=CNN=C4,3
-MMV023388,3.24,C1CN(C[C@H]1NC(=O)C2=CC(=CC=C2)C(F)(F)F)C3=CC=NC4=CC=CC=C43,3
-MMV023860,1.18,C1COCCN1C2=CN=C3C=CC(=CC3=N2)C4=CC(=CC=C4)S(=O)(=O)N,3
-MMV023949,0.95,CC(C)(C)C1=NN(C(=C1)C(=O)N2CCN(CC2)C3=NC=CN=C3C#N)CC4=CC=CC=C4,3
-MMV023953,3.91,C1CCN(C1)CCCNC2=NC=C(C=C2)C3=CC(=CC=C3)NC(=O)C4=CC=CC=C4,3
-MMV023969,6.28,C1CNCCC1OC2=C(C=C3C=CN=CC3=C2)C4=CC=C(S4)CNC5=CN=CC=C5,3
-MMV023985,1.27,COC1=C(C=C(C=C1)C2=CN=C3N2N=C(C=C3)N4CCCC4)OC,3
-MMV024035,5.52,C1CNCCC1OC2=C(C=C3C=CN=CC3=C2)C4=CC=C(S4)C(=O)NC5=CC=CC=C5,3
-MMV024101,2.51,C1=CC2=NC=CC(=C2N=C1C3=CC(=CN=C3)S(=O)(=O)N)C4=CNN=C4,3
-MMV024114,1.53,CC1=CC=C(C=C1)S(=O)(=O)N2C=C(C3=CC(=CN=C32)Br)C4=CC(=NC=C4)N,3
-MMV024195,5.51,CN(C)CCNC(=O)N1CCCN(CC1)C2=NC=NC3=C2SC(=C3)C4=CC=CC=C4,3
-MMV024311,5.69,CC1=CC2=C(C=C1)NC(=C2C3=CC=NC=C3)[C@H]4CCCNC4,3
-MMV024397,1.03,C1CC1NC(=O)C2=CN=C(C=C2)N3CCC(CC3)CC4=CC=CC=C4,3
-MMV024406,3.94,C1CN(CCN1C2=CC=NC=C2)C3=C(C=C(C=N3)C(=O)NC4=CC(=CC=C4)Cl)Cl,3
-MMV024443,1.14,CN(C1=CC=CC=C1)C(=O)C2=CC3=C(C=CC=C3N2)C4=CN=CN=C4,3
-MMV024829,4.09,CC1=CC=CC(=C1)C(=O)NC2=CC(=NC=C2)N(C)C3CCN(CC3)CC(C)C,3
-MMV024937,4.69,C1CN(CCN1)C2=NC=C(C=C2)NC(=O)C3=C(N=C(O3)C4=CC=CC=C4)C(F)(F)F,3
-MMV026020,1.41,CS(=O)(=O)C1=CC=CC(=C1)C2=CN=C3C(=C2)C(=CN3)C4=CC=C(C=C4)CCC(=O)O,3
-MMV026313,4.98,C1=CC(=CC2=C1C=CN=C2N)OC3=CC=NC=C3,3
-MMV026356,1.64,CCN1C2=NC(=C(C(=C2C=N1)NC3CCOCC3)CNC(=O)C4=CC=NN4C)C,3
-MMV026468,1.18,C1=CC(=CC(=C1)Cl)NC2=CN=CC(=C2)C3=CC=C(C=C3)CO,3
-MMV026490,1.06,C1CC1CNC2=C(C=C(C=N2)C3=CN=CC=C3)C(=O)NCCC4=CC=CC=C4,3
-MMV026550,1.67,CC(C)(C)CN1C(=O)C(N=C1N)(C2=CC=CC=C2)C3=CC=CC=C3,3
-MMV028694,1.42,C1=CC2=NN=C(N2C=C1)C3=NC(=NC=C3)NC4=CC=C(C=C4)CCO,3
-MMV030734,5.91,CC(C)(CN)C1=NC(=C(N1)C2=NC(=NC=C2)N)C3=CC(=C(C=C3)Cl)O,3
-MMV031011,2.67,CNC(=O)[C@@H]1CC2=C(C3(N1)CCN(CC3)CCC4=CC=CC=C4)NC5=C2C=CC(=C5)Cl,3
-MMV032967,3.06,C1=CC(=CC(=C1)C(F)(F)F)C2=NC3=C(N2)C=CN=C3NCC4=CC=NC=C4,3
-MMV032995,0.94,C1C2=C(C=C(C=C2)Br)N(C(=O)CO1)CC3=CC=C(C=C3)C(F)(F)F,3
-MMV045105,1.08,C1COCCN1C2=NNC(=C2)C3=CC=C(C=C3)OC4=CC=CC=C4,3
-MMV047015,0.94,CC1=C(C2=C(C=C1)N=C(C=C2OC)C(F)(F)F)N,3
-MMV053220,1.1,C1=CC(=CC=C1C#N)C2=CC=C(C=C2)OCC(=O)N,3
-MMV054312,1.85,CC1=CC(=NC2=CC3=C(C=C12)N(CC3)C(=O)C)C,3
-MMV062221,1.02,CC1=CC(=NC(=N1)N2C(=CC(=N2)C)NC3=CC=CC=C3)C,3
-MMV063404,0.96,CC1=NN(C(=C1C(=O)NC2CCCCCC2)Cl)CC3=CC=CC=C3,3
-MMV069458,0.97,C1=CC(=NN2C1=NN=C2C(F)(F)F)Cl,3
-MMV084603,1.13,C1CN2[C@H](CN1CC3=CC=CC=C3)CN(C2=O)CC4=CC5=CC=CC=C5S4,3
-MMV084864,1.17,C1=CC=C2C(=C1)C=C(C=N2)NC(=O)C3=CC(=CC=C3)N4C=NN=N4,3
-MMV085071,5.33,COC1=CN=CC(=C1)C2=CN=CC(=N2)N3CCN(CC3)C4=CC=NC=C4,3
-MMV085210,1.04,C1CCN(CC1)C(=O)[C@H](CC2=CNC3=CC=CC=C32)NS(=O)(=O)C4=CC=C(C=C4)Cl,3
-MMV085230,1.04,CCCNC(=O)N1CCC2(CC1)CC(=O)C3=C(O2)C=CC(=C3)C,3
-MMV085499,1.34,C1=CC(=CC=C1C#N)C2=CN=C(C(=N2)C3=CC=C(C=C3)C(=O)N)N,3
-MMV090930,0.99,CCOC(=O)NC(=O)C1=C(SC=C1)NC(=O)C2=NC3=CC=CC=C3S2,3
-MMV099637,1.18,CC1=C(C2=NC3=C(CCCC3)C(=O)N2N1)C4=CC=C(C=C4)F,3
-MMV1019989,2.91,CCC1=CC=C(C=C1)[C@H](C(C)C)NCC2=NC(=NC(=N2)N(C)C)N,3
-MMV102872,1,C1=CC(=CC(=C1)C(F)(F)F)C(=O)NC2=NN=C(O2)C3=CC=C(C=C3)Cl,3
-MMV1028806,1.09,C1C(C1C(=O)NC2=NC(=CS2)C3=CC=CC=N3)C4=CC=CC=C4F,3
-MMV1029203,1.49,CNC(=O)CNC1=C2C(=CSC2=NC(=N1)C3=CC=CC=N3)C4=CC=CC=C4,3
-MMV1030799,1.12,CCCN1C2=CC=CC=C2N=C1NC(=O)C3=NC4=CC=CC=C4C=C3,3
-MMV1037162,1.18,CCNC(=O)[C@H](C)NC1=C2C(=C(SC2=NC(=N1)C3=CN=CC=C3)C)C,3
-MMV1088520,1.96,CC1=CC=C(O1)C2=NC(=CS2)CN(CC3=CC=CC=N3)C(C)C,3
-MMV1110498,0.97,COC1=CC=CN2C1=NC(=C2C(=O)N3CCCCC3)C(F)(F)F,3
-MMV1198433,1.02,CC1=C(C(=O)N(C(=C1)OCC(=O)NC2=CC=C(C=C2)C(C)C)C)C#N,3
-MMV1236379,0.98,CCOC(=O)C1=NOC(=C1C2=CC=CC=C2)N,3
-MMV146306,0.97,CC[C@H](C)NC(=O)C1=CC=C(C=C1)NC(=O)C2(CCCC2)C3=CC=CC=C3,3
-MMV153413,1.01,CCOC(=O)C1=C(SC(=C1C)C(=O)N)NC(=O)C2=C(C(=C(C(=C2F)F)F)F)F,3
-MMV161996,0.97,CC1=C(C=CC(=C1)Cl)NC(=O)CCC2=CC=C(C=C2)S(=O)(=O)NCC(C)C,3
-MMV188296,1.01,CNC(=O)[C@@H]1CC2=CC=CC=C2N1C(=O)CC3=CC=C(C=C3)F,3
-MMV200748,0.94,COC1=CC=C(C=C1)C2(CCCC2)C(=O)NC3=CC=C(C=C3)Br,3
-MMV202458,0.94,CC1=C(C=CC(=C1)Cl)NC(=O)[C@H](C)OC2=CC=C(C=C2)OC,3
-MMV202553,1.05,CCC(=O)NC1=CC=CC=C1C(=O)NC2=CC=CC=N2,3
-MMV228911,1.01,COC1=CC=CC(=C1)NC(=O)C2=C(SC3=C2CCC3)NC(=O)C4=CN=CC=C4,3
-MMV272144,0.96,COC1=CC=CC(=C1)N2C(=NN=N2)S(=O)(=O)C,3
-MMV392832,3.26,COC1=CC=CC(=C1)C2=CC3=C(N2)C=CN=C3NC4=CN=CC=C4,3
-MMV393144,5.54,CN1CCN(CC1)C2=NC=CC3=C2C=C(N3)C4=CC(=CC=C4)F,3
-MMV407539,1.41,CCC1=C(N2C=C(C=CC2=N1)C(=O)NCC3=CC4=C(C=C3)OCO4)N(C)CC5=CC=CS5,3
-MMV407834,0.92,CCOC1=CC=CC=C1N[C@@H](C)C(=O)NC2=C(C=CC(=C2)C(F)(F)F)N3CCOCC3,3
-MMV461553,0.91,COC(=O)C1=C(SC2=C1CCCCC2)NC(=O)C3=C(C(=C(C(=C3F)F)F)F)F,3
-MMV495543,1.02,CC(C)(C)C1=CN=C(S1)NC(=O)C2=CC=CC=C2O,3
-MMV553002,1,CS(=O)(=O)CC1=NC2=CC=CC=C2OC1=O,3
-MMV560185,1.49,C1CCN(CC1)C2=CC(=NC3=CC=CC=C32)C4=CC=CC=N4,3
-MMV611037,1.09,CC[C@@H](C(=O)NC1=NN=C(S1)C)SC2=NC3=CC=CC=C3O2,3
-MMV634140,6.28,C1CCN(C1)CCNC(=O)C2=CC(=NC3=C2C=C(C=C3)Cl)NCCN4CCOCC4,3
-MMV637229,2.19,C[C@@](C1=CC=CC=C1)(C2=CC=C(C=C2)Cl)OCCC3CCCN3C,3
-MMV658988,1.05,CC1=C(C(=NC(=N1)C2=CC=CC=N2)N(C)CCC3=CC=CC=C3)Cl,3
-MMV658993,1.17,CC1=C(C(=NC(=N1)C2=CC=CC=N2)NCCC3=CC=C(C=C3)S(=O)(=O)C)Cl,3
-MMV659004,1.13,CC1=C(C(=NC(=N1)C2=CC=CC=N2)N3CC[C@@H](C3)CC4=CC=CC=C4)Cl,3
-MMV659010,0.98,C1=CC=C(C=C1)CCNC2=NC(=NC(=C2)C(F)(F)F)C3=CC=CC=N3,3
-MMV661713,2.37,C1=CC=C(C=C1)C2=NC(=CC(=N2)NCCCN3C=CN=C3)C4=CC(=CN=C4)Br,3
-MMV663250,5.67,C1CN(CCN1)CC2=CC=C(C=C2)[C@@H](C3=CC(=CC=C3)Cl)N4C=CN=C4,3
-MMV667494,5.91,C1CCN(C1)CCNC(=O)C2=CC(=NC3=C2C=C(C=C3)Cl)NCCCCN4CCC(CC4)(F)F,3
-MMV668727,0.97,C1=CC(=NC=C1C2=CC(=C(N=C2)N)C3=CN=C(C=C3)C(F)(F)F)C(F)(F)F,3
-MMV671636,0.98,CC1=C(C(=O)C2=C(C=C(C=C2N1)F)F)C3=CC=C(C=C3)OC4=CC=C(C=C4)OC(F)(F)F,3
-MMV675968,3.77,COC1=CC(=C(C=C1)OC)NCC2=C(C3=C(C=C2)N=C(N=C3N)N)Cl,3
-MMV675969,0.96,CC(C)(C)C1=CC=C(C=C1)N[C@@H]2CCCC[C@H]2NC(=O)C3=CC=CO3,3
-MMV675993,1.15,CC(C)N1C2=C(C(=N1)C3=CC(=C(C=C3)OC)OC)C(=NC=N2)N,3
-MMV675994,1.27,C1=CC=C2C(=C1)C(=CC=N2)OCC3=CN(N=N3)C4=CC=C(C=C4)Cl,3
-MMV675995,1.21,CC1=NC(=CC=C1)CCN(C2=CC=C(C=C2)OC)C(=O)C,3
-MMV675996,1.1,CC1=NC(=CC=C1)CCN(C2=CC=C(C=C2)OC)C(=O)C3CCCCC3,3
-MMV675997,1.9,C1CN(CCN1CCCCN(CC#N)C(=O)OCC2=CC=CC=C2)C3=CC=C(C=C3)F,3
-MMV676008,1.27,C1=CC=C(C=C1)C2=CC(=NO2)C(=O)NC3=C(C=CC=C3O)C4=NC5=C(C=CC=C5O4)C(=O)O,3
-MMV676048,1.82,C1CC[C@@H]([C@H](C1)N2C=CN=C2)OCC3=C(C=CC(=C3)Cl)Cl,3
-MMV676050,1.21,CS(=O)(=O)N1CCC(CC1)CN2C3=C(C(=N2)CC4=CC=CC5=CC=CC=C54)C(=NC=N3)N,3
-MMV676053,1.07,CN1C(=O)C2=CC=CC=C2C(=N1)CC(=O)NC3=CC(=C(C=C3)Cl)OC,3
-MMV676057,1,CC(C)(C)OC(=O)N1CCN(CC1)C2=NNC(=C2)C3=CC=C(C=C3)OC4=CC=CC=C4,3
-MMV676063,0.93,CCCCC1=CC=C(C=C1)NC(=O)NC2=CC(=C(C=C2)O[C@H]3CCCC[C@@H]3N(C)C4=CC=CC=C4)F,3
-MMV676064,0.98,CC(=O)N(CCN(C1=CC=CC=C1)C(=O)C2=CC=C(C=C2)F)C3=CC=CC=C3,3
-MMV676159,0.95,C1CC2=CC=CC=C2[C@@H]([C@H]1OCC3=CC(=CC=C3)Cl)N4C=CN=N4,3
-MMV676161,1.97,C1COCCN1CC2=CC(=NN2)C3=CC=C(C=C3)OC4=CC=CC=C4,3
-MMV676162,1.13,C1=CC=C(C=C1)C(=O)NC2=CC=CC=C2C3=NC4=C(C=CC=C4O3)C(=O)O,3
-MMV676182,5.64,C1CNCCC1CN2C3=C(C(=N2)CC4=CC=CC5=CC=CC=C54)C(=NC=N3)N,3
-MMV676186,0.96,COC1=CC=CC(=C1NC(=O)C2=NOC(=C2)C3=CC=CC=C3)C4=NC5=C(C=CC=C5O4)C(=O)OC,3
-MMV676191,1.17,CC(C)[C@@H](C(=O)O)OC1=CC=CC2=CC=CC=C21,3
-MMV676204,0.94,C1=CC=C(C=C1)NCCN(C2=CC=CC=C2)C(=O)C3=CC=C(C=C3)F,3
-MMV676260,4.92,CN1CCN(CC1)C2=NC=CC3=C2N=C(N3)C4=CC(=C(C=C4)F)F,3
-MMV676269,2.06,C[C@H](C(=O)N)N1CCCC[C@H]1C2=CC=C(C=C2)OCC3=CC(=CC=C3)F,3
-MMV676270,1.23,C[C@H](C(=O)N)N1CCCC[C@@H]1C2=CC=C(C=C2)OCC3=CC(=CC=C3)F,3
-MMV676350,4.14,CC1=CN=C(N1)CCNC(=O)C2=CC(=CS2)C3=CC=C(C=C3)Cl,3
-MMV676358,1.2,C1=C(C(=NC=C1Br)N)C2=NC3=NC=C(C=C3N2)Cl,3
-MMV676377,1.06,C1OC2=C(O1)C=C(C=C2)C3=C(N4C=CC=NC4=N3)Br,3
-MMV676379,0.94,COC1=CC(=CC=C1)OCC(=O)C2=CC=C(C=C2)Br,3
-MMV676382,1.12,CN1C2=C(C=N1)C(=NC(=N2)NCCC3=CNC4=CC=CC=C43)N5CCOCC5,3
-MMV676383,1.01,CC[C@@H](C(=O)NC1=NC=CS1)SC2=NC3=CC=CC=C3O2,3
-MMV676384,0.95,C1=CC=C(C=C1)CCNC2=C(N=C(O2)C3=CC=CC=C3F)C#N,3
-MMV676386,1,CC1=CC(=CC=C1)CN2C=CC(=N2)NC(=O)C3=CC4=C(C=C3)OCO4,3
-MMV676388,0.93,COC1=CC=CC(=C1)N2C(=NN=N2)S(=O)(=O)CC3=CC=CC=C3,3
-MMV676389,2.31,C1CCC2=C(C1)C(=NN2)C(=O)N3CCN(CC3)CC4=CC5=C(C=C4)OCO5,3
-MMV676395,1.09,C1CN2C3=C(C=CC=C31)C(=C(C2=O)C(=O)NC4=CN=CC=C4)O,3
-MMV676398,1.11,CCS(=O)(=O)N(CC1=CC=CO1)CC2=CC3=C(C=C(C=C3)C)NC2=O,3
-MMV676401,2.46,C1CCN(CC1)C2=NC3=CC=CC=C3C(=N2)NCC4=CC=CO4,3
-MMV676406,1,CC(C)N1C2=C(C=N1)C(=CC(=N2)C3=CC=CC=C3)C(=O)NC[C@@H](C4=CC=CS4)N5CCOCC5,3
-MMV676409,1.05,C1=CC=NC(=C1)C2=CSC(=N2)NC(=O)COC3=CC(=CC=C3)F,3
-MMV676411,1.03,C[C@@H](C(=O)NC1=NC(=CS1)C2=CC=CC=N2)OC3=CC=CC=C3,3
-MMV676431,0.97,CC1=C(C=C(C=C1)NC(=O)C[C@H]2COC3=CC=CC=C3O2)Cl,3
-MMV676439,1.24,CC1=CC2=CC(=C(N=C2C=C1)Cl)CNCC3=CC=CS3,3
-MMV676442,1.4,CC(C)C1=NC=C(C(=N1)C2CCC(CC2)CNC(=O)C3=CN=CC=C3)C4=CC=NC=C4,3
-MMV676444,2.06,C1CCC(CC1)NC(=O)N2CCN(CC2)CC3=CC4=C(C=C3)OCO4,3
-MMV676445,1.46,CCCN1C2=CC=CC=C2N=C1CNC3=CC=CC=C3O,3
-MMV676449,1.38,CCC1=NC2=CC=CC=C2N1C[C@@H](COC3=C(C=CC(=C3)C)Cl)O,3
-MMV676461,0.95,CCOC(=O)C1=NOC(=C1)C2=CSC(=N2)NC3=C(C=C(C=C3C)C)C,3
-MMV676468,0.94,C1=CC(=C(C=C1Cl)Cl)C(=O)C[C@@H](C(Cl)(Cl)Cl)N,3
-MMV676470,0.94,CCOC1=CC=C(C=C1)OCC(=O)NC2=CC(=CC(=C2)C)C,3
-MMV676472,0.97,COC1=C(C(=CC=C1)OC)C(=O)NC2=CC(=C(C=C2)Cl)C3=NC4=CC=CC=C4S3,3
-MMV676474,1.2,COC1=CC=CC=C1OCCCCN2C3=CC=CC=C3N=C2C4CC4,3
-MMV676476,1.11,CC1=CC(=CC(=C1)COC2=C(C3=C(C=C2)C(=C(C(=O)O3)CCC(=O)O)C)C)C,3
-MMV676478,0.99,C1CN(CCC1CC2=CC=CC=C2)C(=O)C3CCN(CC3)C4=NN=C(S4)N5C=CC=C5,3
-MMV676480,1.52,COC(=O)C1=C(SC2=C1CCN(C2)CC3=CC=CC=C3)NC(=O)C4=CC5=CC=CC=C5OC4=O,3
-MMV676492,1.3,C1=CC(=C(C=C1Br)C(=O)NC2=NNC(=S)S2)Cl,3
-MMV676501,1.08,C1=C(SC(=C1)Cl)C2=NN=C(O2)NC(=O)C3=CC=C(S3)Cl,3
-MMV676509,0.97,CC1=CC2=C(C=C1)OC(=N2)C3=C(C=CC(=C3)NC(=O)CC4=CC=CC=C4)Cl,3
-MMV676512,1.39,C1=CC=C(C=C1)N2C=NC=C2C(=O)NC3=NC(=CS3)C4=CC=CC=N4,3
-MMV676520,1.28,C1CN(CCN1CC2=CC3=C(C=C2)OCO3)C(=O)C4=CC5=CC=CC=C5O4,3
-MMV676524,1.07,C1=CC(=C(N=C1)NC2=CC=C(C=C2)Cl)N,3
-MMV676526,0.95,COC1=CC=C(C=C1)C2=C(C=CC(=C2)NC(=O)C3=C(C=C(C=C3)F)Cl)OC,3
-MMV676528,0.95,CC1=NC(=CC=C1)NC(=O)C2=C(C=CC(=C2)S(=O)(=O)N(C)C3=CC=C(C=C3)F)Cl,3
-MMV676536,1.02,C[C@@H](COC)NC(=O)CSC1=NC=NC2=C1C=C(S2)C3=CC=CC=C3,3
-MMV676539,1.01,C1=CC=C2C(=C1)C=C(C(=O)O2)C(=O)NCCC3=CNC4=CC=CC=C43,3
-MMV676554,1.61,COC1=CC=C(C=C1)NC2=CC=CC=C2NC(=O)C3=CNC(=O)C=C3,3
-MMV676555,1.96,CC1=NN=C(C2=CC=CC=C12)NCC3=CC(=CC=C3)Cl,3
-MMV676558,1.03,CC1=NN(C(=O)[C@H]1CC2=CC=CC3=CC=CC=C32)C4=NC5=CC=CC=C5S4,3
-MMV676571,0.97,COC1=C(C=C(C=C1)C2=NC(=NO2)C3=CC(=CC=C3)NC(=O)CC4=CC=C(C=C4)F)OC,3
-MMV676584,1.01,C1CSC(=N1)NC(=O)C2=C(C3=C(S2)C=C(C=C3)F)Cl,3
-MMV676588,2.61,C1CCC2=C(C1)C(=C3C4=C(CCCC4)SC3=N2)N,3
-MMV676589,0.97,C1CCC(CC1)CCC(=O)NC2=CC=CC(=C2)C3=NN=C(O3)C4=CC=CO4,3
-MMV676597,0.96,CCCN1N=C(N=N1)NC(=O)COC2=CC=C(C=C2)C3CCCCC3,3
-MMV676599,1.03,CC(C)(C)N1C2=C(C(=N1)CC3=CC=CC4=CC=CC=C43)C(=NC=N2)N,3
-MMV676600,5.86,CN1CCN(CC1)C2=CC=C(C=C2)C(=O)NC3=NNC4=C3CN(C4)C(=O)[C@@H](C5=CC=CC=C5)OC,3
-MMV676602,4.71,CC1(CC2=CN=C(N=C2C3=C1C(=NN3C)C(=O)NC)NC4=CC=C(C=C4)N5CCN(CC5)C)C,3
-MMV676603,0.96,C[C@H]1COC2(O1)CCN(CC2)C3=NC(=O)C4=CC(=CC(=C4S3)[N+](=O)[O-])C(F)(F)F,3
-MMV676604,1.72,CC1=NC=C(N1C(C)C)C2=NC(=NC=C2)NC3=CC=C(C=C3)S(=O)(=O)C,3
-MMV676605,1.91,CC1(CC(C1)C2=NC(=C3N2C=CN=C3N)C4=CC5=C(C=C4)C=CC(=N5)C6=CC=CC=C6)O,3
-MMV676877,1.05,C1[C@H](C1C(=O)C2=CC=C(C=C2)NCCO)C3=CC=C(C=C3)Cl,3
-MMV676881,0.98,CCN1C=NC2=C1N=C(N=C2NC3=CC(=CC(=C3)F)F)C#N,3
-MMV687138,1.01,C1=CC=C(C=C1)OCCOC2=C(C=C(C=C2)C3=CSC=C3)C(=O)N,3
-MMV687145,1.02,CCCCS(=O)(=O)NC1=CC2=C(C=C1)C=NN2C,3
-MMV687146,0.98,CC1=CC(=C2C=C(NC2=C1)C(=O)NC3CCCCCCC3)C,3
-MMV687170,0.97,COC1=CC=C(C=C1)CN2C=NC3=C(N=C(N=C32)Cl)C4=CC=CO4,3
-MMV687172,1.01,C1CN(CCC1C(=O)N2CCC3=CC=CC=C3C2)C4=NC=NC(=C4)N5C=CC=C5,3
-MMV687188,1.42,CC1=NC2=C(C=C(C=C2)OC)C(=C1)OCC(=O)NC3=CC=CC=C3OC,3
-MMV687189,1.62,CC1=NC2=C(C=C(C=C2)OC)C(=C1)OCC(=O)NCC3=CC=CC=C3,3
-MMV687239,0.94,CC(C)(C(=O)NC1=CC=C(C=C1)F)N2C=C(C=N2)C3=CC=CC=C3F,3
-MMV687243,1.01,C1=CC=C(C=C1)OCCOC2=C(C=C(C=C2)Br)C(=O)N,3
-MMV687246,6.23,CN1CCN(CC1)S(=O)(=O)C2=CC=C(C=C2)C3=CC4=NC=CC(=C4C=C3)NC5=CC6=NNN=C6C=C5,3
-MMV687248,4.74,C1=CC(=CC=C1OC2=CN=CC(=C2)C3=CC4=C(C=C3)N=C(N4)N)F,3
-MMV687251,0.99,CN1C2=NSC(=C2C(=O)N(C1=O)C)S(=O)(=O)C,3
-MMV687254,1.01,CCCCC1=CN=C(C=C1)C(=O)NC2=NC=CC3=CC=CC=C32,3
-MMV687273,3.89,CC(=CCC/C(=C\CNCCNC1C2CC3CC(C2)CC1C3)/C)C,3
-MMV687696,0.98,CCC1=C(N2C=C(C=CC2=N1)Cl)C(=O)NCC3=CC=C(C=C3)N4CCC(CC4)C5=CC=C(C=C5)OC(F)(F)F,3
-MMV687699,0.96,C1=CC2=NC(=C(N2C=C1)C(=O)NCC3=CC(=CC(=C3)Cl)Cl)C(F)(F)F,3
-MMV687700,2.78,C1=CC=C(C(=C1)C(=O)NS(=O)(=O)OC[C@@H]2[C@H]([C@H]([C@@H](O2)N3C=NC4=C3N=CN=C4N)O)O)O,3
-MMV687703,2.51,COC1=CC=CC(=N1)C2=NC3=C(N2C[C@H]4CCCN4)C=CC=C3N5CCCC5,3
-MMV687706,5.24,C1CN(CCN1)C2=NNC(=C2)C3=CC=C(C=C3)OC4=CC=CC=C4,3
-MMV687729,2.4,C1CN(CC=C1C2=C(C=C(C=C2F)N3C[C@@H](OC3=O)CO)F)CC4=CC=CC=C4,3
-MMV687730,1.65,CCCCOC(=O)NC1=C(C=C2C(=C1)NC(=N2)C3CCCCC3)N4CCCC4,3
-MMV687747,1.13,CC1=NC2=C(C=C(C=C2)Br)C(=C1)OCC(=O)NCC3=CC=CC=C3,3
-MMV687749,5.1,C1CN(C[C@H](N1)CC2=CC=CC=C2)C3=NC=CC(=N3)OC4=CC=C(C=C4)N5C=CN=C5,3
-MMV687762,1.06,C1COCCC1C2=CC(=NN2)C3=CC=C(C=C3)OC4=CC=CC=C4,3
-MMV687765,5.04,CC1=CN=C(N=C1OC2=CC=C(C=C2)N3C=CN=C3)N4CCN[C@H](C4)CC5=CC=CC=C5,3
-MMV687794,0.97,CC1(CC2=C3C(=NC(=C2CO1)N4CCOCC4)SN=C3Br)C,3
-MMV687798,4.81,C[C@H]1COC2=C3N1C=C(C(=O)C3=CC(=C2N4CCN(CC4)C)F)C(=O)O,3
-MMV687800,1.97,CC(C)N=C1C=C2C(=NC3=CC=CC=C3N2C4=CC=C(C=C4)Cl)C=C1NC5=CC=C(C=C5)Cl,3
-MMV687801,6.52,CC[C@H](CO)NCCN[C@H](CC)CO,3
-MMV687803,1.17,CC(=O)NC[C@@H]1CN(C(=O)O1)C2=CC(=C(C=C2)N3CCOCC3)F,3
-MMV687807,3.02,C1=CC(=C(C=C1NC(=O)C2=C(C=CC(=C2)Cl)O)C(F)(F)F)C(F)(F)F,3
-MMV687812,4.89,CN1CCN(CC1)CCCOC2=NC=C(C=N2)NC3=NC=C(N=C3C(=O)N)C4=CC(=C(C=C4)C(F)(F)F)F,3
-MMV687813,1.78,C1CN(CC=C1C2=C(C=C(C=C2F)N3C[C@@H](OC3=O)COC4=NOC=C4)F)CC5=CC=CC=C5,3
-MMV688122,1.32,CC1=CC=CC(=N1)C2=NC3=C(C(=N2)NC4=NC=NC=C4)SC=C3,3
-MMV688124,2.22,CCC1=CC=C(C=C1)S(=O)(=O)NC2=C(C=CC(=C2)CN3CCN(CC3)CCC(C)C)C,3
-MMV688125,2.75,CCCC1=CC=C(C=C1)S(=O)(=O)NC2=CC=C(C=C2)CN3CCN(CC3)CC4CC4,3
-MMV688178,0.98,C1=CC=C(C=C1)OC2=CC=C(C=C2)C3=CN=CC(=N3)C4=CC5=C(C=C4)NC=C5,3
-MMV688179,6.55,C1=CC(=C(C=C1N=C(N)N)Cl)C2=CC=C(O2)C3=C(C=C(C=C3)N=C(N)N)Cl,3
-MMV688180,5.22,CC1=C(C(=NN1C)C)NS(=O)(=O)C2=C(C=C(C=C2Cl)C3=CC(=NC=C3)N4CCNCC4)Cl,3
-MMV688262,0.93,C[C@@]1(CN2C=C(N=C2O1)[N+](=O)[O-])COC3=CC=C(C=C3)N4CCC(CC4)OC5=CC=C(C=C5)OC(F)(F)F,3
-MMV688270,1,CC(C)OC1=CC=CC(=C1)C2=CN3C(=CN=C3C=N2)C4=CC=C(C=C4)OC,3
-MMV688271,6.52,C1=CC(=C(C=C1C2=CC=C(O2)C3=CC(=C(C=C3)N=C(N)N)Cl)Cl)N=C(N)N,3
-MMV688273,1.68,C1=CC(=CC(=C1)F)COC2=C(C=C(C=C2)NC3=NC=NC4=C3C=C(C=C4)N)Cl,3
-MMV688274,1.32,C1COCCN1CC(=O)NC2=CC3=C(C=C2)N=CN=C3NC4=CC(=C(C=C4)OCC5=CC(=CC=C5)F)Cl,3
-MMV688279,4.47,CC1=CC=C(C=C1)[C@@]2(C3=C(C=CC(=C3)Cl)N=C(N2CCN4CCCCC4)C)O,3
-MMV688283,3.82,CN1CCN(CC1)S(=O)(=O)C2=CC=C(C=C2)C3=CC4=NC=CC(=C4C=C3)NC5=NC=C(C=N5)Cl,3
-MMV688313,1.09,CC(C)C1=CC=CC(=C1)C2=CN3C(=NN=C3C4=CC(=C(C=C4)OC)OC)C=C2,3
-MMV688327,5.49,CC(=O)NC[C@H]1CN(C(=O)O1)C2=CC(=C(C=C2)C3=CC=C(C=C3)CNCC4=NNN=C4)F,3
-MMV688330,1.13,CC(=O)N1CCN(CC1)C2=CC=C(C=C2)OC3=C(C=C(C=C3)Cl)O,3
-MMV688345,3.73,C1CN(CC2=C1C3=C(N=C(N=C3S2)N)N)CC4=CC=CC=C4,3
-MMV688350,0.93,COC(=O)C1=C(C=C(C=C1)F)NS(=O)(=O)C2=CC=CC(=C2)C3=CN(N=C3)CC4=CC=CC=C4,3
-MMV688352,1.05,C1=CC=C(C=C1)CNC2=NC=NC3=C2N=CN3CCN4[C@@H]([C@@H](C4=O)OC5=CC=CC=C5)C6=CC=C(C=C6)Cl,3
-MMV688360,0.96,CC1(C(=NN(C1=O)C2CCCCCC2)C3=CC(=C(C=C3)OC)OCC4=CC=CC=N4)C,3
-MMV688361,6.92,C1CN=C(N1)C2=CC=C(C=C2)C3=NOC(=C3)C4=CC(=CC=C4)C5=NCCN5,3
-MMV688362,6.89,COC1=C2C(=CC(=C1)C3=NCCN3)C=C(O2)C4=CC=C(C=C4)C5=NCCN5,3
-MMV688364,1.24,CC(C)(C)OC(=O)N1CCC(CC1)CN2C3=C(C(=N2)C4=CC5=CC=CC=C5N=C4)C(=NC=N3)N,3
-MMV688371,4.46,C1=CC(=CC=C1COC2=CC=C(C=C2)N(CCN)C(=O)C3=C(C=C(C=C3)Cl)Cl)Cl,3
-MMV688372,1.33,C1CCN(C1)C(=O)NC2=CC(=C(C=C2)F)C3=NC4=C(N3)C=C(C=N4)C5=CC=CC=C5,3
-MMV688407,6.98,COC1=C(C=CC(=C1)C2=NCCN2)C3=CN(N=N3)C4=CC=CC(=C4)C5=NCCN5,3
-MMV688410,6.18,CC1=NC2=C(C=C(C=C2)Cl)[C@@H](N1CCNC(=O)CN(C)C)C3=CC=CC=C3,3
-MMV688411,6.25,C1CNCCC1CN2C3=C(C(=N2)C4=CC5=CC=CC=C5N=C4)C(=NC=N3)N,3
-MMV688415,4.4,CO[C@@H]1CN(C[C@H]1O)C2=NC(=C(C=C2)C#CC3(CN4CCC3CC4)O)CC5=CC=CC=C5,3
-MMV688416,0.93,CC(C)(C)OC(=O)N1CCN(CC1)C2=NC=CC(=N2)C3=CC=C(S3)C4=CC=C(C=C4)Cl,3
-MMV688466,2.89,CN1C=CN=C1CNCCS(=O)(=O)C2=CC=CC(=C2)NC3=NC=C(C=C3)C4=CC(=CC=C4)F,3
-MMV688467,0.93,CCCCN(CCCC)C1=C(C=C(C=C1C#N)S(=O)(=O)NC2=CC=CC=C2)C#N,3
-MMV688469,1.61,C1=CC=C2C(=C1)C=CC=C2CC3=C4C(=NC=NC4=NN3)N,3
-MMV688470,1.16,CS(=O)(=O)N1CCC(CC1)CCN2C3=C(C(=N2)CC4=CC=CC5=CC=CC=C54)C(=NC=N3)N,3
-MMV688471,1.08,C[C@H](C1=CC=CC=C1)C(=O)NC2=CC3=C(C=C2)OC(=N3)C4=CC=NC=C4,3
-MMV688472,1.05,C[C@@H](C(=O)NC1=CC2=C(C=C1)OC(=N2)C3=CC=NC=C3)OC4=CC(=CC=C4)Cl,3
-MMV688474,6.97,COC1=C(C=CC(=C1)C2=NCCN2)N3C=C(N=N3)C4=CC(=CC=C4)C5=NCCN5,3
-MMV688508,1.22,CC(=O)NC[C@H]1CN(C(=O)O1)C2=CC(=C(C=C2)C3=CC=C(C=C3)CO)F,3
-MMV688509,1.3,C1CN(CCC1C2=CC(=C(N2)C3=CC=C(C=C3)F)C4=CC=NC=C4)C(=O)OCC5=CC=CC=C5,3
-MMV688514,4.76,C1=CC=C(C=C1)C2=CC(=NO2)C3=CC=C(C=C3)C(=N)N,3
-MMV688543,5.82,CC(C)(C)C(=O)N(CCCCCCN1C[C@@H]([C@H]([C@@H]([C@H]1CO)O)O)O)C2CCCCCC2,3
-MMV688547,6.99,COC1=C(C=C(C=C1)C2=NCCN2)C3=CN(N=N3)C4=CC=CC(=C4)C5=NCCN5,3
-MMV688548,1.03,CC(C)(C)N1C2=C(C(=N1)C3=CC=CC=C3)C(=NC=N2)N,3
-MMV688550,0.96,CCC1=CC=CC=C1N2C(=CN3C2=NC4=C3C(=O)N(C(=O)N4C)[C@@H](C(C)C)C(=O)OC)C,3
-MMV688552,7.97,CC1=C(C(=NN1C(=O)NC2=CC=CC(=C2)C(F)(F)F)C)SC3=NC=CC=N3,3
-MMV688553,2.05,C1CN(CCN1CC2=CC3=C(C=C2)OCO3)C(=O)NCC4=COC=C4,3
-MMV688554,1.01,CC1=NSC(=C1C(=O)NCCOC2=CC=C(C=C2)OC)NC,3
-MMV688555,1.1,C1CN(CCN1CC2=CC=C(S2)Cl)C(=O)NCC3=CC=CO3,3
-MMV688557,2.78,C1=CC=C(C=C1)S(=O)(=O)[C@@H](CN)C2=CC=CS2,3
-MMV688703,5.57,CN1CCC(CC1)C2=CC(=C(N2)C3=CC=C(C=C3)F)C4=CC=NC=C4,3
-MMV688704,0.99,CC1=CC2=C(N1CC3=CC=C(C=C3)Cl)C(=NC(=N2)NC(=O)C(C)(C)C)Cl,3
-MMV688754,0.91,C/C(=N/OCC1=CC=CC=C1/C(=N\OC)/C(=O)OC)/C2=CC(=CC=C2)C(F)(F)F,3
-MMV688755,0.95,C1[C@@H](COC2=NC(=CN21)[N+](=O)[O-])OCC3=CC=C(C=C3)OC(F)(F)F,3
-MMV688756,1.11,CC(=O)NC[C@H]1CN(C(=O)O1)C2=CC(=C(C=C2)N3CCSCC3)F,3
-MMV688761,0.95,CS(=O)(=O)C1=C(C=C(C=C1)C(=O)N(C[C@H]2CCCO2)C3=NC4=CC=CC=C4S3)[N+](=O)[O-],3
-MMV688762,2.26,C1CCN(C1)[C@H](C2=CC=CC=N2)C3=C(NC4=CC=CC=C43)C5=CC=CC=C5,3
-MMV688763,1.06,CNC1=NN=C(S1)SC2=C(C(=O)N(N=C2)C3=CC=CC=C3)Cl,3
-MMV688768,4.09,CC1=C(C2=CC=CC=C2N1)[C@H](C3=CC=CS3)N4CCN(CC4)C,3
-MMV688773,1.05,C1=CC=C(C=C1)CNC(=O)CN2C=CN=C2[N+](=O)[O-],3
-MMV688774,1.08,CC[C@@H]([C@H](C)O)N1C(=O)N(C=N1)C2=CC=C(C=C2)N3CCN(CC3)C4=CC=C(C=C4)OC[C@H]5C[C@](OC5)(CN6C=NC=N6)C7=C(C=C(C=C7)F)F,3
-MMV688776,1.18,CC1=C(C2=NC3=C(CCCC3)C(=O)N2N1)C4=CC=C(C=C4)Cl,3
-MMV688793,1.06,CC1=C(N=CC=C1)NC(=O)C2=CC(=CC=C2)OCC3=C(ON=C3C)C,3
-MMV688795,1.02,C1CCC(CC1)C(=O)NCCC2=NN(C=C2)C3=CC=CC=C3,3
-MMV688796,1.53,C1CCC2=NN=C(N2CC1)CNC(=O)C3=CC=C(O3)C4=CC=C(C=C4)F,3
-MMV688797,1.04,C[C@H]1CCCCN1C(=O)NCCC2=COC(=N2)C3=CC=C(C=C3)F,3
-MMV688798,0.95,CS(=O)(=O)C1=CC=CC=C1C(=O)N(CC2=CC=CC=C2)C3=CC=CC=C3,3
-MMV688844,3.33,COC1=NC2=C(C=CN=C2C=C1)NC(=O)C3CCN(CC3)CCC4=CC=C(C=C4)Cl,3
-MMV688845,0.98,C1COCCN1C2=CC=CC=C2NC(=O)[C@@H](CC3=CC=CC=C3)NC(=O)C4=CC=CS4,3
-MMV688846,2.08,CC1=CC=CC=C1CN2CCC(CC2)(C3=CC(=C(C=C3)Cl)C(F)(F)F)O,3
-MMV688852,1.03,CC(C)(C)N1C2=C(C(=N1)CC3=CC(=C(C=C3)F)Cl)C(=NC=N2)N,3
-MMV688853,1.15,CCOC1=CC2=NC=C(C=C2C=C1)C3=NN(C(=C3C(=O)N)N)C(C)(C)C,3
-MMV688854,5.17,CCOC1=CC2=C(C=C1)C=C(C=C2)C3=NN(C4=C3C(=NC=N4)N)CC5CCN(CC5)C,3
-MMV688888,3.71,CN1CCN(CC1)C2=NC(=NC(=C2)C3=CC=C(C=C3)F)C4=CC=NC=C4,3
-MMV688889,1.05,C1=CC=C(C=C1)C2=NC3=NC=NN3C(=C2)NCCC4=CC=C(C=C4)Cl,3
-MMV688891,0.92,COC1=C2C(=CC(=C1)Br)C=C(C(=O)O2)C(=O)NC3=CC=CC(=C3)C(F)(F)F,3
-MMV688921,1.39,C1=CC=C2C(=C1)C=C(O2)C3=C4C5=C(C=CC(=C5)Cl)N(C4=NC=N3)[C@H]6C([C@H]([C@H](O6)CO)O)O,3
-MMV688934,1.02,CCC1=NN(C(=C1Cl)C(=O)NCC2=CC=C(C=C2)OC3=CC=C(C=C3)C)C,3
-MMV688936,1.8,C1=CC2=C(C(=C1)Cl)N=C(S2)N(CCCN3C=CN=C3)C(=O)C4=CC=CO4,3
-MMV688938,2.47,CCOC1=CC=C(C=C1)C2=NC(=CS2)CNCCC3=CC=C(C=C3)F,3
-MMV688939,1.76,CC1=CN2C(=NC(=C2C3=NN(C=C3)CC4=CC=CC=C4)C)C=C1,3
-MMV688941,2.12,COC1=CC(=CC2=C1OCO2)CN3CCC4(CC3)C=CC5=CC=CC=C45,3
-MMV688942,1,CC(C)(C)C(C(N1C=NC=N1)OC2=CC=C(C=C2)C3=CC=CC=C3)O,3
-MMV688943,0.98,CC1COC(O1)(CN2C=NC=N2)C3=C(C=C(C=C3)OC4=CC=C(C=C4)Cl)Cl,3
-MMV688955,1.07,CC1=CC(=NO1)NC(=O)C2=CC=C(O2)OC3=C(C=C(C=C3)Cl)O,3
-MMV688958,1.01,C1=CC=C(C=C1)C2=NC(=CS2)CCNC(=O)C3=CC=CC=C3,3
-MMV688980,1.01,CCC1=CC(=O)N(C(=N1)S[C@@H](C)C(=O)NC2=CC=C(C=C2)F)C,3
-MMV688990,5.31,CCCCCCCCCCCCCCCCOP(=O)([O-])OCC[N+](C)(C)C,3
-MMV688991,1.02,CC(=O)OC1=CC=CC=C1C(=O)NC2=NC=C(S2)[N+](=O)[O-],3
-MMV689028,1.2,CC1=CC=C(C=C1)S(=O)(=O)NC2=CC=C(C=C2)CN3CCN(CC3)C(=O)C4=CC=CC(=C4)C#N,3
-MMV689029,1.24,COC1=CC=C(C=C1)S(=O)(=O)NC2=CC=C(C=C2)CN3CCN(CC3)C(=O)C4=CC=CC(=C4)C#N,3
-MMV689060,3.25,C1CN=C(N1)N2CCN(CC2)CC3=CC(=C(C=C3)Cl)Cl,3
-MMV689061,2.08,CC1=C(C=CC=C1F)CN2CCC[C@@H](C2)CC3=NC(=NO3)C4=CC=C(C=C4)NC(=O)C,3
-MMV689243,0.92,C1CN(CCC1N(C2=CC=C(C=C2)C(F)(F)F)C3=CN=CC=C3)C4=NC=C(C=C4)C(F)(F)F,3
-MMV689244,1,C1CN(CCN1C2=CC=C(C=C2)C(F)(F)F)C(=O)[C@@H](C3=CC=C(C=C3)Cl)C4=CN=CC=C4,3
-MMV689255,8.85,C1=NC2=C(C(=N1)N)N=CN2C[C@H]([C@H](C(=O)O)O)O,3
-MMV689437,4.55,C[C@@H](C1=CC(=CC(=C1)Cl)Cl)N(C)C2=NC=C3C(=NC(=NC3=N2)N)N,3
-MMV689480,0.94,CC(C)(C)C1CCC(CC1)CC2=C(C3=CC=CC=C3C(=O)C2=O)O,3
-MMV689709,4.51,CC1=CC(=CC(=N1)[C@@H]2CN(CCO2)C(=O)C3=NNC4=CC=CC=C43)NC,3
-MMV689758,1.89,CN(C)CC[C@@](C1=CC=CC2=CC=CC=C21)([C@H](C3=CC=CC=C3)C4=C(N=C5C=CC(=CC5=C4)Br)OC)O,3
-MMV690027,1.12,COC1=C(C=C(C=C1)C2=NN(C(=O)[C@H]3[C@@H]2CC=CC3)C4CCCCCC4)OCCCCOC5=CC=C(C=C5)C6=NNN=N6,3
-MMV690028,1.12,CC1(C(=NN(C1=O)C2CCCCCC2)C3=CC(=C(C=C3)OC)OCCCCOC4=CC=C(C=C4)C5=NNN=N5)C,3
-MMV690102,4.57,C[C@H](C1=CC=C(C=C1)OC2=CC=C(C=C2)OC)N(C)C3=NC=C4C(=NC(=NC4=N3)N)N,3
-MMV690103,4.66,C[C@H](C1=CC2=C(CCCC2)C=C1)N(C)C3=NC=C4C(=NC(=NC4=N3)N)N,3
+(2R)-3-Hydroxyisovaleroylcarnitine,7.23,CC(C)(CC(=O)OC(CC(=O)[O-])C[N+](C)(C)C)O,3
+(R)-Butyrylcarnitine,5.77,CCCC(=O)OC(CC(=O)[O-])C[N+](C)(C)C,3
+(S)-Cotinine N-oxide,3.87,CN1C(CCC1=O)C2=C[N+](=CC=C2)[O-],3
+1-Methyladenosine,7.46,CN1C=NC2=C(C1=N)N=CN2C3C(C(C(O3)CO)O)O,3
+1-Methylguanosine,5.84,CN1C(=O)C2=C(N=C1N)N(C=N2)C3C(C(C(O3)CO)O)O,3
+1-Methyl-L-histidine,9.1,CN1C=C(N=C1)CC(C(=O)O)N,3
+1-Methylnicotinamide,6.26,C[N+]1=CC=CC(=C1)C(=O)N,3
+2'-Deoxyguanosine,6.4,C1C(C(OC1N2C=NC3=C2NC(=NC3=O)N)CO)O,3
+2-Indolinone,1.36,C1=CC=C2C(=C1)C=C(N2)O,3
+3-Guanidinopropionic acid,8.15,C(CN=C(N)N)C(=O)O,3
+3-Hydroxybutyrylcarnitine,7.62,CC(CC(=O)OC(CC(=O)[O-])C[N+](C)(C)C)O,3
+3-Hydroxyphenylacetic acid,1.45,C1=CC(=CC(=C1)O)CC(=O)O,3
+3-Hydroxyproline,8.17,C1CNC(C1O)C(=O)O,3
+3-Ureidopropionic acid,5.6,C(CNC(=O)N)C(=O)O,3
+4-Acetamidobutyric acid,2.26,CC(=O)NCCCC(=O)O,3
+4-Aminobenzoic acid,7.49,C1=CC(=CC=C1C(=O)O)N,3
+4-Guanidinobutyric acid,7.72,C(CC(=O)O)CN=C(N)N,3
+4-Hydroxynonenal,1.07,CCCCCC(C=CC=O)O,3
+4-Pyridoxic acid,2.66,CC1=NC=C(C(=C1O)C(=O)O)CO,3
+5-Aminovaleric acid,7.24,C(CCN)CC(=O)O,3
+5-Hydroxytryptophol,5.93,C1=CC2=C(C=C1O)C(=CN2)CCO,3
+5-Methoxy-3-indoleacetic acid,1.32,COC1=CC2=C(C=C1)NC=C2CC(=O)O,3
+5-Methylcytosine,6.62,CC1=C(NC(=O)N=C1)N,3
+5'-Methylthioadenosine,2.49,CSCC1C(C(C(O1)N2C=NC3=C2N=CN=C3N)O)O,3
+6-Methyladenosine,3.56,CNC1=NC=NC2=C1N=CN2C3C(C(C(O3)CO)O)O,3
+Acetylcarnitine,7.19,CC(=O)OC(CC(=O)[O-])C[N+](C)(C)C,3
+Adenine,4.71,C1=NC2=C(N1)C(=NC=N2)N,3
+Agmatine,8.92,C(CCN=C(N)N)CN,3
+Ala-Ala,8.41,CC(C(=O)NC(C)C(=O)O)N,3
+Ala-Gln,9.11,CC(C(=O)NC(CCC(=O)N)C(=O)O)N,3
+Ala-Ile,7.83,CCC(C)C(C(=O)[O-])NC(=O)C(C)[NH3+],3
+"Androstane-3,17-diol",0.96,CC12CCC(CC1CCC3C2CCC4(C3CCC4O)C)O,3
+Androsterone,4.62,CC12CCC(CC1CCC3C2CCC4(C3CCC4=O)C)O,3
+Arg-Ala,9.66,CC(C(=O)O)NC(=O)C(CCCN=C(N)N)N,3
+Arg-Gly,9.85,C(CC(C(=O)NCC(=O)O)N)CN=C(N)N,3
+Arginine,9.53,C(CC(C(=O)O)N)CN=C(N)N,3
+Arg-Pro,9.51,C1CC(N(C1)C(=O)C(CCCN=C(N)N)N)C(=O)O,3
+Arg-Ser,9.9,C(CC(C(=O)NC(CO)C(=O)O)N)CN=C(N)N,3
+Arg-Val,9.3,CC(C)C(C(=O)O)NC(=O)C(CCCN=C(N)N)N,3
+Asparagine,8.81,C(C(C(=O)O)N)C(=O)N,3
+Aspartic acid,9.33,C(C(C(=O)O)N)C(=O)O,3
+Betaine,7.24,C[N+](C)(C)CC(=O)[O-],3
+Biliverdin,1.5,CC1=C(C(=CC2=C(C(=C(N2)C=C3C(=C(C(=O)N3)C)C=C)C)CCC(=O)O)NC1=CC4=NC(=O)C(=C4C)C=C)CCC(=O)O,3
+Biotin,2.85,C1C2C(C(S1)CCCCC(=O)O)NC(=O)N2,3
+Caffeine,1.21,CN1C=NC2=C1C(=O)N(C(=O)N2C)C,3
+Carnitine,7.83,C[N+](C)(C)CC(CC(=O)[O-])O,3
+Choline [M]+,5.18,C[N+](C)(C)CCO,3
+Cortisone,1.29,CC12CCC(=O)C=C1CCC3C2C(=O)CC4(C3CCC4(C(=O)CO)O)C,3
+Cotinine,1.49,CN1C(CCC1=O)C2=CN=CC=C2,3
+Creatine,8.15,CN(CC(=O)O)C(=N)N,3
+Creatinine,4.93,CN1CC(=O)N=C1N,3
+Cystathionine,9.91,C(CSCC(C(=O)O)N)C(C(=O)O)N,3
+Cytosine,5.9,C1=C(NC(=O)N=C1)N,3
+Ecgonine,7.61,CN1C2CCC1C(C(C2)O)C(=O)O,3
+Galactosamine,8.44,C(C1C(C(C(C(O1)O)N)O)O)O,3
+gamma-Aminobutyric Acid,7.86,C(CC(=O)O)CN,3
+gamma-Glutamylleucine,8.1,CC(C)CC(C(=O)O)NC(=O)CCC(C(=O)O)N,3
+gamma-Glutamylmethionine,8.55,CSCCC(C(=O)O)NC(=O)C(CCC(=O)O)N,3
+Glu-Arg,9.9,C(CC(C(=O)O)NC(=O)C(CCC(=O)O)N)CN=C(N)N,3
+Gluconolactone,8.15,C(C1C(C(C(C(=O)O1)O)O)O)O,3
+Glu-Gln,9.6,C(CC(=O)O)C(C(=O)NC(CCC(=O)N)C(=O)O)N,3
+Glu-Lys,9.9,C(CC[NH3+])CC(C(=O)[O-])NC(=O)C(CCC(=O)[O-])[NH3+],3
+Glu-Phe,8.2,C1=CC=C(C=C1)CC(C(=O)O)NC(=O)C(CCC(=O)O)N,3
+Glutamic acid,8.85,C(CC(=O)O)C(C(=O)O)N,3
+Glutamine,8.66,C(CC(=O)N)C(C(=O)O)N,3
+Glutathione (reduced),9.15,C(CC(=O)NC(CS)C(=O)NCC(=O)O)C(C(=O)O)N,3
+Glu-Thr,9.44,CC(C(C(=O)O)NC(=O)C(CCC(=O)O)N)O,3
+Glycerophosphocholine,8.67,C[N+](C)(C)CCOP(=O)(O)OCC(CO)O,3
+Glycyl-leucine,8.14,CC(C)CC(C(=O)O)NC(=O)CN,3
+Gly-Pro,8.62,C1CC(N(C1)C(=O)CN)C(=O)O,3
+Gly-val,8.05,CC(C)C(C(=O)O)NC(=O)CN,3
+Guanosine,7.33,C1=NC2=C(N1C3C(C(C(O3)CO)O)O)NC(=NC2=O)N,3
+Hexanoyl-L-carnitine,5.09,CCCCCC(=O)OC(CC(=O)[O-])C[N+](C)(C)C,3
+Histamine,8.29,C1=C(NC=N1)CCN,3
+Histidine,9.48,C1=C(NC=N1)CC(C(=O)O)N,3
+Hydrocortisone,2.56,CC12CCC(=O)C=C1CCC3C2C(CC4(C3CCC4(C(=O)CO)O)C)O,3
+Hypoxanthine,4.99,C1=NC2=C(N1)C(=O)N=CN2,3
+Isovaleryl-L-carnitine,5.36,CC(C)CC(=O)OC(CC(=O)[O-])C[N+](C)(C)C,3
+Kynurenine,6.98,C1=CC=C(C(=C1)C(=O)CC(C(=O)O)N)N,3
+Lauroyl-L-carnitine,3.63,CCCCCCCCCCCC(=O)OC(CC(=O)[O-])C[N+](C)(C)C,3
+L-Cysteine-glutathione disulfide,10.15,C(CC(=O)NC(CSSCC(C(=O)O)N)C(=O)NCC(=O)O)C(C(=O)O)N,3
+Leu-Ala,5.0,CC(C(=O)O)NC(=O)C(CC(C)C)N,3
+Leu-Arg,8.86,CC(C)CC(C(=O)NC(CCCN=C(N)N)C(=O)O)N,3
+Leucine,7.08,CC(C)CC(C(=O)O)N,3
+Leu-Pro,7.32,CC(C)CC(C(=O)N1CCCC1C(=O)O)N,3
+L-Homocitrulline,8.73,C(CCNC(=O)N)CC(C(=O)O)N,3
+Linoleoylcarnitine,3.1,CCCCCC=CCC=CCCCCCCCC(=O)OC(CC(=O)[O-])C[N+](C)(C)C,3
+Lys-Gly,9.84,C(CCN)CC(C(=O)NCC(=O)O)N,3
+Lys-Val,9.38,CC(C)C(C(=O)O)NC(=O)C(CCCCN)N,3
+Methioninesulfoxide,8.62,CS(=O)CCC(C(=O)O)N,3
+"N,N-Dimethylarginine",9.1,CN(C)C(=NCCCC(C(=O)O)N)N,3
+N-.alpha.-Acetyl-L-arginine,8.16,CC(=O)NC(CCCN=C(N)N)C(=O)O,3
+N.alpha.-Acetyl-L-lysine,8.15,CC(=O)NC(CCCCN)C(=O)O,3
+N.alpha.-Methyl-L-lysine,7.35,CNC(CCCCN)C(=O)O,3
+"N2,N2-Dimethylguanosine",5.62,CN(C)C1=NC(=O)C2=C(N1)N(C=N2)C3C(C(C(O3)CO)O)O,3
+N8-Acetylspermidine,8.87,CC(=O)NCCCCNCCCN,3
+N-Acetyl-5-hydroxytryptamine,1.43,CC(=O)NCCC1=CNC2=C1C=C(C=C2)O,3
+N-Acetylalanine,4.83,CC(C(=O)O)NC(=O)C,3
+N-Acetylcytidine,5.08,CC(=O)NC1=NC(=O)N(C=C1)C2C(C(C(O2)CO)O)O,3
+N-Acetylglucosamine,7.35,CC(=O)NC1C(C(C(OC1O)CO)O)O,3
+N-Acetyl-L-carnosine,8.35,CC(=O)NCCC(=O)NC(CC1=CN=CN1)C(=O)O,3
+N-Acetyl-L-glutamine,8.18,CC(=O)NC(CCC(=O)N)C(=O)O,3
+N-Acetylmethionine,3.23,CC(=O)NC(CCSC)C(=O)O,3
+N-Acetylphenylalanine,2.61,CC(=O)NC(CC1=CC=CC=C1)C(=O)O,3
+N-Acetyltryptophan,2.81,CC(=O)NC(CC1=CNC2=CC=CC=C21)C(=O)O,3
+N-alpha-Acetyl-L-ornithine,8.31,CC(=O)NC(CCCN)C(=O)O,3
+"NEPSILON,NEPSILON,NEPSILON-TRIMETHYLLYSINE",9.29,C[N+](C)(C)CCCCC(C(=O)[O-])N,3
+N-Formylmethionine,3.93,CSCCC(C(=O)O)NC=O,3
+Nicotinamide,1.7,C1=CC(=CN=C1)C(=O)N,3
+Nicotinamide riboside cation,7.51,C1=CC(=C[N+](=C1)C2C(C(C(O2)CO)O)O)C(=O)N,3
+N-Methylglutamic acid,8.45,CC(CCC(=O)O)(C(=O)O)N,3
+N-Methylhistidine,9.47,CNC(CC1=CN=CN1)C(=O)O,3
+N-Methylleucine,6.45,CC(C)CC(C(=O)O)NC,3
+N-Methyllysine,9.36,CNCCCCC(C(=O)O)N,3
+N-Methylproline,7.11,CN1CCCC1C(=O)O,3
+N-Methyltyrosine,6.79,CNC(CC1=CC=C(C=C1)O)C(=O)O,3
+O-Acetyl-L-homoserine,7.6,CC(=O)OCCC(C(=O)O)N,3
+Pantothenic acid,3.5,CC(C)(CO)C(C(=O)NCCC(=O)O)O,3
+Phenylacetylglutamine,6.03,C1=CC=C(C=C1)CC(=O)NC(CCC(=O)N)C(=O)O,3
+Phenylalanine,6.94,C1=CC=C(C=C1)CC(C(=O)O)N,3
+Pipecolic acid,7.83,C1CCNC(C1)C(=O)O,3
+Pro-Gln,8.75,C1CC([NH2+]C1)C(=O)NC(CCC(=O)N)C(=O)[O-],3
+Proline,7.83,C1CC(NC1)C(=O)O,3
+Proline-hydroxyproline,8.6,C1CC([NH2+]C1)C(=O)N2CC(CC2C(=O)[O-])O,3
+Propionylcarnitine,6.41,CCC(=O)OC(CC(=O)[O-])C[N+](C)(C)C,3
+Putrescine,9.3,C(CCN)CN,3
+Pyridoxal,2.18,CC1=NC=C(C(=C1O)C=O)CO,3
+Pyridoxamine,8.1,CC1=NC=C(C(=C1O)CN)CO,3
+Retinoic acid,1.11,CC1=C(C(CCC1)(C)C)C=CC(=CC=CC(=CC(=O)O)C)C,3
+S-Adenosyl-homocysteine,8.85,C1=NC2=C(C(=N1)N)N=CN2C3C(C(C(O3)CSCCC(C(=O)O)N)O)O,3
+Ser-Glu,9.65,C(CC(=O)O)C(C(=O)O)NC(=O)C(CO)N,3
+Serine,8.73,C(C(C(=O)O)N)O,3
+Ser-Tyr,8.44,C1=CC(=CC=C1CC(C(=O)O)NC(=O)C(CO)N)O,3
+Spermidine,6.98,C(CCNCCCN)CN,3
+Stachydrine,7.1,C[N+]1(CCCC1C(=O)[O-])C,3
+Stearoyl-L-carnitine,2.96,CCCCCCCCCCCCCCCCCC(=O)OC(CC(=O)[O-])C[N+](C)(C)C,3
+Targinine,9.22,CN=C(N)NCCCC(C(=O)O)N,3
+Taurine,7.85,C(CS(=O)(=O)O)N,3
+Thr-Ala,8.56,CC(C(C(=O)NC(C)C(=O)[O-])[NH3+])O,3
+trans-3'-Hydroxycotinine,2.02,CN1C(CC(C1=O)O)C2=CN=CC=C2,3
+Tryptamine,6.92,C1=CC=C2C(=C1)C(=CN2)CCN,3
+Tryptophan,6.92,C1=CC=C2C(=C1)C(=CN2)CC(C(=O)O)N,3
+Valine,7.24,CC(C)C(C(=O)O)N,3
+MMV000011,6.48,C[C@@H]1[C@H]2[C@@H]([C@H]3[C@@H](C(=O)C(=C([C@]3(C(=O)C2=C(C4=C1C=CC=C4O)O)O)O)C(=O)N)N(C)C)O,4
+MMV000016,3.48,C1CCN[C@H](C1)[C@H](C2=CC(=NC3=C2C=CC=C3C(F)(F)F)C(F)(F)F)O,4
+MMV000023,4.54,C[C@@H](CCCN)NC1=C2C(=CC(=C1)OC)C=CC=N2,4
+MMV000062,6.51,C1=CC(=CC=C1C(=N)N)OCCCCCOC2=CC=C(C=C2)C(=N)N,4
+MMV000063,2.3,CCN(CC)CCCCCCNC1=CC(=CC2=C(C=CN=C12)C)OC,4
+MMV000858,0.96,C1CN(CCN1C(=S)NCC2=CC=CO2)S(=O)(=O)C3=CC=C(C=C3)Cl,4
+MMV000907,5.16,CC1=NC(=NC2=C1C=CC=C2OC)N=C(N)N,4
+MMV001059,0.97,CCCS(=O)(=O)N1CCC(CC1)(CC2=CC=CC=C2C(F)(F)F)CO,4
+MMV001493,0.96,CC1=C([C@@H](C(=C(N1)C)C(=O)OC(C)C)C2=CC=CC3=NON=C32)C(=O)OC,4
+MMV001561,2.56,CNCC[C@@H](C1=CC=CC=C1)OC2=CC=C(C=C2)C(F)(F)F,4
+MMV002529,1.08,C1CCC(CC1)C(=O)N2C[C@H]3C4=CC=CC=C4CCN3C(=O)C2,4
+MMV002816,4.5,CCN(CC)C(=O)N1CCN(CC1)C,4
+MMV003152,1.2,COC(=O)NC1=NC2=C(N1)C=C(C=C2)C(=O)C3=CC=CC=C3,4
+MMV003270,1.12,C1=CC2=C(C=C1Cl)N=C(O2)N,4
+MMV004168,2.42,CN1CCCN(CC1)[C@@H](C2=CC=CC=C2)C3=CC=C(C=C3)Cl,4
+MMV006239,1.28,C1CN[C@@]2(C3=C(C=CC(=C3)Br)NC2=O)C4=C1C5=CC=CC=C5N4,4
+MMV006372,5.5,CC1=CC2=C(C=C1)NC3=C2N=CN=C3NCCN(C)C,4
+MMV006741,5.66,COC1=C(C=C2C(=C1)C(=NC=N2)NC3CCN(CC3)CC4=CC=CC=C4)OC,4
+MMV006833,0.96,CC1=CC(=C(C=C1OCC(=O)NC2CCCCC2)S(=O)(=O)N3CCCC3)Cl,4
+MMV006901,3.37,CN(C)C1=NC2=CC=CC=C2C(=C1)NC(=O)NC3=CC=CC=C3,4
+MMV007133,0.97,CC1=CC(=NO1)NC(=O)C2=CC=C(C=C2)S(=O)(=O)N(CC3=CC=CC=C3)C(C)C,4
+MMV007471,1.09,COC1=CC(=CC(=C1)C(=O)NC[C@H]2CC3=C(O2)C(=CC(=C3)Cl)C4=CC=NC=C4)OC,4
+MMV007625,4.01,CC1=CC(=NN1C2=CC=C(C=C2)NC(=O)C3CCN(CC3)CC4=CN=C(S4)C)C,4
+MMV007638,1.03,CCOC1=CC=C(C=C1)C2=C(SC(=N2)NC(=O)CS(=O)(=O)C3=CC=CC=C3)C,4
+MMV007803,1.0,C1CC1NC(=O)C2=CC=C(O2)CSCC3=CC=CC=C3Cl,4
+MMV007920,1.08,C1=CC=C2C(=C1)N=C(O2)C3=CC=C(C=C3)NC(=O)C4=CC=C(C=C4)N,4
+MMV008439,5.35,CC1=C(C=CC(=C1)CN2CCOC3=C(C2)C=C(C=C3)[C@](C)(CN(C)C)O)OC,4
+MMV009054,0.99,CC1=CC(=NO1)C(=O)NC2=CN(N=C2)CC3=C(C=C(C=C3)Cl)Cl,4
+MMV009135,1.01,C1CN(CCC1C(=O)N2CCC3=CC=CC=C3C2)C4=NN=NN4C5=CC=CC=C5,4
+MMV010545,1.69,COC1=NC=C(C=C1)C2=CN=C3N2N=C(C=C3)NCC4=CC=C(C=C4)S(=O)(=O)N,4
+MMV010576,1.26,COC1=C(C=CC(=C1)C2=C(N=CC(=C2)C3=CC=C(C=C3)S(=O)(=O)C)N)O,4
+MMV010764,1.15,C1COCCC1CNC2=NN3C(=CN=C3S2)C4=CC=CS4,4
+MMV011229,1.89,CC1=NC2=NC=CN2C(=C1)NC3=CC=C(C=C3)C(F)(F)F,4
+MMV011511,5.48,CN(C)C1=CC=CC(=C1)CNC2CCN(CC2)CCC3=CC=C(C=C3)OC,4
+MMV011691,5.74,C1CN2C(=NC(=C2NC3=CC4=C(C=C3)OCO4)C5=CC=CC=C5)CN1C(=O)CN,4
+MMV011765,0.98,C1=CN=CC=C1C2=NN=C(O2)SC3=C(C=C(C=N3)C(F)(F)F)Cl,4
+MMV011903,1.22,CC1=CC(=C(C=C1)NC(=O)C2=C(NC=N2)C(=O)NC3=NC4=CC=CC=C4N3)C,4
+MMV012074,1.19,CC1=C(N2C=CC=CC2=N1)C(=O)NCC3=CC=C(C=C3)Cl,4
+MMV016136,3.33,CC1=NC2=C(C(=NN2C(=C1)NC3=CC=NC=C3)C)C4=CC=CC=C4Cl,4
+MMV016838,1.06,CC1=CC=C(C=C1)C2=NC3=C(C=C(C=C3)Br)C(=C2)C(=O)NC4=CN=CC=C4,4
+MMV019087,0.98,CC1=CC(=NC2=NC(=NN12)C(=O)NC3=C(C=CC(=C3)C(F)(F)F)N4CCOCC4)C,4
+MMV019189,1.06,CC1=C(C2=C(C=C1)[C@]3(C(=O)N2)NN=C(S3)C4=CC=CC=C4)C,4
+MMV019234,0.99,COC1=C(C=C(C=C1)[C@@H]2CC(=NN2C(=O)C3=CC=CO3)C4=CC=CS4)OC,4
+MMV019551,0.96,CC[C@@H](C(=O)OC)NC(=O)C1=CC=CC=C1NC(=O)C2=CC=C(C=C2)C,4
+MMV019721,1.0,CCN(CC)S(=O)(=O)C1=CC(=C(C=C1)Cl)C(=O)NC2=CC3=C(C=C2)N=C(S3)C,4
+MMV019742,1.08,CC1=CC=C(C=C1)S(=O)(=O)N2CCN(CC2)C(=O)C3=CC(=NN3)C4=CC=CC=C4,4
+MMV019790,1.16,CCOC1=CC=CC=C1C(=O)NC2=CC=CC(=C2)C3=C(N4C=CC=NC4=N3)C,4
+MMV019807,1.13,CC1=CC2=NC(=C(C=C2C=C1)[C@H]3NC4=CC=CC=C4C(=O)N3)Cl,4
+MMV019838,0.99,C1=CC(=CN=C1)C2=NC=CC(=N2)NC(=O)C3=CC(=CC(=C3)C(F)(F)F)C(F)(F)F,4
+MMV019993,1.06,CC1=NN(C=C1[C@H](C)NC2=NC(=CN=N2)C3=CC=C(C=C3)C(F)(F)F)C,4
+MMV020081,1.24,CC1=NC2=C(N1C3CCN(CC3)C(=O)CC4=CC(=CC=C4)OC)C=C(C=C2)F,4
+MMV020120,2.43,CC1CC1C(=O)NC2CCN(CC2)CC3(CCCCC3)C4=CC=CC=C4,4
+MMV020136,1.09,CNC(=O)C1=CC(=CS1)S(=O)(=O)N2CCN(CC2)C3=CC=CC=N3,4
+MMV020152,0.95,CC1=CC(=NO1)C(=O)NC2=CC=C(C=C2)C3=CC=CC=C3,4
+MMV020165,3.81,CC(C)NCC(=O)NC1=CC=CC(=C1)C(=O)NC2=CC=CC(=C2)C(F)(F)F,4
+MMV020289,1.0,CC1=CN=C(C=C1)NC(=O)C2=C(C=CC(=C2)S(=O)(=O)NC(C)(C)C)C,4
+MMV020291,1.05,C[C@@H](C(=O)N1CCCC1)N2CCN(CC2)S(=O)(=O)C3=CC=C(C=C3)C(C)(C)C,4
+MMV020320,1.08,CC1=CC=CC=C1C2=NN(C=C2C(=O)NC3=NN=C(O3)C)C4=CC=CC=C4,4
+MMV020321,1.12,C[C@@H](C1=CC=CC=C1OC)NCC(=O)NC2=C(C=CC(=C2)C(F)(F)F)Cl,4
+MMV020388,0.96,CC1CCCN(C1)C(=O)C(C)NC2=C(C=CC(=C2)Cl)N3CCOCC3,4
+MMV020391,0.94,CC(C)[C@H](C1=CC=C(C=C1)Cl)C(=O)NC2=CC=C(C=C2)S(=O)(=O)N(C)C,4
+MMV020512,0.99,CC1=CC=C(C=C1)OC2=CC=C(C=C2)NC(=O)CNC3=CC=CC=C3N4CCCC4=O,4
+MMV020517,0.96,CC(C)N1C2=C(C=N1)C(=CC(=N2)C3CC3)C(=O)NCC4=CC=CC=C4OC,4
+MMV020520,0.96,CC1=CC2=CC=CC=C2N1CC(=O)N3C[C@H](OC4=CC=CC=C43)C(=O)N5CCCCC5,4
+MMV020537,1.0,C1CC1NC(=O)C2=CC=C(S2)N3CCOC4=C3C=C(C=C4)Cl,4
+MMV020591,1.0,CC(C)[C@@H](C(=O)NC1=CC=CC(=C1)C#N)NC(=O)CC2=CC=CC3=CC=CC=C32,4
+MMV020623,1.24,CC1=CC=CC2=C1NC(=C2C3=CC=NC=C3)[C@H]4CCCN(C4)C(=O)C5=C(ON=C5C)C,4
+MMV020670,3.16,COC1=CC=C(C=C1)C2=C3C(=CN=C2)C=CC(=N3)C(=O)NCCCN4C=CN=C4,4
+MMV020710,0.98,CN(CC(=O)NC1=C(C=CC(=C1)Cl)OC)C(=O)C2=NN(N=C2)C3=CC=CC=C3,4
+MMV020982,1.46,CC(C)(C)C1=CC(=CC(=C1)C(=O)NC2=CN=CC=C2)C(=O)NC3=CN=CC=C3,4
+MMV021057,0.95,CO/C=C(/C1=CC=CC=C1OC2=NC=NC(=C2)OC3=CC=CC=C3C#N)\C(=O)OC,4
+MMV021375,2.69,CC1=NC2=C(C(=C1)NCC(C)C)NN=C2C3=CC=CC=C3,4
+MMV021660,2.78,CC1=CC(=NC(=N1)/N=C(\N)/NC2=CC=C(C=C2)Cl)NCCC3=CC=CC=C3,4
+MMV022029,5.89,CN1CCC(CC1)NCC2=CC=CC(=C2)C3=CC=C(C=C3)S(=O)(=O)NCC4=CC=CC=C4,4
+MMV022236,3.22,CCN(CC)CCCN1CCN(CC1)C(=O)C2=CC=CC(=C2)C3=NOC(=N3)C(F)(F)F,4
+MMV022478,4.81,C1CN(CCN1)C2=CC=C(C=C2)NC(=O)C3=NC4=C(C=NN4C=C3)C5=CC(=CC=C5)Cl,4
+MMV023183,6.58,C1CC1CN2CC3=CC=CC=C3OC4(C2)CCN(CC4)CC5=CNC6=C5C=CN=C6,4
+MMV023227,2.74,CC1=C(N=C(N1)C2=CC(=CC=C2)NCC3=CC=CC=C3)C,4
+MMV023233,6.22,C1=CC(=CC2=C1C=CN=C2N)C3=CN4C=CN=C4C=C3,4
+MMV023370,2.53,C1=C(C=NC(=C1C2=NC3=NC=C(C=C3N2)Cl)N)C4=CNN=C4,4
+MMV023388,3.24,C1CN(C[C@H]1NC(=O)C2=CC(=CC=C2)C(F)(F)F)C3=CC=NC4=CC=CC=C43,4
+MMV023860,1.18,C1COCCN1C2=CN=C3C=CC(=CC3=N2)C4=CC(=CC=C4)S(=O)(=O)N,4
+MMV023949,0.95,CC(C)(C)C1=NN(C(=C1)C(=O)N2CCN(CC2)C3=NC=CN=C3C#N)CC4=CC=CC=C4,4
+MMV023953,3.91,C1CCN(C1)CCCNC2=NC=C(C=C2)C3=CC(=CC=C3)NC(=O)C4=CC=CC=C4,4
+MMV023969,6.28,C1CNCCC1OC2=C(C=C3C=CN=CC3=C2)C4=CC=C(S4)CNC5=CN=CC=C5,4
+MMV023985,1.27,COC1=C(C=C(C=C1)C2=CN=C3N2N=C(C=C3)N4CCCC4)OC,4
+MMV024035,5.52,C1CNCCC1OC2=C(C=C3C=CN=CC3=C2)C4=CC=C(S4)C(=O)NC5=CC=CC=C5,4
+MMV024101,2.51,C1=CC2=NC=CC(=C2N=C1C3=CC(=CN=C3)S(=O)(=O)N)C4=CNN=C4,4
+MMV024114,1.53,CC1=CC=C(C=C1)S(=O)(=O)N2C=C(C3=CC(=CN=C32)Br)C4=CC(=NC=C4)N,4
+MMV024195,5.51,CN(C)CCNC(=O)N1CCCN(CC1)C2=NC=NC3=C2SC(=C3)C4=CC=CC=C4,4
+MMV024311,5.69,CC1=CC2=C(C=C1)NC(=C2C3=CC=NC=C3)[C@H]4CCCNC4,4
+MMV024397,1.03,C1CC1NC(=O)C2=CN=C(C=C2)N3CCC(CC3)CC4=CC=CC=C4,4
+MMV024406,3.94,C1CN(CCN1C2=CC=NC=C2)C3=C(C=C(C=N3)C(=O)NC4=CC(=CC=C4)Cl)Cl,4
+MMV024443,1.14,CN(C1=CC=CC=C1)C(=O)C2=CC3=C(C=CC=C3N2)C4=CN=CN=C4,4
+MMV024829,4.09,CC1=CC=CC(=C1)C(=O)NC2=CC(=NC=C2)N(C)C3CCN(CC3)CC(C)C,4
+MMV024937,4.69,C1CN(CCN1)C2=NC=C(C=C2)NC(=O)C3=C(N=C(O3)C4=CC=CC=C4)C(F)(F)F,4
+MMV026020,1.41,CS(=O)(=O)C1=CC=CC(=C1)C2=CN=C3C(=C2)C(=CN3)C4=CC=C(C=C4)CCC(=O)O,4
+MMV026313,4.98,C1=CC(=CC2=C1C=CN=C2N)OC3=CC=NC=C3,4
+MMV026356,1.64,CCN1C2=NC(=C(C(=C2C=N1)NC3CCOCC3)CNC(=O)C4=CC=NN4C)C,4
+MMV026468,1.18,C1=CC(=CC(=C1)Cl)NC2=CN=CC(=C2)C3=CC=C(C=C3)CO,4
+MMV026490,1.06,C1CC1CNC2=C(C=C(C=N2)C3=CN=CC=C3)C(=O)NCCC4=CC=CC=C4,4
+MMV026550,1.67,CC(C)(C)CN1C(=O)C(N=C1N)(C2=CC=CC=C2)C3=CC=CC=C3,4
+MMV028694,1.42,C1=CC2=NN=C(N2C=C1)C3=NC(=NC=C3)NC4=CC=C(C=C4)CCO,4
+MMV030734,5.91,CC(C)(CN)C1=NC(=C(N1)C2=NC(=NC=C2)N)C3=CC(=C(C=C3)Cl)O,4
+MMV031011,2.67,CNC(=O)[C@@H]1CC2=C(C3(N1)CCN(CC3)CCC4=CC=CC=C4)NC5=C2C=CC(=C5)Cl,4
+MMV032967,3.06,C1=CC(=CC(=C1)C(F)(F)F)C2=NC3=C(N2)C=CN=C3NCC4=CC=NC=C4,4
+MMV032995,0.94,C1C2=C(C=C(C=C2)Br)N(C(=O)CO1)CC3=CC=C(C=C3)C(F)(F)F,4
+MMV045105,1.08,C1COCCN1C2=NNC(=C2)C3=CC=C(C=C3)OC4=CC=CC=C4,4
+MMV047015,0.94,CC1=C(C2=C(C=C1)N=C(C=C2OC)C(F)(F)F)N,4
+MMV053220,1.1,C1=CC(=CC=C1C#N)C2=CC=C(C=C2)OCC(=O)N,4
+MMV054312,1.85,CC1=CC(=NC2=CC3=C(C=C12)N(CC3)C(=O)C)C,4
+MMV062221,1.02,CC1=CC(=NC(=N1)N2C(=CC(=N2)C)NC3=CC=CC=C3)C,4
+MMV063404,0.96,CC1=NN(C(=C1C(=O)NC2CCCCCC2)Cl)CC3=CC=CC=C3,4
+MMV069458,0.97,C1=CC(=NN2C1=NN=C2C(F)(F)F)Cl,4
+MMV084603,1.13,C1CN2[C@H](CN1CC3=CC=CC=C3)CN(C2=O)CC4=CC5=CC=CC=C5S4,4
+MMV084864,1.17,C1=CC=C2C(=C1)C=C(C=N2)NC(=O)C3=CC(=CC=C3)N4C=NN=N4,4
+MMV085071,5.33,COC1=CN=CC(=C1)C2=CN=CC(=N2)N3CCN(CC3)C4=CC=NC=C4,4
+MMV085210,1.04,C1CCN(CC1)C(=O)[C@H](CC2=CNC3=CC=CC=C32)NS(=O)(=O)C4=CC=C(C=C4)Cl,4
+MMV085230,1.04,CCCNC(=O)N1CCC2(CC1)CC(=O)C3=C(O2)C=CC(=C3)C,4
+MMV085499,1.34,C1=CC(=CC=C1C#N)C2=CN=C(C(=N2)C3=CC=C(C=C3)C(=O)N)N,4
+MMV090930,0.99,CCOC(=O)NC(=O)C1=C(SC=C1)NC(=O)C2=NC3=CC=CC=C3S2,4
+MMV099637,1.18,CC1=C(C2=NC3=C(CCCC3)C(=O)N2N1)C4=CC=C(C=C4)F,4
+MMV1019989,2.91,CCC1=CC=C(C=C1)[C@H](C(C)C)NCC2=NC(=NC(=N2)N(C)C)N,4
+MMV102872,1.0,C1=CC(=CC(=C1)C(F)(F)F)C(=O)NC2=NN=C(O2)C3=CC=C(C=C3)Cl,4
+MMV1028806,1.09,C1C(C1C(=O)NC2=NC(=CS2)C3=CC=CC=N3)C4=CC=CC=C4F,4
+MMV1029203,1.49,CNC(=O)CNC1=C2C(=CSC2=NC(=N1)C3=CC=CC=N3)C4=CC=CC=C4,4
+MMV1030799,1.12,CCCN1C2=CC=CC=C2N=C1NC(=O)C3=NC4=CC=CC=C4C=C3,4
+MMV1037162,1.18,CCNC(=O)[C@H](C)NC1=C2C(=C(SC2=NC(=N1)C3=CN=CC=C3)C)C,4
+MMV1088520,1.96,CC1=CC=C(O1)C2=NC(=CS2)CN(CC3=CC=CC=N3)C(C)C,4
+MMV1110498,0.97,COC1=CC=CN2C1=NC(=C2C(=O)N3CCCCC3)C(F)(F)F,4
+MMV1198433,1.02,CC1=C(C(=O)N(C(=C1)OCC(=O)NC2=CC=C(C=C2)C(C)C)C)C#N,4
+MMV1236379,0.98,CCOC(=O)C1=NOC(=C1C2=CC=CC=C2)N,4
+MMV146306,0.97,CC[C@H](C)NC(=O)C1=CC=C(C=C1)NC(=O)C2(CCCC2)C3=CC=CC=C3,4
+MMV153413,1.01,CCOC(=O)C1=C(SC(=C1C)C(=O)N)NC(=O)C2=C(C(=C(C(=C2F)F)F)F)F,4
+MMV161996,0.97,CC1=C(C=CC(=C1)Cl)NC(=O)CCC2=CC=C(C=C2)S(=O)(=O)NCC(C)C,4
+MMV188296,1.01,CNC(=O)[C@@H]1CC2=CC=CC=C2N1C(=O)CC3=CC=C(C=C3)F,4
+MMV200748,0.94,COC1=CC=C(C=C1)C2(CCCC2)C(=O)NC3=CC=C(C=C3)Br,4
+MMV202458,0.94,CC1=C(C=CC(=C1)Cl)NC(=O)[C@H](C)OC2=CC=C(C=C2)OC,4
+MMV202553,1.05,CCC(=O)NC1=CC=CC=C1C(=O)NC2=CC=CC=N2,4
+MMV228911,1.01,COC1=CC=CC(=C1)NC(=O)C2=C(SC3=C2CCC3)NC(=O)C4=CN=CC=C4,4
+MMV272144,0.96,COC1=CC=CC(=C1)N2C(=NN=N2)S(=O)(=O)C,4
+MMV392832,3.26,COC1=CC=CC(=C1)C2=CC3=C(N2)C=CN=C3NC4=CN=CC=C4,4
+MMV393144,5.54,CN1CCN(CC1)C2=NC=CC3=C2C=C(N3)C4=CC(=CC=C4)F,4
+MMV407539,1.41,CCC1=C(N2C=C(C=CC2=N1)C(=O)NCC3=CC4=C(C=C3)OCO4)N(C)CC5=CC=CS5,4
+MMV407834,0.92,CCOC1=CC=CC=C1N[C@@H](C)C(=O)NC2=C(C=CC(=C2)C(F)(F)F)N3CCOCC3,4
+MMV461553,0.91,COC(=O)C1=C(SC2=C1CCCCC2)NC(=O)C3=C(C(=C(C(=C3F)F)F)F)F,4
+MMV495543,1.02,CC(C)(C)C1=CN=C(S1)NC(=O)C2=CC=CC=C2O,4
+MMV553002,1.0,CS(=O)(=O)CC1=NC2=CC=CC=C2OC1=O,4
+MMV560185,1.49,C1CCN(CC1)C2=CC(=NC3=CC=CC=C32)C4=CC=CC=N4,4
+MMV611037,1.09,CC[C@@H](C(=O)NC1=NN=C(S1)C)SC2=NC3=CC=CC=C3O2,4
+MMV634140,6.28,C1CCN(C1)CCNC(=O)C2=CC(=NC3=C2C=C(C=C3)Cl)NCCN4CCOCC4,4
+MMV637229,2.19,C[C@@](C1=CC=CC=C1)(C2=CC=C(C=C2)Cl)OCCC3CCCN3C,4
+MMV658988,1.05,CC1=C(C(=NC(=N1)C2=CC=CC=N2)N(C)CCC3=CC=CC=C3)Cl,4
+MMV658993,1.17,CC1=C(C(=NC(=N1)C2=CC=CC=N2)NCCC3=CC=C(C=C3)S(=O)(=O)C)Cl,4
+MMV659004,1.13,CC1=C(C(=NC(=N1)C2=CC=CC=N2)N3CC[C@@H](C3)CC4=CC=CC=C4)Cl,4
+MMV659010,0.98,C1=CC=C(C=C1)CCNC2=NC(=NC(=C2)C(F)(F)F)C3=CC=CC=N3,4
+MMV661713,2.37,C1=CC=C(C=C1)C2=NC(=CC(=N2)NCCCN3C=CN=C3)C4=CC(=CN=C4)Br,4
+MMV663250,5.67,C1CN(CCN1)CC2=CC=C(C=C2)[C@@H](C3=CC(=CC=C3)Cl)N4C=CN=C4,4
+MMV667494,5.91,C1CCN(C1)CCNC(=O)C2=CC(=NC3=C2C=C(C=C3)Cl)NCCCCN4CCC(CC4)(F)F,4
+MMV668727,0.97,C1=CC(=NC=C1C2=CC(=C(N=C2)N)C3=CN=C(C=C3)C(F)(F)F)C(F)(F)F,4
+MMV671636,0.98,CC1=C(C(=O)C2=C(C=C(C=C2N1)F)F)C3=CC=C(C=C3)OC4=CC=C(C=C4)OC(F)(F)F,4
+MMV675968,3.77,COC1=CC(=C(C=C1)OC)NCC2=C(C3=C(C=C2)N=C(N=C3N)N)Cl,4
+MMV675969,0.96,CC(C)(C)C1=CC=C(C=C1)N[C@@H]2CCCC[C@H]2NC(=O)C3=CC=CO3,4
+MMV675993,1.15,CC(C)N1C2=C(C(=N1)C3=CC(=C(C=C3)OC)OC)C(=NC=N2)N,4
+MMV675994,1.27,C1=CC=C2C(=C1)C(=CC=N2)OCC3=CN(N=N3)C4=CC=C(C=C4)Cl,4
+MMV675995,1.21,CC1=NC(=CC=C1)CCN(C2=CC=C(C=C2)OC)C(=O)C,4
+MMV675996,1.1,CC1=NC(=CC=C1)CCN(C2=CC=C(C=C2)OC)C(=O)C3CCCCC3,4
+MMV675997,1.9,C1CN(CCN1CCCCN(CC#N)C(=O)OCC2=CC=CC=C2)C3=CC=C(C=C3)F,4
+MMV676008,1.27,C1=CC=C(C=C1)C2=CC(=NO2)C(=O)NC3=C(C=CC=C3O)C4=NC5=C(C=CC=C5O4)C(=O)O,4
+MMV676048,1.82,C1CC[C@@H]([C@H](C1)N2C=CN=C2)OCC3=C(C=CC(=C3)Cl)Cl,4
+MMV676050,1.21,CS(=O)(=O)N1CCC(CC1)CN2C3=C(C(=N2)CC4=CC=CC5=CC=CC=C54)C(=NC=N3)N,4
+MMV676053,1.07,CN1C(=O)C2=CC=CC=C2C(=N1)CC(=O)NC3=CC(=C(C=C3)Cl)OC,4
+MMV676057,1.0,CC(C)(C)OC(=O)N1CCN(CC1)C2=NNC(=C2)C3=CC=C(C=C3)OC4=CC=CC=C4,4
+MMV676063,0.93,CCCCC1=CC=C(C=C1)NC(=O)NC2=CC(=C(C=C2)O[C@H]3CCCC[C@@H]3N(C)C4=CC=CC=C4)F,4
+MMV676064,0.98,CC(=O)N(CCN(C1=CC=CC=C1)C(=O)C2=CC=C(C=C2)F)C3=CC=CC=C3,4
+MMV676159,0.95,C1CC2=CC=CC=C2[C@@H]([C@H]1OCC3=CC(=CC=C3)Cl)N4C=CN=N4,4
+MMV676161,1.97,C1COCCN1CC2=CC(=NN2)C3=CC=C(C=C3)OC4=CC=CC=C4,4
+MMV676162,1.13,C1=CC=C(C=C1)C(=O)NC2=CC=CC=C2C3=NC4=C(C=CC=C4O3)C(=O)O,4
+MMV676182,5.64,C1CNCCC1CN2C3=C(C(=N2)CC4=CC=CC5=CC=CC=C54)C(=NC=N3)N,4
+MMV676186,0.96,COC1=CC=CC(=C1NC(=O)C2=NOC(=C2)C3=CC=CC=C3)C4=NC5=C(C=CC=C5O4)C(=O)OC,4
+MMV676191,1.17,CC(C)[C@@H](C(=O)O)OC1=CC=CC2=CC=CC=C21,4
+MMV676204,0.94,C1=CC=C(C=C1)NCCN(C2=CC=CC=C2)C(=O)C3=CC=C(C=C3)F,4
+MMV676260,4.92,CN1CCN(CC1)C2=NC=CC3=C2N=C(N3)C4=CC(=C(C=C4)F)F,4
+MMV676269,2.06,C[C@H](C(=O)N)N1CCCC[C@H]1C2=CC=C(C=C2)OCC3=CC(=CC=C3)F,4
+MMV676270,1.23,C[C@H](C(=O)N)N1CCCC[C@@H]1C2=CC=C(C=C2)OCC3=CC(=CC=C3)F,4
+MMV676350,4.14,CC1=CN=C(N1)CCNC(=O)C2=CC(=CS2)C3=CC=C(C=C3)Cl,4
+MMV676358,1.2,C1=C(C(=NC=C1Br)N)C2=NC3=NC=C(C=C3N2)Cl,4
+MMV676377,1.06,C1OC2=C(O1)C=C(C=C2)C3=C(N4C=CC=NC4=N3)Br,4
+MMV676379,0.94,COC1=CC(=CC=C1)OCC(=O)C2=CC=C(C=C2)Br,4
+MMV676382,1.12,CN1C2=C(C=N1)C(=NC(=N2)NCCC3=CNC4=CC=CC=C43)N5CCOCC5,4
+MMV676383,1.01,CC[C@@H](C(=O)NC1=NC=CS1)SC2=NC3=CC=CC=C3O2,4
+MMV676384,0.95,C1=CC=C(C=C1)CCNC2=C(N=C(O2)C3=CC=CC=C3F)C#N,4
+MMV676386,1.0,CC1=CC(=CC=C1)CN2C=CC(=N2)NC(=O)C3=CC4=C(C=C3)OCO4,4
+MMV676388,0.93,COC1=CC=CC(=C1)N2C(=NN=N2)S(=O)(=O)CC3=CC=CC=C3,4
+MMV676389,2.31,C1CCC2=C(C1)C(=NN2)C(=O)N3CCN(CC3)CC4=CC5=C(C=C4)OCO5,4
+MMV676395,1.09,C1CN2C3=C(C=CC=C31)C(=C(C2=O)C(=O)NC4=CN=CC=C4)O,4
+MMV676398,1.11,CCS(=O)(=O)N(CC1=CC=CO1)CC2=CC3=C(C=C(C=C3)C)NC2=O,4
+MMV676401,2.46,C1CCN(CC1)C2=NC3=CC=CC=C3C(=N2)NCC4=CC=CO4,4
+MMV676406,1.0,CC(C)N1C2=C(C=N1)C(=CC(=N2)C3=CC=CC=C3)C(=O)NC[C@@H](C4=CC=CS4)N5CCOCC5,4
+MMV676409,1.05,C1=CC=NC(=C1)C2=CSC(=N2)NC(=O)COC3=CC(=CC=C3)F,4
+MMV676411,1.03,C[C@@H](C(=O)NC1=NC(=CS1)C2=CC=CC=N2)OC3=CC=CC=C3,4
+MMV676431,0.97,CC1=C(C=C(C=C1)NC(=O)C[C@H]2COC3=CC=CC=C3O2)Cl,4
+MMV676439,1.24,CC1=CC2=CC(=C(N=C2C=C1)Cl)CNCC3=CC=CS3,4
+MMV676442,1.4,CC(C)C1=NC=C(C(=N1)C2CCC(CC2)CNC(=O)C3=CN=CC=C3)C4=CC=NC=C4,4
+MMV676444,2.06,C1CCC(CC1)NC(=O)N2CCN(CC2)CC3=CC4=C(C=C3)OCO4,4
+MMV676445,1.46,CCCN1C2=CC=CC=C2N=C1CNC3=CC=CC=C3O,4
+MMV676449,1.38,CCC1=NC2=CC=CC=C2N1C[C@@H](COC3=C(C=CC(=C3)C)Cl)O,4
+MMV676461,0.95,CCOC(=O)C1=NOC(=C1)C2=CSC(=N2)NC3=C(C=C(C=C3C)C)C,4
+MMV676468,0.94,C1=CC(=C(C=C1Cl)Cl)C(=O)C[C@@H](C(Cl)(Cl)Cl)N,4
+MMV676470,0.94,CCOC1=CC=C(C=C1)OCC(=O)NC2=CC(=CC(=C2)C)C,4
+MMV676472,0.97,COC1=C(C(=CC=C1)OC)C(=O)NC2=CC(=C(C=C2)Cl)C3=NC4=CC=CC=C4S3,4
+MMV676474,1.2,COC1=CC=CC=C1OCCCCN2C3=CC=CC=C3N=C2C4CC4,4
+MMV676476,1.11,CC1=CC(=CC(=C1)COC2=C(C3=C(C=C2)C(=C(C(=O)O3)CCC(=O)O)C)C)C,4
+MMV676478,0.99,C1CN(CCC1CC2=CC=CC=C2)C(=O)C3CCN(CC3)C4=NN=C(S4)N5C=CC=C5,4
+MMV676480,1.52,COC(=O)C1=C(SC2=C1CCN(C2)CC3=CC=CC=C3)NC(=O)C4=CC5=CC=CC=C5OC4=O,4
+MMV676492,1.3,C1=CC(=C(C=C1Br)C(=O)NC2=NNC(=S)S2)Cl,4
+MMV676501,1.08,C1=C(SC(=C1)Cl)C2=NN=C(O2)NC(=O)C3=CC=C(S3)Cl,4
+MMV676509,0.97,CC1=CC2=C(C=C1)OC(=N2)C3=C(C=CC(=C3)NC(=O)CC4=CC=CC=C4)Cl,4
+MMV676512,1.39,C1=CC=C(C=C1)N2C=NC=C2C(=O)NC3=NC(=CS3)C4=CC=CC=N4,4
+MMV676520,1.28,C1CN(CCN1CC2=CC3=C(C=C2)OCO3)C(=O)C4=CC5=CC=CC=C5O4,4
+MMV676524,1.07,C1=CC(=C(N=C1)NC2=CC=C(C=C2)Cl)N,4
+MMV676526,0.95,COC1=CC=C(C=C1)C2=C(C=CC(=C2)NC(=O)C3=C(C=C(C=C3)F)Cl)OC,4
+MMV676528,0.95,CC1=NC(=CC=C1)NC(=O)C2=C(C=CC(=C2)S(=O)(=O)N(C)C3=CC=C(C=C3)F)Cl,4
+MMV676536,1.02,C[C@@H](COC)NC(=O)CSC1=NC=NC2=C1C=C(S2)C3=CC=CC=C3,4
+MMV676539,1.01,C1=CC=C2C(=C1)C=C(C(=O)O2)C(=O)NCCC3=CNC4=CC=CC=C43,4
+MMV676554,1.61,COC1=CC=C(C=C1)NC2=CC=CC=C2NC(=O)C3=CNC(=O)C=C3,4
+MMV676555,1.96,CC1=NN=C(C2=CC=CC=C12)NCC3=CC(=CC=C3)Cl,4
+MMV676558,1.03,CC1=NN(C(=O)[C@H]1CC2=CC=CC3=CC=CC=C32)C4=NC5=CC=CC=C5S4,4
+MMV676571,0.97,COC1=C(C=C(C=C1)C2=NC(=NO2)C3=CC(=CC=C3)NC(=O)CC4=CC=C(C=C4)F)OC,4
+MMV676584,1.01,C1CSC(=N1)NC(=O)C2=C(C3=C(S2)C=C(C=C3)F)Cl,4
+MMV676588,2.61,C1CCC2=C(C1)C(=C3C4=C(CCCC4)SC3=N2)N,4
+MMV676589,0.97,C1CCC(CC1)CCC(=O)NC2=CC=CC(=C2)C3=NN=C(O3)C4=CC=CO4,4
+MMV676597,0.96,CCCN1N=C(N=N1)NC(=O)COC2=CC=C(C=C2)C3CCCCC3,4
+MMV676599,1.03,CC(C)(C)N1C2=C(C(=N1)CC3=CC=CC4=CC=CC=C43)C(=NC=N2)N,4
+MMV676600,5.86,CN1CCN(CC1)C2=CC=C(C=C2)C(=O)NC3=NNC4=C3CN(C4)C(=O)[C@@H](C5=CC=CC=C5)OC,4
+MMV676602,4.71,CC1(CC2=CN=C(N=C2C3=C1C(=NN3C)C(=O)NC)NC4=CC=C(C=C4)N5CCN(CC5)C)C,4
+MMV676603,0.96,C[C@H]1COC2(O1)CCN(CC2)C3=NC(=O)C4=CC(=CC(=C4S3)[N+](=O)[O-])C(F)(F)F,4
+MMV676604,1.72,CC1=NC=C(N1C(C)C)C2=NC(=NC=C2)NC3=CC=C(C=C3)S(=O)(=O)C,4
+MMV676605,1.91,CC1(CC(C1)C2=NC(=C3N2C=CN=C3N)C4=CC5=C(C=C4)C=CC(=N5)C6=CC=CC=C6)O,4
+MMV676877,1.05,C1[C@H](C1C(=O)C2=CC=C(C=C2)NCCO)C3=CC=C(C=C3)Cl,4
+MMV676881,0.98,CCN1C=NC2=C1N=C(N=C2NC3=CC(=CC(=C3)F)F)C#N,4
+MMV687138,1.01,C1=CC=C(C=C1)OCCOC2=C(C=C(C=C2)C3=CSC=C3)C(=O)N,4
+MMV687145,1.02,CCCCS(=O)(=O)NC1=CC2=C(C=C1)C=NN2C,4
+MMV687146,0.98,CC1=CC(=C2C=C(NC2=C1)C(=O)NC3CCCCCCC3)C,4
+MMV687170,0.97,COC1=CC=C(C=C1)CN2C=NC3=C(N=C(N=C32)Cl)C4=CC=CO4,4
+MMV687172,1.01,C1CN(CCC1C(=O)N2CCC3=CC=CC=C3C2)C4=NC=NC(=C4)N5C=CC=C5,4
+MMV687188,1.42,CC1=NC2=C(C=C(C=C2)OC)C(=C1)OCC(=O)NC3=CC=CC=C3OC,4
+MMV687189,1.62,CC1=NC2=C(C=C(C=C2)OC)C(=C1)OCC(=O)NCC3=CC=CC=C3,4
+MMV687239,0.94,CC(C)(C(=O)NC1=CC=C(C=C1)F)N2C=C(C=N2)C3=CC=CC=C3F,4
+MMV687243,1.01,C1=CC=C(C=C1)OCCOC2=C(C=C(C=C2)Br)C(=O)N,4
+MMV687246,6.23,CN1CCN(CC1)S(=O)(=O)C2=CC=C(C=C2)C3=CC4=NC=CC(=C4C=C3)NC5=CC6=NNN=C6C=C5,4
+MMV687248,4.74,C1=CC(=CC=C1OC2=CN=CC(=C2)C3=CC4=C(C=C3)N=C(N4)N)F,4
+MMV687251,0.99,CN1C2=NSC(=C2C(=O)N(C1=O)C)S(=O)(=O)C,4
+MMV687254,1.01,CCCCC1=CN=C(C=C1)C(=O)NC2=NC=CC3=CC=CC=C32,4
+MMV687273,3.89,CC(=CCC/C(=C\CNCCNC1C2CC3CC(C2)CC1C3)/C)C,4
+MMV687696,0.98,CCC1=C(N2C=C(C=CC2=N1)Cl)C(=O)NCC3=CC=C(C=C3)N4CCC(CC4)C5=CC=C(C=C5)OC(F)(F)F,4
+MMV687699,0.96,C1=CC2=NC(=C(N2C=C1)C(=O)NCC3=CC(=CC(=C3)Cl)Cl)C(F)(F)F,4
+MMV687700,2.78,C1=CC=C(C(=C1)C(=O)NS(=O)(=O)OC[C@@H]2[C@H]([C@H]([C@@H](O2)N3C=NC4=C3N=CN=C4N)O)O)O,4
+MMV687703,2.51,COC1=CC=CC(=N1)C2=NC3=C(N2C[C@H]4CCCN4)C=CC=C3N5CCCC5,4
+MMV687706,5.24,C1CN(CCN1)C2=NNC(=C2)C3=CC=C(C=C3)OC4=CC=CC=C4,4
+MMV687729,2.4,C1CN(CC=C1C2=C(C=C(C=C2F)N3C[C@@H](OC3=O)CO)F)CC4=CC=CC=C4,4
+MMV687730,1.65,CCCCOC(=O)NC1=C(C=C2C(=C1)NC(=N2)C3CCCCC3)N4CCCC4,4
+MMV687747,1.13,CC1=NC2=C(C=C(C=C2)Br)C(=C1)OCC(=O)NCC3=CC=CC=C3,4
+MMV687749,5.1,C1CN(C[C@H](N1)CC2=CC=CC=C2)C3=NC=CC(=N3)OC4=CC=C(C=C4)N5C=CN=C5,4
+MMV687762,1.06,C1COCCC1C2=CC(=NN2)C3=CC=C(C=C3)OC4=CC=CC=C4,4
+MMV687765,5.04,CC1=CN=C(N=C1OC2=CC=C(C=C2)N3C=CN=C3)N4CCN[C@H](C4)CC5=CC=CC=C5,4
+MMV687794,0.97,CC1(CC2=C3C(=NC(=C2CO1)N4CCOCC4)SN=C3Br)C,4
+MMV687798,4.81,C[C@H]1COC2=C3N1C=C(C(=O)C3=CC(=C2N4CCN(CC4)C)F)C(=O)O,4
+MMV687800,1.97,CC(C)N=C1C=C2C(=NC3=CC=CC=C3N2C4=CC=C(C=C4)Cl)C=C1NC5=CC=C(C=C5)Cl,4
+MMV687801,6.52,CC[C@H](CO)NCCN[C@H](CC)CO,4
+MMV687803,1.17,CC(=O)NC[C@@H]1CN(C(=O)O1)C2=CC(=C(C=C2)N3CCOCC3)F,4
+MMV687807,3.02,C1=CC(=C(C=C1NC(=O)C2=C(C=CC(=C2)Cl)O)C(F)(F)F)C(F)(F)F,4
+MMV687812,4.89,CN1CCN(CC1)CCCOC2=NC=C(C=N2)NC3=NC=C(N=C3C(=O)N)C4=CC(=C(C=C4)C(F)(F)F)F,4
+MMV687813,1.78,C1CN(CC=C1C2=C(C=C(C=C2F)N3C[C@@H](OC3=O)COC4=NOC=C4)F)CC5=CC=CC=C5,4
+MMV688122,1.32,CC1=CC=CC(=N1)C2=NC3=C(C(=N2)NC4=NC=NC=C4)SC=C3,4
+MMV688124,2.22,CCC1=CC=C(C=C1)S(=O)(=O)NC2=C(C=CC(=C2)CN3CCN(CC3)CCC(C)C)C,4
+MMV688125,2.75,CCCC1=CC=C(C=C1)S(=O)(=O)NC2=CC=C(C=C2)CN3CCN(CC3)CC4CC4,4
+MMV688178,0.98,C1=CC=C(C=C1)OC2=CC=C(C=C2)C3=CN=CC(=N3)C4=CC5=C(C=C4)NC=C5,4
+MMV688179,6.55,C1=CC(=C(C=C1N=C(N)N)Cl)C2=CC=C(O2)C3=C(C=C(C=C3)N=C(N)N)Cl,4
+MMV688180,5.22,CC1=C(C(=NN1C)C)NS(=O)(=O)C2=C(C=C(C=C2Cl)C3=CC(=NC=C3)N4CCNCC4)Cl,4
+MMV688262,0.93,C[C@@]1(CN2C=C(N=C2O1)[N+](=O)[O-])COC3=CC=C(C=C3)N4CCC(CC4)OC5=CC=C(C=C5)OC(F)(F)F,4
+MMV688270,1.0,CC(C)OC1=CC=CC(=C1)C2=CN3C(=CN=C3C=N2)C4=CC=C(C=C4)OC,4
+MMV688271,6.52,C1=CC(=C(C=C1C2=CC=C(O2)C3=CC(=C(C=C3)N=C(N)N)Cl)Cl)N=C(N)N,4
+MMV688273,1.68,C1=CC(=CC(=C1)F)COC2=C(C=C(C=C2)NC3=NC=NC4=C3C=C(C=C4)N)Cl,4
+MMV688274,1.32,C1COCCN1CC(=O)NC2=CC3=C(C=C2)N=CN=C3NC4=CC(=C(C=C4)OCC5=CC(=CC=C5)F)Cl,4
+MMV688279,4.47,CC1=CC=C(C=C1)[C@@]2(C3=C(C=CC(=C3)Cl)N=C(N2CCN4CCCCC4)C)O,4
+MMV688283,3.82,CN1CCN(CC1)S(=O)(=O)C2=CC=C(C=C2)C3=CC4=NC=CC(=C4C=C3)NC5=NC=C(C=N5)Cl,4
+MMV688313,1.09,CC(C)C1=CC=CC(=C1)C2=CN3C(=NN=C3C4=CC(=C(C=C4)OC)OC)C=C2,4
+MMV688327,5.49,CC(=O)NC[C@H]1CN(C(=O)O1)C2=CC(=C(C=C2)C3=CC=C(C=C3)CNCC4=NNN=C4)F,4
+MMV688330,1.13,CC(=O)N1CCN(CC1)C2=CC=C(C=C2)OC3=C(C=C(C=C3)Cl)O,4
+MMV688345,3.73,C1CN(CC2=C1C3=C(N=C(N=C3S2)N)N)CC4=CC=CC=C4,4
+MMV688350,0.93,COC(=O)C1=C(C=C(C=C1)F)NS(=O)(=O)C2=CC=CC(=C2)C3=CN(N=C3)CC4=CC=CC=C4,4
+MMV688352,1.05,C1=CC=C(C=C1)CNC2=NC=NC3=C2N=CN3CCN4[C@@H]([C@@H](C4=O)OC5=CC=CC=C5)C6=CC=C(C=C6)Cl,4
+MMV688360,0.96,CC1(C(=NN(C1=O)C2CCCCCC2)C3=CC(=C(C=C3)OC)OCC4=CC=CC=N4)C,4
+MMV688361,6.92,C1CN=C(N1)C2=CC=C(C=C2)C3=NOC(=C3)C4=CC(=CC=C4)C5=NCCN5,4
+MMV688362,6.89,COC1=C2C(=CC(=C1)C3=NCCN3)C=C(O2)C4=CC=C(C=C4)C5=NCCN5,4
+MMV688364,1.24,CC(C)(C)OC(=O)N1CCC(CC1)CN2C3=C(C(=N2)C4=CC5=CC=CC=C5N=C4)C(=NC=N3)N,4
+MMV688371,4.46,C1=CC(=CC=C1COC2=CC=C(C=C2)N(CCN)C(=O)C3=C(C=C(C=C3)Cl)Cl)Cl,4
+MMV688372,1.33,C1CCN(C1)C(=O)NC2=CC(=C(C=C2)F)C3=NC4=C(N3)C=C(C=N4)C5=CC=CC=C5,4
+MMV688407,6.98,COC1=C(C=CC(=C1)C2=NCCN2)C3=CN(N=N3)C4=CC=CC(=C4)C5=NCCN5,4
+MMV688410,6.18,CC1=NC2=C(C=C(C=C2)Cl)[C@@H](N1CCNC(=O)CN(C)C)C3=CC=CC=C3,4
+MMV688411,6.25,C1CNCCC1CN2C3=C(C(=N2)C4=CC5=CC=CC=C5N=C4)C(=NC=N3)N,4
+MMV688415,4.4,CO[C@@H]1CN(C[C@H]1O)C2=NC(=C(C=C2)C#CC3(CN4CCC3CC4)O)CC5=CC=CC=C5,4
+MMV688416,0.93,CC(C)(C)OC(=O)N1CCN(CC1)C2=NC=CC(=N2)C3=CC=C(S3)C4=CC=C(C=C4)Cl,4
+MMV688466,2.89,CN1C=CN=C1CNCCS(=O)(=O)C2=CC=CC(=C2)NC3=NC=C(C=C3)C4=CC(=CC=C4)F,4
+MMV688467,0.93,CCCCN(CCCC)C1=C(C=C(C=C1C#N)S(=O)(=O)NC2=CC=CC=C2)C#N,4
+MMV688469,1.61,C1=CC=C2C(=C1)C=CC=C2CC3=C4C(=NC=NC4=NN3)N,4
+MMV688470,1.16,CS(=O)(=O)N1CCC(CC1)CCN2C3=C(C(=N2)CC4=CC=CC5=CC=CC=C54)C(=NC=N3)N,4
+MMV688471,1.08,C[C@H](C1=CC=CC=C1)C(=O)NC2=CC3=C(C=C2)OC(=N3)C4=CC=NC=C4,4
+MMV688472,1.05,C[C@@H](C(=O)NC1=CC2=C(C=C1)OC(=N2)C3=CC=NC=C3)OC4=CC(=CC=C4)Cl,4
+MMV688474,6.97,COC1=C(C=CC(=C1)C2=NCCN2)N3C=C(N=N3)C4=CC(=CC=C4)C5=NCCN5,4
+MMV688508,1.22,CC(=O)NC[C@H]1CN(C(=O)O1)C2=CC(=C(C=C2)C3=CC=C(C=C3)CO)F,4
+MMV688509,1.3,C1CN(CCC1C2=CC(=C(N2)C3=CC=C(C=C3)F)C4=CC=NC=C4)C(=O)OCC5=CC=CC=C5,4
+MMV688514,4.76,C1=CC=C(C=C1)C2=CC(=NO2)C3=CC=C(C=C3)C(=N)N,4
+MMV688543,5.82,CC(C)(C)C(=O)N(CCCCCCN1C[C@@H]([C@H]([C@@H]([C@H]1CO)O)O)O)C2CCCCCC2,4
+MMV688547,6.99,COC1=C(C=C(C=C1)C2=NCCN2)C3=CN(N=N3)C4=CC=CC(=C4)C5=NCCN5,4
+MMV688548,1.03,CC(C)(C)N1C2=C(C(=N1)C3=CC=CC=C3)C(=NC=N2)N,4
+MMV688550,0.96,CCC1=CC=CC=C1N2C(=CN3C2=NC4=C3C(=O)N(C(=O)N4C)[C@@H](C(C)C)C(=O)OC)C,4
+MMV688552,7.97,CC1=C(C(=NN1C(=O)NC2=CC=CC(=C2)C(F)(F)F)C)SC3=NC=CC=N3,4
+MMV688553,2.05,C1CN(CCN1CC2=CC3=C(C=C2)OCO3)C(=O)NCC4=COC=C4,4
+MMV688554,1.01,CC1=NSC(=C1C(=O)NCCOC2=CC=C(C=C2)OC)NC,4
+MMV688555,1.1,C1CN(CCN1CC2=CC=C(S2)Cl)C(=O)NCC3=CC=CO3,4
+MMV688557,2.78,C1=CC=C(C=C1)S(=O)(=O)[C@@H](CN)C2=CC=CS2,4
+MMV688703,5.57,CN1CCC(CC1)C2=CC(=C(N2)C3=CC=C(C=C3)F)C4=CC=NC=C4,4
+MMV688704,0.99,CC1=CC2=C(N1CC3=CC=C(C=C3)Cl)C(=NC(=N2)NC(=O)C(C)(C)C)Cl,4
+MMV688754,0.91,C/C(=N/OCC1=CC=CC=C1/C(=N\OC)/C(=O)OC)/C2=CC(=CC=C2)C(F)(F)F,4
+MMV688755,0.95,C1[C@@H](COC2=NC(=CN21)[N+](=O)[O-])OCC3=CC=C(C=C3)OC(F)(F)F,4
+MMV688756,1.11,CC(=O)NC[C@H]1CN(C(=O)O1)C2=CC(=C(C=C2)N3CCSCC3)F,4
+MMV688761,0.95,CS(=O)(=O)C1=C(C=C(C=C1)C(=O)N(C[C@H]2CCCO2)C3=NC4=CC=CC=C4S3)[N+](=O)[O-],4
+MMV688762,2.26,C1CCN(C1)[C@H](C2=CC=CC=N2)C3=C(NC4=CC=CC=C43)C5=CC=CC=C5,4
+MMV688763,1.06,CNC1=NN=C(S1)SC2=C(C(=O)N(N=C2)C3=CC=CC=C3)Cl,4
+MMV688768,4.09,CC1=C(C2=CC=CC=C2N1)[C@H](C3=CC=CS3)N4CCN(CC4)C,4
+MMV688773,1.05,C1=CC=C(C=C1)CNC(=O)CN2C=CN=C2[N+](=O)[O-],4
+MMV688774,1.08,CC[C@@H]([C@H](C)O)N1C(=O)N(C=N1)C2=CC=C(C=C2)N3CCN(CC3)C4=CC=C(C=C4)OC[C@H]5C[C@](OC5)(CN6C=NC=N6)C7=C(C=C(C=C7)F)F,4
+MMV688776,1.18,CC1=C(C2=NC3=C(CCCC3)C(=O)N2N1)C4=CC=C(C=C4)Cl,4
+MMV688793,1.06,CC1=C(N=CC=C1)NC(=O)C2=CC(=CC=C2)OCC3=C(ON=C3C)C,4
+MMV688795,1.02,C1CCC(CC1)C(=O)NCCC2=NN(C=C2)C3=CC=CC=C3,4
+MMV688796,1.53,C1CCC2=NN=C(N2CC1)CNC(=O)C3=CC=C(O3)C4=CC=C(C=C4)F,4
+MMV688797,1.04,C[C@H]1CCCCN1C(=O)NCCC2=COC(=N2)C3=CC=C(C=C3)F,4
+MMV688798,0.95,CS(=O)(=O)C1=CC=CC=C1C(=O)N(CC2=CC=CC=C2)C3=CC=CC=C3,4
+MMV688844,3.33,COC1=NC2=C(C=CN=C2C=C1)NC(=O)C3CCN(CC3)CCC4=CC=C(C=C4)Cl,4
+MMV688845,0.98,C1COCCN1C2=CC=CC=C2NC(=O)[C@@H](CC3=CC=CC=C3)NC(=O)C4=CC=CS4,4
+MMV688846,2.08,CC1=CC=CC=C1CN2CCC(CC2)(C3=CC(=C(C=C3)Cl)C(F)(F)F)O,4
+MMV688852,1.03,CC(C)(C)N1C2=C(C(=N1)CC3=CC(=C(C=C3)F)Cl)C(=NC=N2)N,4
+MMV688853,1.15,CCOC1=CC2=NC=C(C=C2C=C1)C3=NN(C(=C3C(=O)N)N)C(C)(C)C,4
+MMV688854,5.17,CCOC1=CC2=C(C=C1)C=C(C=C2)C3=NN(C4=C3C(=NC=N4)N)CC5CCN(CC5)C,4
+MMV688888,3.71,CN1CCN(CC1)C2=NC(=NC(=C2)C3=CC=C(C=C3)F)C4=CC=NC=C4,4
+MMV688889,1.05,C1=CC=C(C=C1)C2=NC3=NC=NN3C(=C2)NCCC4=CC=C(C=C4)Cl,4
+MMV688891,0.92,COC1=C2C(=CC(=C1)Br)C=C(C(=O)O2)C(=O)NC3=CC=CC(=C3)C(F)(F)F,4
+MMV688921,1.39,C1=CC=C2C(=C1)C=C(O2)C3=C4C5=C(C=CC(=C5)Cl)N(C4=NC=N3)[C@H]6C([C@H]([C@H](O6)CO)O)O,4
+MMV688934,1.02,CCC1=NN(C(=C1Cl)C(=O)NCC2=CC=C(C=C2)OC3=CC=C(C=C3)C)C,4
+MMV688936,1.8,C1=CC2=C(C(=C1)Cl)N=C(S2)N(CCCN3C=CN=C3)C(=O)C4=CC=CO4,4
+MMV688938,2.47,CCOC1=CC=C(C=C1)C2=NC(=CS2)CNCCC3=CC=C(C=C3)F,4
+MMV688939,1.76,CC1=CN2C(=NC(=C2C3=NN(C=C3)CC4=CC=CC=C4)C)C=C1,4
+MMV688941,2.12,COC1=CC(=CC2=C1OCO2)CN3CCC4(CC3)C=CC5=CC=CC=C45,4
+MMV688942,1.0,CC(C)(C)C(C(N1C=NC=N1)OC2=CC=C(C=C2)C3=CC=CC=C3)O,4
+MMV688943,0.98,CC1COC(O1)(CN2C=NC=N2)C3=C(C=C(C=C3)OC4=CC=C(C=C4)Cl)Cl,4
+MMV688955,1.07,CC1=CC(=NO1)NC(=O)C2=CC=C(O2)OC3=C(C=C(C=C3)Cl)O,4
+MMV688958,1.01,C1=CC=C(C=C1)C2=NC(=CS2)CCNC(=O)C3=CC=CC=C3,4
+MMV688980,1.01,CCC1=CC(=O)N(C(=N1)S[C@@H](C)C(=O)NC2=CC=C(C=C2)F)C,4
+MMV688990,5.31,CCCCCCCCCCCCCCCCOP(=O)([O-])OCC[N+](C)(C)C,4
+MMV688991,1.02,CC(=O)OC1=CC=CC=C1C(=O)NC2=NC=C(S2)[N+](=O)[O-],4
+MMV689028,1.2,CC1=CC=C(C=C1)S(=O)(=O)NC2=CC=C(C=C2)CN3CCN(CC3)C(=O)C4=CC=CC(=C4)C#N,4
+MMV689029,1.24,COC1=CC=C(C=C1)S(=O)(=O)NC2=CC=C(C=C2)CN3CCN(CC3)C(=O)C4=CC=CC(=C4)C#N,4
+MMV689060,3.25,C1CN=C(N1)N2CCN(CC2)CC3=CC(=C(C=C3)Cl)Cl,4
+MMV689061,2.08,CC1=C(C=CC=C1F)CN2CCC[C@@H](C2)CC3=NC(=NO3)C4=CC=C(C=C4)NC(=O)C,4
+MMV689243,0.92,C1CN(CCC1N(C2=CC=C(C=C2)C(F)(F)F)C3=CN=CC=C3)C4=NC=C(C=C4)C(F)(F)F,4
+MMV689244,1.0,C1CN(CCN1C2=CC=C(C=C2)C(F)(F)F)C(=O)[C@@H](C3=CC=C(C=C3)Cl)C4=CN=CC=C4,4
+MMV689255,8.85,C1=NC2=C(C(=N1)N)N=CN2C[C@H]([C@H](C(=O)O)O)O,4
+MMV689437,4.55,C[C@@H](C1=CC(=CC(=C1)Cl)Cl)N(C)C2=NC=C3C(=NC(=NC3=N2)N)N,4
+MMV689480,0.94,CC(C)(C)C1CCC(CC1)CC2=C(C3=CC=CC=C3C(=O)C2=O)O,4
+MMV689709,4.51,CC1=CC(=CC(=N1)[C@@H]2CN(CCO2)C(=O)C3=NNC4=CC=CC=C43)NC,4
+MMV689758,1.89,CN(C)CC[C@@](C1=CC=CC2=CC=CC=C21)([C@H](C3=CC=CC=C3)C4=C(N=C5C=CC(=CC5=C4)Br)OC)O,4
+MMV690027,1.12,COC1=C(C=C(C=C1)C2=NN(C(=O)[C@H]3[C@@H]2CC=CC3)C4CCCCCC4)OCCCCOC5=CC=C(C=C5)C6=NNN=N6,4
+MMV690028,1.12,CC1(C(=NN(C1=O)C2CCCCCC2)C3=CC(=C(C=C3)OC)OCCCCOC4=CC=C(C=C4)C5=NNN=N5)C,4
+MMV690102,4.57,C[C@H](C1=CC=C(C=C1)OC2=CC=C(C=C2)OC)N(C)C3=NC=C4C(=NC(=NC4=N3)N)N,4
+MMV690103,4.66,C[C@H](C1=CC2=C(CCCC2)C=C1)N(C)C3=NC=C4C(=NC(=NC4=N3)N)N,4

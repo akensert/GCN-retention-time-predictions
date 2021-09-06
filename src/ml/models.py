@@ -7,6 +7,7 @@ models = {
     "rf": {
         "model": ensemble.RandomForestRegressor,
         "param": {
+            "n_jobs":           lambda: np.random.choice([-1]),
             "n_estimators":     lambda: np.random.randint(100, 300+1),
             "max_features":     lambda: np.random.randint(1, 100+1),
             "max_depth":        lambda: np.random.randint(1, 100+1),
@@ -17,6 +18,7 @@ models = {
     "gb": {
         "model": ensemble.GradientBoostingRegressor,
         "param": {
+            "loss":          lambda: np.random.choice(["huber"]),
             "learning_rate": lambda: np.random.uniform(0.03, 0.3),
             "n_estimators":  lambda: np.random.randint(100, 300+1),
             "max_depth":     lambda: np.random.randint(1, 5+1),
@@ -34,19 +36,20 @@ models = {
                 tree.DecisionTreeRegressor(max_depth=2),
                 tree.DecisionTreeRegressor(max_depth=3),
                 tree.DecisionTreeRegressor(max_depth=4),
-                tree.DecisionTreeRegressor(max_depth=5)
+                tree.DecisionTreeRegressor(max_depth=5),
             ]),
             "n_estimators":   lambda: np.random.randint(20, 300+1),
             "learning_rate":  lambda: np.random.uniform(0.1, 2.0),
         }
     },
-    # https://scikit-learn.org/stable/modules/generated/sklearn.svm.SVC.html
+    # https://scikit-learn.org/stable/modules/generated/sklearn.svm.SVR.html
     "svm": {
         "model": svm.SVR,
         "param": {
             'max_iter': lambda: 250000,
             "gamma":    lambda: 10**np.random.uniform(-6, -1),
-            "C":        lambda: 10**np.random.uniform(-2,  3)
+            "C":        lambda: 10**np.random.uniform(-2,  3),
+            "epsilon":  lambda: np.random.choice([0.05, 0.1, 0.2])
         }
     },
 }

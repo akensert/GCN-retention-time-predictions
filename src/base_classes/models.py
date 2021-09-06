@@ -36,7 +36,7 @@ class BaseModel(tf.keras.Model, metaclass=ABCMeta):
         """
         return inputs
 
-    def _train_step(self, inputs):
+    def _train_step(self, inputs, training=True):
         """
         Performs a forward pass and a backward pass
         """
@@ -44,23 +44,24 @@ class BaseModel(tf.keras.Model, metaclass=ABCMeta):
         H = inputs['feature_matrix']
         y = inputs['label']
         with tf.GradientTape() as tape:
-            y_pred = self(inputs=[A, H], training=True)
+            y_pred = self(inputs=[A, H], training=training)
             loss = self.compiled_loss(y, y_pred, regularization_losses=self.losses)
         gradients = tape.gradient(loss, self.trainable_weights)
         self.optimizer.apply_gradients(zip(gradients, self.trainable_weights))
         self.compiled_metrics.update_state(y, y_pred)
         return {m.name: m.result() for m in self.metrics}
 
-    def _predict_step(self, data):
+    def _predict_step(self, data, training=False):
         """
         Performs a forward pass only
         """
         A = data['adjacency_matrix']
         H = data['feature_matrix']
-        y_pred = self(inputs=[A, H], training=False)
+        y_pred = self(inputs=[A, H], training=training)
         return y_pred
 
-    def fit(self, train_dataset, valid_dataset=None, epochs=1, steps_per_epoch=None, verbose=0):
+    def fit(self, train_dataset, additional_datasets=None,
+            epochs=1, steps_per_epoch=None, verbose=0):
 
         if steps_per_epoch is not None:
             num_batches = steps_per_epoch
@@ -68,24 +69,17 @@ class BaseModel(tf.keras.Model, metaclass=ABCMeta):
         elif verbose:
             num_batches = train_dataset.reduce(np.int64(0), lambda x, _: x + 1).numpy()
 
-        if valid_dataset is not None:
-            best_valid_loss = np.inf
-            self.valid_losses = []
+        if additional_datasets is not None:
+            best_error = float('inf')
+            self.learning_curves = {}
+            for name in ['train'] + list(additional_datasets.keys()):
+                self.learning_curves[name + '_loss'] = []
+                self.learning_curves[name + '_mae'] = []
+                self.learning_curves[name + '_mre'] = []
+                self.learning_curves[name + '_rmse'] = []
+                self.learning_curves[name + '_r2'] = []
 
         for epoch in range(epochs):
-
-            if valid_dataset is not None:
-                trues, preds = self.predict(valid_dataset, verbose=0)
-                valid_loss = self.compiled_loss(
-                    tf.convert_to_tensor(trues), tf.convert_to_tensor(preds)
-                )
-                # valid_loss = tf.convert_to_tensor(
-                #     metrics.get('rmse')(trues, preds)
-                # )
-                self.valid_losses.append(valid_loss.numpy())
-                if valid_loss < best_valid_loss:
-                    best_valid_loss = valid_loss
-                    self.best_weights = self.get_weights()
 
             if verbose:
                 train_dataset = tqdm(train_dataset, total=num_batches)
@@ -99,12 +93,26 @@ class BaseModel(tf.keras.Model, metaclass=ABCMeta):
                     description  = f'epoch {epoch:03d} : '
                     description += f'lr {current_lr:.6f} : '
                     description += f'loss {result["loss"]:5.3f} : '
-                    if valid_dataset is not None:
-                        description += f'valid {valid_loss:6.3f} '
+                    if epoch != 0 and additional_datasets is not None:
+                        description += f'valid {self.learning_curves["valid_mae"][-1]:6.3f} '
                     train_dataset.set_description(description)
 
+            if additional_datasets is not None:
+
+                trues, preds = self.predict(train_dataset, verbose=0)
+                self._accumulate_learning_curve(trues, preds, 'train')
+
+                for name, dataset in additional_datasets.items():
+
+                    trues, preds = self.predict(dataset, verbose=0)
+                    self._accumulate_learning_curve(trues, preds, name)
+
+                if self.learning_curves["valid_loss"][-1] < best_error:
+                    best_error = self.learning_curves["valid_loss"][-1]
+                    self.best_weights = self.get_weights()
+
             # decay learning rate by a factor of 0.1 for last 20% of training
-            if epoch >= (epochs * 0.8):
+            if epoch == int(epochs * 0.8):
                 decayed_lr = (self.initial_learning_rate * 0.1)
                 self.optimizer.learning_rate.assign(decayed_lr)
 
@@ -123,3 +131,25 @@ class BaseModel(tf.keras.Model, metaclass=ABCMeta):
             trues.append(np.squeeze(batch['label'], axis=-1))
 
         return np.concatenate(trues, axis=0), np.concatenate(preds, axis=0)
+
+    def get_latent_spaces(self, test_dataset):
+        latent_space = []
+        for batch in  test_dataset:
+            A = batch['adjacency_matrix']
+            H = batch['feature_matrix']
+            out = self.latent(inputs=[A, H])
+            latent_space.append(out)
+        return np.concatenate(latent_space, axis=0)
+
+    def _accumulate_learning_curve(self, trues, preds, name):
+        loss = self.compiled_loss(
+            tf.convert_to_tensor(trues), tf.convert_to_tensor(preds))
+        mae = metrics.get('mae')(trues, preds)
+        mre = metrics.get('mre')(trues, preds)
+        rmse = metrics.get('rmse')(trues, preds)
+        r2 = metrics.get('r2')(trues, preds)
+        self.learning_curves[f'{name}_loss'].append(loss.numpy())
+        self.learning_curves[f'{name}_mae'].append(mae)
+        self.learning_curves[f'{name}_mre'].append(mre)
+        self.learning_curves[f'{name}_rmse'].append(rmse)
+        self.learning_curves[f'{name}_r2'].append(r2)

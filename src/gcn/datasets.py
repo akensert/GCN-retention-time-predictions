@@ -1,4 +1,5 @@
 import tensorflow as tf
+from typing import Optional
 
 from base_classes import datasets
 
@@ -9,12 +10,15 @@ class GCNDataset(datasets.BaseDataset):
                  filenames: str = '../input/tfrecords/train.tfrec',
                  batch_size: int = 128,
                  training: bool = False,
+                 keep_idx: Optional[bool] = None,
                  num_parallel_calls: int = tf.data.experimental.AUTOTUNE) -> None:
         super().__init__(
             filenames=filenames,
             batch_size=batch_size,
             training=training,
             num_parallel_calls=num_parallel_calls)
+        self.keep_idx = keep_idx
+
 
     @property
     def padded_shapes(self):
@@ -49,14 +53,21 @@ class GCNDataset(datasets.BaseDataset):
             shape=features['feature_shape']
         )
 
-        # Remove empty features and rescale all features to be in range 0 to 1
-        keep_idx = tf.squeeze(
-            tf.where(features['feature_min']-features['feature_max'] != 0))
+        if self.keep_idx is None:
+            # Remove empty features and rescale all features to be in range 0 to 1
+            keep_idx = tf.squeeze(
+                tf.where(features['feature_min']-features['feature_max'] != 0))
+        else:
+            keep_idx = self.keep_idx
+
         feature_matrix = tf.gather(feature_matrix, keep_idx, axis=-1)
 
         fmin = tf.gather(features['feature_min'], keep_idx)
         fmax = tf.gather(features['feature_max'], keep_idx)
-        feature_matrix = (feature_matrix-fmin)/(fmax - fmin)
+
+        feature_matrix = tf.where(
+            fmax - fmin != 0, (feature_matrix - fmin)/(fmax - fmin), 0)
+        #feature_matrix = (feature_matrix-fmin)/(fmax - fmin)
 
         # if tf.reduce_sum(adjacency_matrix) == 0:
         #     adjacency_matrix = tf.constant([[1.]])

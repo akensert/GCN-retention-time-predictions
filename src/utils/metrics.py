@@ -1,4 +1,5 @@
 import numpy as np
+import sklearn.metrics
 
 
 def mean_squared_error(y_true, y_pred):
@@ -14,10 +15,13 @@ def mean_absolute_error(y_true, y_pred):
 
 def mean_relative_error(y_true, y_pred):
     y_pred = np.reshape(y_pred, (y_true.shape))
-    return np.mean(np.abs(y_true - y_pred) / (np.abs(y_true) + 1))
+    return np.mean(np.abs(y_true - y_pred) / np.abs(y_true))
 
 def mean_relative_percentage_error(y_true, y_pred):
     return mean_relative_error(y_true, y_pred) * 100
+
+def r2_score(y_true, y_pred):
+    return sklearn.metrics.r2_score(y_true, y_pred)
 
 dispatcher = {
     'mse': mean_squared_error,
@@ -30,6 +34,8 @@ dispatcher = {
     'mean_relative_error': mean_relative_error,
     'mrpe': mean_relative_percentage_error,
     'mean_relative_percentage_error': mean_relative_percentage_error,
+    'r2': r2_score,
+    'r2_score': r2_score,
 }
 
 def get(identifier):
