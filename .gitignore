@@ -19,6 +19,9 @@ output_backup/
 notebooks/0*
 input/tfrecords/[A-Z0-9]*
 output/predictions
+output/models/
+output/saliency/
+notebooks/utilize_model*
 
 # jupyter
 MANIFEST
